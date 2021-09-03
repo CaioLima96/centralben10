@@ -1,29 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
-* {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-#presentation {
+
+/*
+================================================================
+*/
+
+
+/*====== MAIN CONTENT ======*/
+
+#main-content #presentation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
     max-width: 1250px;
     width: 80%;
+
     overflow: hidden;
-    background-color: black;
     border-radius: 1.25rem;
-    margin: 0 auto;
+    margin: 3.125rem auto;
+    padding: 1rem 0;
+
+    background-color: black;
     color: white;
 }
 
-#nav-tab-menu nav {
+#main-content #presentation div {
+    width: 231px;
+}
+
+#main-content #presentation p {
+    font-style: italic;
+    font-size: 1.6875rem;
+    line-height: 1.5;
+    width: 67%;
+}
+
+#main-content #presentation div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#main-content #nav-tab-menu nav {
     display: flex;
     list-style: none;
     justify-content: center;
 }
 
-main {
+#main-content main {
     max-width: 1140px;
     width: 67.5%;
     background-color: #97C93D;
@@ -31,7 +63,7 @@ main {
     border-radius: 0.625rem;
 }
 
-#nav-tab-menu {
+#main-content #nav-tab-menu {
     width: 100%;
     color: white;
     height: 63px;
@@ -39,16 +71,16 @@ main {
     border-radius: 0.625rem 0.625rem 0 0
 }
 
-#nav-tab-content {
+#main-content #nav-tab-content {
     width: 93.5%;
     margin: 0 auto;
 }
 
-#sinopse {
+#main-content #sinopse {
     text-align: center;
 }
 
-#sinopse h1 {
+#main-content #sinopse h1 {
     font: normal 2.5rem 'Roboto', sans-serif;
 }
 
@@ -57,26 +89,26 @@ main {
     line-height: 1.5;
 }
 
-#aliens-cards {
+#main-content #aliens-cards {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-#alien-card {
+#main-content #alien-card {
     border: 1px solid black;
     /* width: 23%; */
     width: 200px;
     list-style: none;
 }
 
-#alien-card-img {
+#main-content #alien-card-img {
     width: 100%;
     height: 245px;
 }
 
-#alien-card-img img {
+#main-content #alien-card-img img {
     object-fit: contain;
     width: 100%;
     height: 100%;
@@ -84,7 +116,16 @@ main {
 
 
 @media (max-width: 768px) {
+
+    #presentation {
+        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
+    }
+
     main {
+        width: 90%;
+    }
+
+    #main-content #presentation {
         width: 90%;
     }
 }
