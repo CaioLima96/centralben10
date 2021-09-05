@@ -8,26 +8,21 @@
 }
 
 
+
 /*
 ================================================================
 */
-
-/*====== HEADER ======*/
-
-header nav ul li {
-    cursor: pointer;
-}
-
-header nav ul li:hover {
-    font-weight: bold;
-    color: black;
-}
 
 
 
 /*====== MAIN CONTENT ======*/
 
-#main-content #presentation {
+#content {
+    margin: 3.125rem 0;
+}
+
+
+#content #presentation {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -37,108 +32,141 @@ header nav ul li:hover {
 
     overflow: hidden;
     border-radius: 1.25rem;
-    margin: 3.125rem auto;
+    margin: 0 auto 3.125rem;
     padding: 1rem 0;
 
     background-color: black;
     color: white;
 }
 
-#main-content #presentation div {
+#content #presentation div {
     width: 231px;
 }
 
-#main-content #presentation p {
+#content #presentation p {
     font-style: italic;
     font-size: 1.6875rem;
     line-height: 1.5;
     width: 67%;
 }
 
-#main-content #presentation div img {
+#content #presentation div img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-#main-content #nav-tab-menu {
+
+#content #nav-tab-menu {
     width: 100%;
     color: white;
     background-color: black;
     border-radius: 0.625rem 0.625rem 0 0
 }
 
-#main-content #nav-tab-menu nav {
+#content #nav-tab-menu nav {
     padding: 0.75rem;
 }
 
-#main-content #nav-tab-menu nav ul {
+#content #nav-tab-menu nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#main-content #nav-tab-menu nav ul li {
+#content #nav-tab-menu nav ul li {
     padding: 0.5rem;
     text-transform: uppercase;
     margin-right: 18px;
 }
 
-#main-content #nav-tab-menu nav ul li:last-child {
+#content #nav-tab-menu nav ul li:last-child {
     margin-right: 0 !important;
 }
 
-#main-content #nav-tab-menu nav ul li:hover {
+#content #nav-tab-menu nav ul li:hover {
     border: 1px solid white;
     border-radius: 6px;
 }
 
-#main-content main {
+
+#content main {
     max-width: 1140px;
     width: 67.5%;
     background-color: #97C93D;
-    margin: 1rem auto;
+    margin: 0 auto;
     padding-bottom: 2.063rem;
     border-radius: 0.625rem;
 }
 
-#main-content #nav-tab-content {
+#content main #nav-tab-content {
     width: 93.5%;
     margin: 0 auto;
 }
 
-#main-content #sinopse {
+#content main #nav-tab-content #sinopse {
     text-align: center;
     margin: 1.5rem 0 3rem;
 }
 
-#main-content #sinopse h1 {
+#content main #nav-tab-content #sinopse h1 {
     font: normal 2.5rem 'Roboto', sans-serif;
 }
 
-#sinopse p {
+#content main #nav-tab-content #sinopse p {
     font-size: 1rem;
     line-height: 1.5;
 }
 
-#main-content #aliens-cards {
+#content main #nav-tab-content #indice-list {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 15px 13px 15px;
+    margin-bottom: 3.125rem;
+    box-shadow: 4px 4px 0px -1px rgb(0 0 0 / 75%);
+}
+
+#content main #nav-tab-content #indice-list p{
+    font-size: 1.5rem;
+    margin-bottom: 0.313rem;
+    font-weight: 500;
+}
+
+#content main #nav-tab-content #indice-list li {
+    font-size: 0.875rem;
+    margin-bottom: 0.313rem;
+    font-style: normal;
+}
+
+#content main #nav-tab-content #indice-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+#content main #nav-tab-content #indice-list a:hover {
+    text-decoration: underline;
+}
+
+
+#content main #nav-tab-content #aliens-cards {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#main-content #alien-card {
-    border: 1px solid black;
-    /* width: 23%; */
-    width: 200px;
+#content main #nav-tab-content #alien-card {
+    width: 202px;
     list-style: none;
 }
 
-#main-content #alien-card-img {
+#content main #nav-tab-content #alien-card-img {
     width: 100%;
-    height: 245px;
+    height: 248px;
+    padding: 0.625rem;
 
     background-image: url(../img/bg/retangulo\ 4.jpg);
     background-size: contain;
@@ -148,33 +176,32 @@ header nav ul li:hover {
     overflow: hidden;
 }
 
-#main-content #alien-card-img img {
+#content main #nav-tab-content #alien-card-img img {
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
 
-#main-content #alien-card-description {
+#content main #nav-tab-content #alien-card-description {
     text-align: center;
+    font-size: 1.25rem;
 }
 
-#main-content #alien-card-description a {
+#content main #nav-tab-content #alien-card-description a {
     text-decoration: none;
     color: black;
 }
 
-#main-content #alien-card-description a:hover {
+#content main #nav-tab-content #alien-card-description a:hover {
     font-style: italic;
+    text-decoration: underline !important;
 }
 
-#main-content #alien-card-description p {
+#content main #nav-tab-content #alien-card-description p {
     margin: 0.5rem 0;
     pointer-events: none;
     display: inline-block;
 }
-
-
-
 
 
 @media (max-width: 768px) {
@@ -187,7 +214,7 @@ header nav ul li:hover {
         width: 90%;
     }
 
-    #main-content #presentation {
+    #content #presentation {
         width: 90%;
     }
 }
