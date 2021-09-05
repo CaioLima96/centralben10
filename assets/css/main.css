@@ -119,6 +119,13 @@
     line-height: 1.5;
 }
 
+#content main #nav-tab-content #sinopse a {
+    color: black; 
+    font-weight: bold; 
+    font-style: italic; 
+    text-decoration: none;
+}   
+
 #content main #nav-tab-content #indice-list {
     display: inline-block;
     text-align: left;

@@ -68,6 +68,7 @@ footer {
 footer h3 {
     font-family: "Ben10-font";
     font-size: 2.25rem;
+    font-weight: 500;
 }
 
 footer #copyright {
