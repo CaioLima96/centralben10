@@ -17,10 +17,9 @@
 
 /*====== MAIN CONTENT ======*/
 
-#content {
-    margin: 3.125rem 0;
+#content main {
+    padding-top: 0 !important;
 }
-
 
 #content #presentation {
     display: flex;
@@ -90,16 +89,6 @@
     border-radius: 6px;
 }
 
-
-#content main {
-    max-width: 1140px;
-    width: 67.5%;
-    background-color: #97C93D;
-    margin: 0 auto;
-    padding-bottom: 2.063rem;
-    border-radius: 0.625rem;
-}
-
 #content main #nav-tab-content {
     width: 93.5%;
     margin: 0 auto;
@@ -130,8 +119,8 @@
     display: inline-block;
     text-align: left;
     border: 1px solid black;
-    border-radius: 2px;
-    padding: 15px 13px 15px;
+    border-radius: 0.125rem;
+    padding: 0.938rem 0.813rem 0.938rem;
     margin-bottom: 3.125rem;
     box-shadow: 4px 4px 0px -1px rgb(0 0 0 / 75%);
 }
@@ -210,6 +199,13 @@
     display: inline-block;
 }
 
+
+
+@media (max-width: 480px) {
+    #content main #nav-tab-content #aliens-cards {
+        justify-content: center !important;
+    }
+}
 
 @media (max-width: 768px) {
 

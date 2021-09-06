@@ -38,6 +38,11 @@ header nav ul li {
     cursor: pointer;
 }
 
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 header nav ul li:nth-child(2)::after {
     display: inline-block;
     margin-left: 0.255em;
@@ -49,11 +54,33 @@ header nav ul li:nth-child(2)::after {
     border-left: 0.3em solid transparent;
 }
 
-header nav ul li:hover {
+header nav ul li a:hover {
     font-weight: bold;
     color: black;
 }
 
+
+
+/*====== MAIN CONTENT ======*/
+
+#content {
+    margin: 3.125rem 0;
+}
+
+#content main {
+    max-width: 1140px;
+    width: 67.5%;
+    background-color: #97C93D;
+    margin: 0 auto;
+    padding: 2.063rem 0;
+    border-radius: 0.625rem;
+}
+
+@media (max-width: 768px) {
+    #content main {
+        width: 90% !important;
+    }
+}
 
 
 /*====== FOOTER ======*/
