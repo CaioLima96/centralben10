@@ -2,20 +2,6 @@
     padding-top: 0;
 }
 
-#content main #rules {
-    background-color: black;
-    color: white;
-    border-radius: 0.625rem 0.625rem 0 0;
-    margin-bottom: 3.125rem;
-}
-
-#content main #rules h1{
-    text-align: center;
-    font-size: 3.125rem;
-    font-style: italic;
-    font-weight: normal;
-}
-
 #content main #nav-tab-content {
     width: 94.5%;
     margin: 0 auto;

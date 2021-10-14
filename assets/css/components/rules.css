@@ -1,0 +1,56 @@
+#content main #rules {
+    background-color: black;
+    color: white;
+    border-radius: 0.625rem 0.625rem 0 0;
+    margin-bottom: 3.125rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#content main #rules p {
+    margin-bottom: 1.25rem;
+}
+
+#content main #rules p, button {
+    font-weight: 500;
+}
+
+#content main #rules a {
+    color: var(--green1);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#content main #rules a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#content main #rules button span:hover {
+    text-decoration: underline;
+}
+
+#content main #rules h1{
+    font-size: 3.125rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+#content main #rules .content {
+    text-align: left;
+    padding: 0 1.25rem;
+}
+
+#content main #rules .content ul {
+    padding-left: 2.5rem;
+    line-height: 1.6;
+}
+
+#content main #rules .content #obs-fanart{
+    margin-bottom: 1.25rem;
+}
+
+#content main #rules .content #obs-fanart p {
+    margin: 1rem 0;
+}
