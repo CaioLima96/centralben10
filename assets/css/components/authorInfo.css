@@ -1,0 +1,57 @@
+@media (min-width: 769px) {
+    .fanart-card {
+        position: relative;
+    }
+    
+    .author-info {
+        position: absolute;
+        top: 76%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 24%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+        border-top-left-radius: 247% !important;
+        border-top-right-radius: 247% !important;
+    }
+    
+    .author-info .text img {
+        width: 20px !important;
+        border-radius: 2px;
+    }
+    
+    .fanart-card:hover .author-info,
+    .fanart-card:active .author-info {
+        opacity: 1;
+    }
+    
+    .author-info .text {
+        color: white;
+        font-size: 1rem;
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .author-info .text a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .author-info .text a p {
+        margin-top: 2% !important;
+    }
+    
+    .author-info .text a p:hover {
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}

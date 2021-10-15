@@ -14,9 +14,10 @@
     flex-wrap: wrap;
 }
 
-#content main #nav-tab-content #fanart-card {
+#content main #nav-tab-content .fanart-card {
     width: 280px;
     list-style: none;
+    margin: 1%;
 }
 
 #content main #nav-tab-content #fanart-card-img {
