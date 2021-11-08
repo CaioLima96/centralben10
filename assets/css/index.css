@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
 
 
 /*
@@ -78,6 +71,7 @@
     padding: 0.5rem;
     text-transform: uppercase;
     margin-right: 18px;
+    border: 1px solid black;
 }
 
 #content #nav-tab-menu nav ul li:last-child {
@@ -85,7 +79,7 @@
 }
 
 #content #nav-tab-menu nav ul li:hover {
-    border: 1px solid white;
+    border-color: white;
     border-radius: 6px;
 }
 
