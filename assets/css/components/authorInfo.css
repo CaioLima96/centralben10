@@ -1,5 +1,5 @@
 @media (min-width: 769px) {
-    .fanart-card {
+    #grid-cards .card {
         position: relative;
     }
     
@@ -23,8 +23,8 @@
         border-radius: 2px;
     }
     
-    .fanart-card:hover .author-info,
-    .fanart-card:active .author-info {
+    .card:hover .author-info,
+    .card:active .author-info {
         opacity: 1;
     }
     

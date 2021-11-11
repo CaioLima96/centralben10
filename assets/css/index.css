@@ -148,12 +148,12 @@
     flex-wrap: wrap;
 }
 
-#content main #nav-tab-content #alien-card {
+#content main #nav-tab-content .alien-card {
     width: 202px;
     list-style: none;
 }
 
-#content main #nav-tab-content #alien-card-img {
+#content main #nav-tab-content .alien-card-img {
     width: 100%;
     height: 248px;
     padding: 0.625rem;
@@ -166,33 +166,32 @@
     overflow: hidden;
 }
 
-#content main #nav-tab-content #alien-card-img img {
+#content main #nav-tab-content .alien-card-img img {
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
 
-#content main #nav-tab-content #alien-card-description {
+#content main #nav-tab-content .alien-card-description {
     text-align: center;
     font-size: 1.25rem;
 }
 
-#content main #nav-tab-content #alien-card-description a {
+#content main #nav-tab-content .alien-card-description a {
     text-decoration: none;
     color: black;
 }
 
-#content main #nav-tab-content #alien-card-description a:hover {
+#content main #nav-tab-content .alien-card-description a:hover {
     font-style: italic;
     text-decoration: underline !important;
 }
 
-#content main #nav-tab-content #alien-card-description p {
+#content main #nav-tab-content .alien-card-description p {
     margin: 0.5rem 0;
     pointer-events: none;
     display: inline-block;
 }
-
 
 
 @media (max-width: 480px) {
@@ -218,7 +217,7 @@
 
 @media (min-width: 1024px) {
     
-    #alien-card #alien-card-img:hover {
+    .alien-card .alien-card-img:hover {
         transition: 1s all;
         transform: scale(1.2);
         z-index: 5 !important;

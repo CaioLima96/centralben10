@@ -7,34 +7,7 @@
     margin: 0 auto;
 }
 
-#content main #nav-tab-content #fanart-cards {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#content main #nav-tab-content .fanart-card {
-    width: 280px;
-    list-style: none;
-    margin: 1%;
-}
-
-#content main #nav-tab-content #fanart-card-img {
-    width: 100%;
-    height: 350px;
-
-    overflow: hidden;
-}
-
-#content main #nav-tab-content #fanart-card-img img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-
-#read-icon {
+#content main #nav-tab-content #grid-cards .card #read-icon {
     position: absolute;
     top: 0;
     bottom: 0;

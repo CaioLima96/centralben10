@@ -1,3 +1,80 @@
+function classicTab () {
+    let classicTab = document.getElementById('nav-tab-content').innerHTML = `
+        <div id="sinopse">
+
+            <h1>SINOPSE</h1>
+            <p>
+                Aos 10 anos de idade, Benjamin Kirby Tennyson descobre um dispositivo alienígena na floresta chamado de Omnitrix, que lhe permite se transformar em 10 diferentes espécies alienígenas. Ao longo de suas férias de verão, viajando o país num trailer com seu
+                avô Max e com a sua prima Gwen, Ben luta contra o crime e alienígenas do mal com seus novos poderes, adquirindo a capacidade de se transformar em mais nove novos alienígenas ao longo do caminho.
+            </p>
+
+        </div>
+
+        <!--PRIME BEN'S ALIEN CARDS-->
+        <ul id="aliens-cards">
+
+            <li class="alien-card four-arms">
+                
+                <div class="alien-card-img">
+                    <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+                </div>
+
+                <div class="alien-card-description">
+                    <a href="/" target="_blank">
+                        <p>4 Braços</p>
+                    </a>
+                </div>
+                
+            </li>
+
+            <li class="alien-card four-arms">
+                
+                <div class="alien-card-img">
+                    <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+                </div>
+
+                <div class="alien-card-description">
+                    <a href="/" target="_blank">
+                        <p>4 Braços</p>
+                    </a>
+                </div>
+                
+            </li>
+
+            <li class="alien-card four-arms">
+                
+                <div class="alien-card-img">
+                    <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+                </div>
+
+                <div class="alien-card-description">
+                    <a href="/" target="_blank">
+                        <p>4 Braços</p>
+                    </a>
+                </div>
+                
+            </li>
+
+            <li class="alien-card four-arms">
+                
+                <div class="alien-card-img">
+                    <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+                </div>
+
+                <div class="alien-card-description">
+                    <a href="/" target="_blank">
+                        <p>4 Braços</p>
+                    </a>
+                </div>
+                
+            </li>
+
+        </ul>
+    `
+
+    return classicTab
+}
+
 function alienForceTab () {
 
     let alienForceTab = document.getElementById('nav-tab-content').innerHTML = `
@@ -21,13 +98,13 @@ function alienForceTab () {
     <!--PRIME BEN'S ALIEN CARDS-->
     <ul id="aliens-cards">
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -35,13 +112,13 @@ function alienForceTab () {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -49,13 +126,13 @@ function alienForceTab () {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -63,13 +140,13 @@ function alienForceTab () {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -109,13 +186,13 @@ function ultimateAlienTab() {
     <!--PRIME BEN'S ALIEN CARDS-->
     <ul id="aliens-cards">
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./macaco-aranha-supremo-(ua)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -123,13 +200,13 @@ function ultimateAlienTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./macaco-aranha-supremo-(ua)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -137,13 +214,13 @@ function ultimateAlienTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./macaco-aranha-supremo-(ua)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -151,13 +228,13 @@ function ultimateAlienTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./macaco-aranha-supremo-(ua)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -199,13 +276,13 @@ function omniverseTab() {
     <!--PRIME BEN'S ALIEN CARDS-->
     <ul id="aliens-cards">
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -213,13 +290,13 @@ function omniverseTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -227,13 +304,13 @@ function omniverseTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -241,13 +318,13 @@ function omniverseTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -289,13 +366,13 @@ function rebootTab() {
     <!--PRIME BEN'S ALIEN CARDS-->
     <ul id="aliens-cards">
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./chama-omnitunado-(reboot)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -303,13 +380,13 @@ function rebootTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./chama-omnitunado-(reboot)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -317,13 +394,13 @@ function rebootTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./chama-omnitunado-(reboot)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
@@ -331,13 +408,13 @@ function rebootTab() {
                 
         </li>
 
-        <li id="alien-card" class="ripJaws">
+        <li class="alien-card" class="ripJaws">
             
-            <div id="alien-card-img">
+            <div class="alien-card-img">
                 <img src="./chama-omnitunado-(reboot)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
             </div>
 
-            <div id="alien-card-description">
+            <div class="alien-card-description">
                 <a href="/" target="_blank">
                     <p>Aquatico</p>
                 </a>
