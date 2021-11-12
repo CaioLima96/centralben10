@@ -15,6 +15,21 @@
     right: 0;
     height: 18%;
     width: 22.5%;
-    background-color: #008CBA;
+    background-color: var(--blue1);
     border-bottom-right-radius: 247% !important;
+}
+
+#content main #nav-tab-content #grid-cards .card #read-icon .text {
+    font-size: 1rem;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+#content main #nav-tab-content #grid-cards .card #read-icon .text a {
+    color: white;
+    text-decoration: none;
+}
+
+#content main #nav-tab-content #grid-cards .card #read-icon .text a:hover {
+    font-style: italic;
 }

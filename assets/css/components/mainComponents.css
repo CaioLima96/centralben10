@@ -13,12 +13,17 @@
 }
 
 body {
-    background-color: #efefefa6;
+    background-color: var(--grey2);
 }
 
 :root {
     --green1: #97C93D;
+    --green2: #16712a;
     --grey1: #C4C4C4;
+    --grey2: #efefefa6;
+    --blue1: #008CBA;
+    --gold1: #d6d64c;
+    --bronze1: #cd7f32;
 }
 
 
@@ -32,7 +37,7 @@ body {
 /*================== HEADER ==================*/
 
 header {
-    background-color: #16712a;
+    background-color: var(--green2);
 }
 
 header nav ul {
@@ -87,7 +92,13 @@ header nav ul li a:hover {
     border-radius: 0.625rem;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
+    #content main {
+        width: 90% !important;
+    }
+} */
+
+@media (max-width: 1199px) {
     #content main {
         width: 90% !important;
     }

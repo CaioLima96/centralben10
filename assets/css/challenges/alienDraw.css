@@ -1,0 +1,54 @@
+#content main {
+    padding-top: 0;
+}
+
+#content main #nav-tab-content {
+    width: 94.5%;
+    margin: 0 auto;
+}
+
+#content main #nav-tab-content .challenge-theme {
+    margin-bottom: 1.25rem;
+}
+
+#content main #nav-tab-content .challenge-theme a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+#content main #nav-tab-content .challenge-theme a:hover {
+    text-decoration: underline;
+}
+
+#content main #nav-tab-content #grid-cards .firstPlace .card-img {
+    border: 0.313rem solid var(--gold1);
+    border-radius: 0.125rem;
+}
+
+#content main #nav-tab-content #grid-cards .firstPlace .author-info {
+    background-color: var(--gold1);
+}
+
+#content main #nav-tab-content #grid-cards .secondPlace .card-img {
+    border: 0.313rem solid silver;
+    border-radius: 0.125rem;
+}
+
+#content main #nav-tab-content #grid-cards .secondPlace .author-info {
+    background-color: silver;
+}
+
+#content main #nav-tab-content #grid-cards .thirdPlace .card-img {
+    border: 0.313rem solid var(--bronze1);
+    border-radius: 0.125rem;
+}
+
+#content main #nav-tab-content #grid-cards .thirdPlace .author-info {
+    background-color: var(--bronze1);
+}
+
+
+
