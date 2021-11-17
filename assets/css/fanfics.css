@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-#content main #nav-tab-content #grid-cards .card #read-icon {
+#content main #nav-tab-content .grid-cards .card #read-icon {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -19,17 +19,17 @@
     border-bottom-right-radius: 247% !important;
 }
 
-#content main #nav-tab-content #grid-cards .card #read-icon .text {
+#content main #nav-tab-content .grid-cards .card #read-icon .text {
     font-size: 1rem;
     margin-left: 25%;
     margin-top: 25%;
 }
 
-#content main #nav-tab-content #grid-cards .card #read-icon .text a {
+#content main #nav-tab-content .grid-cards .card #read-icon .text a {
     color: white;
     text-decoration: none;
 }
 
-#content main #nav-tab-content #grid-cards .card #read-icon .text a:hover {
+#content main #nav-tab-content .grid-cards .card #read-icon .text a:hover {
     font-style: italic;
 }

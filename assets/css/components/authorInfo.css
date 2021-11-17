@@ -1,5 +1,5 @@
 @media (min-width: 769px) {
-    #grid-cards .card {
+    .grid-cards .card {
         position: relative;
     }
     
@@ -54,7 +54,7 @@
         font-weight: bold;
     }
 
-    #content main #nav-tab-content #grid-cards .author-info .text p {
+    #content main #nav-tab-content .grid-cards .author-info .text p {
         text-shadow: 2px 1px 3px rgb(0 0 0);
     }
 }
