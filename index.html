@@ -13,8 +13,8 @@
 
     <!--MY CSS-->
     <link rel="stylesheet" href="./assets/css/components/mainComponents.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/components/navbar.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
 
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -29,25 +29,31 @@
     
     <header>
 
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <div class="dropdown">
-              <button class="dropbtn">Dropdown
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
+        <nav id="headerNavBar" >
 
-        <nav>
+            <div>
+                <a href="./index.html">Central Ben 10</a>
+                <div data-nav="showHideBtn" onclick="myNavBar()"><img src="./assets/img/icons/download.svg" alt="hamburger menu"></div>
+            </div>
+
+            <ul data-NavLista="lista" id="navBarLista" >
+                <!-- <li><a href="./index.html">Central Ben 10</a></li> -->
+                <li><a href="./index.html">HOME</a></li>
+                <li class="dropdown">
+                    
+                    <p class="dropdown-button">DESAFIOS</p>
+                    <ul class="dropdown-content">
+                        <li><a href="./assets/pages/challenges/alienDraw.html">ALIEN DRAW</a></li>
+                    </ul>
+                    
+                </li>
+                <li><a href="./assets/pages/fanart.html">FANART</a></li>
+                <li><a href="./assets/pages/fanfics.html">FANFIC</a></li>
+                <li><a href="./assets/pages/contact-us.html">FALE CONOSCO</a></li>
+            </ul>
+        </nav>
+
+        <!-- <nav id="">
             <ul>
                 <li><a href="./index.html">HOME</a></li>
                 <li><a href="./assets/pages/challenges/alienDraw.html">DESAFIO</a></li>
@@ -55,7 +61,7 @@
                 <li><a href="./assets/pages/fanfics.html">FANFIC</a></li>
                 <li><a href="./assets/pages/contact-us.html">FALE CONOSCO</a></li>
             </ul>
-        </nav>
+        </nav> -->
         
     </header>
 

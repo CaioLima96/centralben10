@@ -1,7 +1,8 @@
+.grid-cards .card {
+    position: relative;
+}
+
 @media (min-width: 769px) {
-    .grid-cards .card {
-        position: relative;
-    }
     
     .author-info {
         position: absolute;

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../css/components/gridCards.css">
     <link rel="stylesheet" href="../css/components/authorInfo.css">
     <link rel="stylesheet" href="../css/components/rules.css">
+    <link rel="stylesheet" href="../css/components/navbar.css">
     <link rel="stylesheet" href="../css/fanart.css">
     
 
@@ -32,13 +33,27 @@
     
     <header>
 
-        <nav>
-            <ul>
-                <li><a href="../../index.html">HOME</a></li>
-                <li><a href="./challenges/alienDraw.html">DESAFIO</a></li>
-                <li><a href="../pages/fanart.html">FANART</a></li>
-                <li><a href="./fanfics.html">FANFIC</a></li>
-                <li><a href="../pages/contact-us.html">FALE CONOSCO</a></li>
+        <nav id="headerNavBar" >
+
+            <div>
+                <a href="../../../index.html">Central Ben 10</a>
+                <div data-nav="showHideBtn" onclick="myNavBar()"><img src="../img/icons/download.svg" alt="hamburger menu"></div>
+            </div>
+
+            <ul data-NavLista="lista" id="navBarLista" >
+                <!-- <li><a href="./index.html">Central Ben 10</a></li> -->
+                <li><a href="../../../index.html">HOME</a></li>
+                <li class="dropdown">
+                    
+                    <p class="dropdown-button">DESAFIOS</p>
+                    <ul class="dropdown-content">
+                        <li><a href="./challenges/alienDraw.html">ALIEN DRAW</a></li>
+                    </ul>
+                    
+                </li>
+                <li><a href="../fanart.html">FANART</a></li>
+                <li><a href="../fanfics.html">FANFIC</a></li>
+                <li><a href="../contact-us.html">FALE CONOSCO</a></li>
             </ul>
         </nav>
         
@@ -274,7 +289,7 @@
 
     </footer>
 
-
+    <script src="../js/components/navbar.js"></script>
     <script src="../js/collapsible.js"></script>
 </body>
 
