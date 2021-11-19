@@ -2,7 +2,6 @@ header #headerNavBar > div {
     display: none;
 }
 
-
 .dropdown {
     position: relative;
     /* overflow: hidden; */
