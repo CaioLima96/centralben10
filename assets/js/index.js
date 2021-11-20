@@ -75,92 +75,92 @@ function classicTab () {
     return classicTab
 }
 
-function alienForceTab () {
+// function alienForceTab () {
 
-    let alienForceTab = document.getElementById('nav-tab-content').innerHTML = `
-    <div id="sinopse">
+//     let alienForceTab = document.getElementById('nav-tab-content').innerHTML = `
+//     <div id="sinopse">
 
-        <h1 onclick="test()">SINOPSE</h1>
-        <p> 
-            Cinco anos após a série original, Ben reaparece sem o Omnitrix , até o desaparecimento de seu avô Max, tendo que colocá-lo de volta, reiniciando e dando a Ben um novo conjunto de 10 alienígenas. Junto de Gwen e seu antigo inimigo Kevin eles partem em missões encarando novos vilões e adquirindo novos alienígenas pelo tempo. A série fora originalmente intitulado Ben 10: Hero Generation (em tradução livre: Ben 10: Geração de Heróis).
-        </p>
+//         <h1 onclick="test()">SINOPSE</h1>
+//         <p> 
+//             Cinco anos após a série original, Ben reaparece sem o Omnitrix , até o desaparecimento de seu avô Max, tendo que colocá-lo de volta, reiniciando e dando a Ben um novo conjunto de 10 alienígenas. Junto de Gwen e seu antigo inimigo Kevin eles partem em missões encarando novos vilões e adquirindo novos alienígenas pelo tempo. A série fora originalmente intitulado Ben 10: Hero Generation (em tradução livre: Ben 10: Geração de Heróis).
+//         </p>
 
-    </div>
+//     </div>
 
-    <div id="indice-list">
+//     <div id="indice-list">
 
-        <p>Índice</p>
+//         <p>Índice</p>
 
-        <li><a href="#classic-aliens-af">Aliens do Clássico</a></li>
+//         <li><a href="#classic-aliens-af">Aliens do Clássico</a></li>
 
-    </div>
+//     </div>
 
-    <!--PRIME BEN'S ALIEN CARDS-->
-    <ul id="aliens-cards">
+//     <!--PRIME BEN'S ALIEN CARDS-->
+//     <ul id="aliens-cards">
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./aquatico-(classico)-7.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-    </ul>
+//     </ul>
     
     
-    `
+//     `
 
-    return alienForceTab
-}
+//     return alienForceTab
+// }
 
 function ultimateAlienTab() {
     
