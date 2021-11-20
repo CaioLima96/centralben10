@@ -11,7 +11,7 @@ function classicTab () {
         </div>
 
         <!--PRIME BEN'S ALIEN CARDS-->
-        <ul id="aliens-cards">
+        <ul class="aliens-cards">
 
             <li class="alien-card four-arms">
                 
@@ -96,7 +96,7 @@ function classicTab () {
     // </div>
 
 //     <!--PRIME BEN'S ALIEN CARDS-->
-//     <ul id="aliens-cards">
+//     <ul class="aliens-cards">
 
 //         <li class="alien-card" class="ripJaws">
             
@@ -184,7 +184,7 @@ function ultimateAlienTab() {
     </div>
 
     <!--PRIME BEN'S ALIEN CARDS-->
-    <ul id="aliens-cards">
+    <ul class="aliens-cards">
 
         <li class="alien-card" class="ripJaws">
             
@@ -274,7 +274,7 @@ function omniverseTab() {
     </div>
 
     <!--PRIME BEN'S ALIEN CARDS-->
-    <ul id="aliens-cards">
+    <ul class="aliens-cards">
 
         <li class="alien-card" class="ripJaws">
             
@@ -364,7 +364,7 @@ function rebootTab() {
     </div>
 
     <!--PRIME BEN'S ALIEN CARDS-->
-    <ul id="aliens-cards">
+    <ul class="aliens-cards">
 
         <li class="alien-card" class="ripJaws">
             

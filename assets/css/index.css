@@ -141,16 +141,19 @@
 }
 
 
-#content main #nav-tab-content #aliens-cards {
+#content main #nav-tab-content .aliens-cards {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 #content main #nav-tab-content .alien-card {
     width: 202px;
     list-style: none;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 #content main #nav-tab-content .alien-card-img {
@@ -193,18 +196,23 @@
     display: inline-block;
 }
 
-#classic-aliens-af {
+.alienDivisor {
+    max-width: 1140px; 
+    width: 100%;
+}
+
+.alienDivisor h4 {
     margin-top: 4%;
 }
 
-.alienDivisor {
+.alienDivisor hr {
     margin: 1rem 0;
     width: 100%;
     border: 1px solid rgb(0 0 0 / 37%) !important;
 }
 
 @media (max-width: 480px) {
-    #content main #nav-tab-content #aliens-cards {
+    #content main #nav-tab-content .aliens-cards {
         justify-content: center !important;
     }
 }
