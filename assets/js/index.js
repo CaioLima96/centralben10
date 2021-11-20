@@ -80,7 +80,7 @@ function alienForceTab () {
     let alienForceTab = document.getElementById('nav-tab-content').innerHTML = `
     <div id="sinopse">
 
-        <h1>SINOPSE</h1>
+        <h1 onclick="test()">SINOPSE</h1>
         <p> 
             Cinco anos após a série original, Ben reaparece sem o Omnitrix , até o desaparecimento de seu avô Max, tendo que colocá-lo de volta, reiniciando e dando a Ben um novo conjunto de 10 alienígenas. Junto de Gwen e seu antigo inimigo Kevin eles partem em missões encarando novos vilões e adquirindo novos alienígenas pelo tempo. A série fora originalmente intitulado Ben 10: Hero Generation (em tradução livre: Ben 10: Geração de Heróis).
         </p>
