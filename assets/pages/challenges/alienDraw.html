@@ -29,7 +29,7 @@
     <link rel="icon" href="img/icon/OmnitrixSymbol.png" type="image/icon type">
 </head>
 
-<body>
+<body onload="alienDraw2021JanTab()">
     
     <header>
 
@@ -89,7 +89,7 @@
                         <ul>
                             <li>A Central Ben 10 não é responsável pelos desafios do Alien Draw.</li>
                             <li>Cada desenho teve permissão de seus autores para ser exposto aqui.</li>
-                            <li>Caso queira que seu desenho seja retirado, clique <a href="fale_conosco.html" target="_blank">aqui.</a></li>
+                            <li>Caso queira que seu desenho seja retirado, clique <a href="../contact-us.html" target="_blank">aqui.</a></li>
                         </ul>
         
                     </div>
@@ -105,213 +105,134 @@
 
                 <nav>
                     <ul>
-                        <li>2020</li>
-                        <li>2021</li>
+                        <li id="ad2021TabMenu">2021</li>
+                        <li onclick="alienDraw2020Tab()">2020</li>
                     </ul>
                 </nav>
 
             </section>
 
-            <!--CHALLENGE-MENU-->
-            <section class="nav-tab-menu">
+            <section id="challengeTab">
 
-                <nav>
-                    <ul>
-                        <li>JAN</li>
-                        <li>FEV</li>
-                        <li>MAR</li>
-                        <li>ABR</li>
-                        <li>MAI</li>
-                        <li>JUN</li>
-                        <li>JUL</li>
-                    </ul>
-                </nav>
+                <div id="ad2020tab">
 
-            </section>
-            
-            <!--NAV TAB CONTENT-->
-            <section id="nav-tab-content">
-
-                <!--DESAFIO 1-->
-                <div class="challenge">
-                    <div class="challenge-theme">
-                        <p>
-                            Tema: <a href="" target="_blank">Nome do tema</a><br> Data: DD/MM/YYYY - DD/MM/YYYY
-                        </p>
-                    </div>
-    
-                    <ul class="grid-cards">
-                    
-                        <li class="card firstPlace">
-                            
-                            <div class="card-img">
-                                <img src="../../img/exemplo.png" alt="Retângulo 1" >
-                            </div>
-    
-                            <div class="author-info">
-    
-                                <div class="text">
-    
-                                    <div>
-                                        <a href="/"><img src="../../img/icons/insta-icon.png" target="_blank" alt="instagram icon"></a>
-    
-                                        <a href="/"><img src="../../img/icons/facebook-icon.png" target="_blank"  alt="Facebook icon"></a>
-                                    </div>
-    
-                                    <a href="/" target="_blank">
-                                        <p>AUTHOR NOME</p>
-                                    </a>
-    
-                                </div>
-    
-                            </div>
-                             
-                        </li>
-    
-                        <li class="card secondPlace">
-                            
-                            <div class="card-img">
-                                <img src="../../img/exemplo.png" alt="Retângulo 1" >
-                            </div>
-    
-                            <div class="author-info">
-    
-                                <div class="text">
-    
-                                    <div>
-                                        <a href="/"><img src="../../img/icons/insta-icon.png" target="_blank" alt="instagram icon"></a>
-    
-                                        <a href="/"><img src="../../img/icons/facebook-icon.png" target="_blank"  alt="Facebook icon"></a>
-                                    </div>
-    
-                                    <a href="/" target="_blank">
-                                        <p>AUTHOR NOME</p>
-                                    </a>
-    
-                                </div>
-    
-                            </div>
-                             
-                        </li>
-                        
-                        <li class="card thirdPlace">
-                            
-                            <div class="card-img">
-                                <img src="../../img/exemplo.png" alt="Retângulo 1" >
-                            </div>
-    
-                            <div class="author-info">
-    
-                                <div class="text">
-    
-                                    <div>
-                                        <a href="/"><img src="../../img/icons/insta-icon.png" target="_blank" alt="instagram icon"></a>
-    
-                                        <a href="/"><img src="../../img/icons/facebook-icon.png" target="_blank"  alt="Facebook icon"></a>
-                                    </div>
-    
-                                    <a href="/" target="_blank">
-                                        <p>AUTHOR NOME</p>
-                                    </a>
-    
-                                </div>
-    
-                            </div>
-                             
-                        </li>
-    
-                    </ul>
                 </div>
-
-                <!--DESAFIO 2-->
-                <div class="challenge">
-                    <div class="challenge-theme">
-                        <p>
-                            Tema: <a href="" target="_blank">Nome do tema</a><br> Data: DD/MM/YYYY - DD/MM/YYYY
-                        </p>
+    
+                <div id="ad2021tab">
+    
+                    <!--CHALLENGE-MENU-->
+                    <div id="nav-tab-menu-2021" class="nav-tab-menu">
+    
+                        <nav>
+                            <ul>
+                                <li onclick="alienDraw2021JanTab()">JAN</li>
+                                <li onclick="alienDraw2021FevTab()">FEV</li>
+                                <li>MAR</li>
+                                <li>ABR</li>
+                                <li>MAI</li>
+                                <li>JUN</li>
+                                <li>JUL</li>
+                            </ul>
+                        </nav>
+    
                     </div>
     
-                    <ul class="grid-cards">
-                    
-                        <li class="card firstPlace">
+                    <!--NAV TAB CONTENT-->
+                    <div id="nav-tab-content" class="nav-tab-content-2021">
+    
+                        <!--DESAFIO 1-->
+                        <div class="challenge">
+                            <div class="challenge-theme">
+                                <p>
+                                    Tema: <a href="" target="_blank">Nome do tema</a><br> Data: DD/MM/YYYY - DD/MM/YYYY
+                                </p>
+                            </div>
+            
+                            <ul class="grid-cards">
                             
-                            <div class="card-img">
-                                <img src="../../img/exemplo.png" alt="Retângulo 1" >
-                            </div>
-    
-                            <div class="author-info">
-    
-                                <div class="text">
-    
-                                    <div>
-                                        <a href="/"><img src="../../img/icons/insta-icon.png" target="_blank" alt="instagram icon"></a>
-    
-                                        <a href="/"><img src="../../img/icons/facebook-icon.png" target="_blank"  alt="Facebook icon"></a>
+                                <li class="card firstPlace">
+                                    
+                                    <div class="card-img">
+                                        <img src="../../img/exemplo.png" alt="Retângulo 1" >
                                     </div>
-    
-                                    <a href="/" target="_blank">
-                                        <p>AUTHOR NOME</p>
-                                    </a>
-    
-                                </div>
-    
-                            </div>
-                             
-                        </li>
-    
-                        <li class="card secondPlace">
-                            
-                            <div class="card-img">
-                                <img src="../../img/exemplo.png" alt="Retângulo 1" >
-                            </div>
-    
-                            <div class="author-info">
-    
-                                <div class="text">
-    
-                                    <div>
-                                        <a href="/"><img src="../../img/icons/insta-icon.png" target="_blank" alt="instagram icon"></a>
-    
-                                        <a href="/"><img src="../../img/icons/facebook-icon.png" target="_blank"  alt="Facebook icon"></a>
+            
+                                    <div class="author-info">
+            
+                                        <div class="text">
+            
+                                            <div>
+                                                <a href="/" target="_blank"><img src="../../img/icons/insta-icon.png" alt="instagram icon"></a>
+            
+                                                <a href="/" target="_blank"><img src="../../img/icons/facebook-icon.png"  alt="Facebook icon"></a>
+                                            </div>
+            
+                                            <a href="/" target="_blank">
+                                                <p>AUTHOR NOME</p>
+                                            </a>
+            
+                                        </div>
+            
                                     </div>
-    
-                                    <a href="/" target="_blank">
-                                        <p>AUTHOR NOME</p>
-                                    </a>
-    
-                                </div>
-    
-                            </div>
-                             
-                        </li>
-                        
-                        <li class="card thirdPlace">
-                            
-                            <div class="card-img">
-                                <img src="../../img/exemplo.png" alt="Retângulo 1" >
-                            </div>
-    
-                            <div class="author-info">
-    
-                                <div class="text">
-    
-                                    <div>
-                                        <a href="/"><img src="../../img/icons/insta-icon.png" target="_blank" alt="instagram icon"></a>
-    
-                                        <a href="/"><img src="../../img/icons/facebook-icon.png" target="_blank"  alt="Facebook icon"></a>
+                                    
+                                </li>
+            
+                                <li class="card secondPlace">
+                                    
+                                    <div class="card-img">
+                                        <img src="../../img/exemplo.png" alt="Retângulo 1" >
                                     </div>
+            
+                                    <div class="author-info">
+            
+                                        <div class="text">
+            
+                                            <div>
+                                                <a href="/" target="_blank"><img src="../../img/icons/insta-icon.png" alt="instagram icon"></a>
+            
+                                                <a href="/" target="_blank"><img src="../../img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                                            </div>
+            
+                                            <a href="/" target="_blank">
+                                                <p>AUTHOR NOME</p>
+                                            </a>
+            
+                                        </div>
+            
+                                    </div>
+                                    
+                                </li>
+                                
+                                <li class="card thirdPlace">
+                                    
+                                    <div class="card-img">
+                                        <img src="../../img/exemplo.png" alt="Retângulo 1" >
+                                    </div>
+            
+                                    <div class="author-info">
+            
+                                        <div class="text">
+            
+                                            <div>
+                                                <a href="/" target="_blank"><img src="../../img/icons/insta-icon.png" alt="instagram icon"></a>
+            
+                                                <a href="/" target="_blank"><img src="../../img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                                            </div>
+            
+                                            <a href="/" target="_blank">
+                                                <p>AUTHOR NOME</p>
+                                            </a>
+            
+                                        </div>
+            
+                                    </div>
+                                    
+                                </li>
+            
+                            </ul>
+                        </div>
     
-                                    <a href="/" target="_blank">
-                                        <p>AUTHOR NOME</p>
-                                    </a>
+                    </div>
     
-                                </div>
-    
-                            </div>
-                             
-                        </li>
-    
-                    </ul>
                 </div>
 
             </section>
@@ -340,6 +261,7 @@
 
     <script src="../../js/components/navbar.js"></script>
     <script src="../../js/components/collapsible.js"></script>
+    <script src="../../js/challenges/alienDraw.js"></script>
 </body>
 
 </html>

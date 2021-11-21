@@ -10,35 +10,35 @@
 
 /*====== NAV TAB MENU ======*/
 
-#content .nav-tab-menu {
+.nav-tab-menu {
     width: 100%;
     color: white;
     margin-bottom: 0.625rem;
 }
 
-#content hr {
+.nav-tab-menu hr {
     border: 1px solid;
     width: 95.5%;
     margin: 0 auto;
 }
 
-#content main .nav-tab-menu:nth-child(2) {
+.nav-tab-menu:nth-child(2) {
     background-color: black !important;
     padding-top: 1.75rem;
 }
 
-#content .nav-tab-menu nav {
+.nav-tab-menu {
     padding: 0.75rem;
 }
 
-#content .nav-tab-menu nav ul {
+#content .nav-tab-menu ul {
     display: flex;
     list-style: none;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#content .nav-tab-menu nav ul li {
+#content .nav-tab-menu ul li {
     padding: 0.5rem;
     text-transform: uppercase;
     
@@ -46,20 +46,20 @@
     border-radius: 0.375rem;
 }
 
-#content .nav-tab-menu nav ul li:not(li:last-child) {
+#content .nav-tab-menu ul li:not(li:last-child) {
     margin-right: 0.25rem;
 }
 
-#content .nav-tab-menu nav ul li:last-child {
+#content .nav-tab-menu ul li:last-child {
     margin-right: 0 !important;
 }
 
-#content .nav-tab-menu nav ul li:hover {
+#content .nav-tab-menu ul li:hover {
     border-color: white;
     border-radius: 0.375rem;
 }
 
-#content .nav-tab-menu nav ul li:active {
+#content .nav-tab-menu ul li:active {
     border-color: white;
     border-radius: 0.375rem;
 }
