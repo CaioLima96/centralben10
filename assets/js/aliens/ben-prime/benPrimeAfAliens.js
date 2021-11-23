@@ -135,7 +135,7 @@ const arrBenPrimeAfClassicAliens = [
 //     return tabContent
 // }
 
-function alienForceTab() {
+function alienForceAlienTab() {
 
     let erase1 = document.getElementById('sinopse').innerHTML = ' '
     let erase2 = document.getElementsByClassName("aliens-cards").innerHTML = ' '
@@ -240,7 +240,7 @@ function alienForceTab() {
         }
 
         //return teste2.appendChild(testando2)
-        console.log('classico')
+        console.log('af classico')
         return testando2
     }
 
@@ -276,6 +276,6 @@ function alienForceTab() {
         </ul>
         
     `
-    console.log('teste')
+    console.log('af teste')
     return tabContent
 }

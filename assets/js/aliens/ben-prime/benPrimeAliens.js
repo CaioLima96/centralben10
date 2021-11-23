@@ -43,7 +43,7 @@ const arrBenPrimeUaUltimateAliens = [
 
     {nomePtbr: 'Macaco Aranha Supremo', nomeIngles: "Ultimate Spidermonkey", seasonName: 'primeBenUaUltimateSpiderMonkey', wikiUrl: 'Ultimate_Spidermonkey', imgUa: ['./assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-2.png']},
 
-    {nomePtbr: 'Way Big Supremo', nomeIngles: "Ultimate Way Big", seasonName: 'primeBenUaUltimateWayBig', wikiUrl: 'Ultimate_Way_Big', imgUa: ['./assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-1.png']}
+    {nomePtbr: 'Way Big Supremo', nomeIngles: "Ultimate Way Big", seasonName: 'primeBenUaUltimateWayBig', wikiUrl: 'Ultimate_Way_Big', imgUa: ['./assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-1.png'], imgUaHeroesUnited: ['./assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-1.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-4.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-5.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-6.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-7.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-8.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-9.jpg',]}
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenUa', wikiUrl: '', imgUa: ['./assets/img/aliens/ben-prime/ua/']},
 ]
@@ -68,7 +68,7 @@ function ultimateAlienTab() {
     let erase1 = document.getElementById('sinopse').innerHTML = ' '
     let erase2 = document.getElementsByClassName("aliens-cards").innerHTML = ' '
 
-    console.log('apagar teste')
+    console.log('ua apagar teste')
 
     let benPrimeUaAliens = () => {
 
@@ -118,7 +118,7 @@ function ultimateAlienTab() {
             `
         }
 
-        console.log('classico')
+        console.log('ua ultimate')
         return uaUltimateAliens
     }
 
@@ -145,7 +145,7 @@ function ultimateAlienTab() {
             `
         }
 
-        console.log('classico')
+        console.log('ua classico')
         return uaUltimateAliens
     }
 
@@ -189,10 +189,126 @@ function ultimateAlienTab() {
         </ul>
         
     `
-    console.log('teste')
+    console.log('ua teste')
     return tabContentUa
 }
 
 
 
 //====================== BEN PRIME OMNIVERSE ALIEN ======================
+
+const arrBenPrimeOvAliens = [
+
+    {nomePtbr: 'Astrodáctilo', nomeIngles: "Astrodactyl", seasonName: 'primeBenOvAstrodactyl', wikiUrl: 'Astrodactyl', imgOv: ['./assets/img/aliens/ben-prime/omniverse/astrodactilo-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/astrodactilo-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/astrodactilo-(omniverse)-3.png']},
+
+    {nomePtbr: 'Atômico', nomeIngles: "Atomix", seasonName: 'primeBenOvAtomix', wikiUrl: 'Atomix', imgOv: ['./assets/img/aliens/ben-prime/omniverse/atomix-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/atomix-(omniverse)-2.png']},
+
+    {nomePtbr: 'Bigotóide', nomeIngles: "Mole-Stache", seasonName: 'primeBenOvMole-Stache', wikiUrl: 'Mole-Stache', imgOv: ['./assets/img/aliens/ben-prime/omniverse/bigotoide-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/bigotoide-(omniverse)-2.png']},
+
+    {nomePtbr: 'Bloxx', nomeIngles: "Bloxx", seasonName: 'primeBenOvBloxx', wikiUrl: 'Bloxx_(Classic)', imgOv: ['./assets/img/aliens/ben-prime/omniverse/bloxx-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/bloxx-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/bloxx-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/bloxx-(omniverse)-4.png', './assets/img/aliens/ben-prime/omniverse/bloxx-(omniverse)-5.png',]}, 
+    
+    {nomePtbr: 'Bullfrag', nomeIngles: "Bullfrag", seasonName: 'primeBenOvBullfrag', wikiUrl: 'Bullfrag', imgOv: ['./assets/img/aliens/ben-prime/omniverse/bullfrag-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/bullfrag-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/bullfrag-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/bullfrag-(omniverse)-4.png']},
+
+    {nomePtbr: 'Cocorocóide', nomeIngles: "Kickin Hawk", seasonName: 'primeBenOvKickinHawk', wikiUrl: 'Kickin_Hawk', imgOv: ['./assets/img/aliens/ben-prime/omniverse/cocorocoide-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/cocorocoide-(omniverse)-2.png']},
+
+    {nomePtbr: 'Crashhopper', nomeIngles: "Crashhopper", seasonName: 'primeBenOvCrashhopper', wikiUrl: 'Crashhopper', imgOv: ['./assets/img/aliens/ben-prime/omniverse/crashhopper-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/crashhopper-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/crashhopper-(omniverse)-3.png']},
+
+    {nomePtbr: 'Escarábola', nomeIngles: "Ball Weevil", seasonName: 'primeBenOvBallWeevil', wikiUrl: 'Ball_Weevil', imgOv: ['./assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-4.png',]},
+
+    {nomePtbr: 'Espantóide', nomeIngles: "Toepick", seasonName: 'primeBenOvToepick', wikiUrl: 'Toepick', imgOv: ['./assets/img/aliens/ben-prime/omniverse/espantoide-(omniverse)-1.png']},
+
+    {nomePtbr: 'Feedback', nomeIngles: "Feedback", seasonName: 'primeBenOvFeedback', wikiUrl: 'Feedback', imgOv: ['./assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-2.png']},
+
+    {nomePtbr: 'Gravattack', nomeIngles: "Gravattack", seasonName: 'primeBenOvGravattack', wikiUrl: 'Gravattack', imgOv: ['./assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-2.png']},
+
+    {nomePtbr: 'O Pior', nomeIngles: "The Worst", seasonName: 'primeBenOvTheWorst', wikiUrl: 'The_Worst', imgOv: ['./assets/img/aliens/ben-prime/omniverse/o-pior-(omniverse)-1.png']},
+
+    {nomePtbr: 'Pesky Dust', nomeIngles: "Pesky_Dust", seasonName: 'primeBenOvPeskyDust', wikiUrl: 'Pesky_Dust', imgOv: ['./assets/img/aliens/ben-prime/omniverse/pesky-dust-(omniverse)-1.png']},
+
+    {nomePtbr: 'Podrão', nomeIngles: "Gutrot", seasonName: 'primeBenOvGutrot', wikiUrl: 'Gutrot', imgOv: ['./assets/img/aliens/ben-prime/omniverse/podrao-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/podrao-(omniverse)-2.png']},
+
+    {nomePtbr: 'Vompiro', nomeIngles: "Whampire", seasonName: 'primeBenOvWhampire', wikiUrl: 'Whampire', imgOv: ['./assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-3.png']},
+
+    {nomePtbr: 'Walkatruta', nomeIngles: "Walkatrout", seasonName: 'primeBenOvWalkatrout', wikiUrl: 'Walkatrout', imgOv: ['./assets/img/aliens/ben-prime/omniverse/walkatruta-(omniverse)-1.png']}
+
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOv', wikiUrl: '', imgOv: ['./assets/img/aliens/ben-prime/omniverse/']},
+]
+
+function omniverseAlienTab() {
+
+    let erase1 = document.getElementById('sinopse').innerHTML = ' '
+    let erase2 = document.getElementsByClassName("aliens-cards").innerHTML = ' '
+
+    console.log('apagar teste ov')
+
+    let benPrimeOvAliens = () => {
+
+        for(let i = 0; i < arrBenPrimeOvAliens.length; i++){
+
+            var uaAliens = document.getElementsByClassName("aliens-cards").innerHTML += `
+                <li class="alien-card ${arrBenPrimeOvAliens[i].seasonName}">
+
+                    <div class="alien-card-img">
+                        <img src="${arrBenPrimeOvAliens[i].imgOv[0]}" alt="${arrBenPrimeOvAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvAliens[i].seasonName}Modal">
+                    </div>
+
+                    <div class="alien-card-description">
+                        <a href="https://ben10.fandom.com/wiki/${arrBenPrimeOvAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenPrimeOvAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
+                </li>
+            `
+        }
+
+        console.log('ov testando')
+        return uaAliens
+    }
+
+    let tabContentOv = document.getElementById('nav-tab-content').innerHTML = `
+        
+        <div id="sinopse">
+
+            <h1>SINOPSE</h1>
+            <p> 
+                Ben recebe um novo Omnitrix, contendo as transformações da série <a href="#classic-aliens-ov">Clássica</a>,<a href="#alienForce-aliens-ov"> Força Alienígena</a>,<a href="#ultimate-aliens-ov"> Supremacia Alienígena</a>, além de novos aliens incríveis. Esta versão é a original, ele so havia recebido protótipos ao longo de sua jornada, e essa versão começou a ser produzida logo quando ganhou seu primeiro Omnitrix. No entanto, este Omnitrix ainda está em fase de testes e nem sempre fornece ao Ben a transformação no alien que ele pediu, transformando-o em outra coisa, o que cria situações engraçadas para o nosso herói.
+            </p>
+
+        </div>
+
+        <div id="indice-list">
+
+            <p>Índice</p>
+
+            <li><a href="#classic-aliens-ov">Aliens do Clássico</a></li>
+            <li><a href="#alienForce-aliens-ov">Aliens do Força Alienígena</a></li>
+            <li><a href="#ultimate-aliens-ov">Aliens do Supremacia Alienígena</a></li>
+
+        </div>
+
+        <ul class="aliens-cards">
+            ${benPrimeOvAliens()}
+
+            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+                <h4 id="classic-aliens-ov">Aliens do clássico</h4>
+                <hr>
+            </div>
+
+            
+            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+                <h4 id="alienForce-aliens-ov">Aliens do Força Alienígena</h4>
+                <hr>
+            </div>
+
+            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+                <h4 id="ultimate-aliens-ov">Aliens do Supremacia Alienígena</h4>
+                <hr>
+            </div>
+
+        </ul>
+        
+    `
+    console.log('teste ov')
+    return tabContentOv
+}
+

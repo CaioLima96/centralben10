@@ -250,95 +250,97 @@ function classicTab () {
 //     return ultimateAlienTab
 // }
 
-function omniverseTab() {
+const x = 0;
 
-    let omniverseTab = document.getElementById('nav-tab-content').innerHTML = `
-    <div id="sinopse">
+// function omniverseTab() {
 
-        <h1>SINOPSE</h1>
-        <p> 
-            Ben recebe um novo Omnitrix, contendo as transformações da série <a href="#classic-aliens-ov">Clássica</a>,<a href="#alienForce-aliens-ov"> Força Alienígena</a>,<a href="#ultimate-aliens-ov"> Supremacia Alienígena</a>, além de novos aliens incríveis. Esta versão é a original, ele so havia recebido protótipos ao longo de sua jornada, e essa versão começou a ser produzida logo quando ganhou seu primeiro Omnitrix. No entanto, este Omnitrix ainda está em fase de testes e nem sempre fornece ao Ben a transformação no alien que ele pediu, transformando-o em outra coisa, o que cria situações engraçadas para o nosso herói.
-        </p>
+//     let omniverseTab = document.getElementById('nav-tab-content').innerHTML = `
+//     <div id="sinopse">
 
-    </div>
+//         <h1>SINOPSE</h1>
+//         <p> 
+//             Ben recebe um novo Omnitrix, contendo as transformações da série <a href="#classic-aliens-ov">Clássica</a>,<a href="#alienForce-aliens-ov"> Força Alienígena</a>,<a href="#ultimate-aliens-ov"> Supremacia Alienígena</a>, além de novos aliens incríveis. Esta versão é a original, ele so havia recebido protótipos ao longo de sua jornada, e essa versão começou a ser produzida logo quando ganhou seu primeiro Omnitrix. No entanto, este Omnitrix ainda está em fase de testes e nem sempre fornece ao Ben a transformação no alien que ele pediu, transformando-o em outra coisa, o que cria situações engraçadas para o nosso herói.
+//         </p>
 
-    <div id="indice-list">
+//     </div>
 
-        <p>Índice</p>
+//     <div id="indice-list">
 
-        <li><a href="#classic-aliens-ov">Aliens do Clássico</a></li>
-        <li><a href="#alienForce-aliens-ov">Aliens do Força Alienígena</a></li>
-        <li><a href="#ultimate-aliens-ov">Aliens do Supremacia Alienígena</a></li>
+//         <p>Índice</p>
+
+//         <li><a href="#classic-aliens-ov">Aliens do Clássico</a></li>
+//         <li><a href="#alienForce-aliens-ov">Aliens do Força Alienígena</a></li>
+//         <li><a href="#ultimate-aliens-ov">Aliens do Supremacia Alienígena</a></li>
 
 
-    </div>
+//     </div>
 
-    <!--PRIME BEN'S ALIEN CARDS-->
-    <ul class="aliens-cards">
+//     <!--PRIME BEN'S ALIEN CARDS-->
+//     <ul class="aliens-cards">
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-        <li class="alien-card" class="ripJaws">
+//         <li class="alien-card" class="ripJaws">
             
-            <div class="alien-card-img">
-                <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-            </div>
+//             <div class="alien-card-img">
+//                 <img src="./astrodactilo-(omniverse)-2.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
+//             </div>
 
-            <div class="alien-card-description">
-                <a href="/" target="_blank">
-                    <p>Aquatico</p>
-                </a>
-            </div>
+//             <div class="alien-card-description">
+//                 <a href="/" target="_blank">
+//                     <p>Aquatico</p>
+//                 </a>
+//             </div>
                 
-        </li>
+//         </li>
 
-    </ul>
+//     </ul>
     
     
-    `
+//     `
 
-    return omniverseTab
-}
+//     return omniverseTab
+// }
 
 function rebootTab() {
 
