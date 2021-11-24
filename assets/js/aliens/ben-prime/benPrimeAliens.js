@@ -234,6 +234,27 @@ const arrBenPrimeOvAliens = [
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOv', wikiUrl: '', imgOv: ['./assets/img/aliens/ben-prime/omniverse/']},
 ]
 
+const arrBenPrimeOvClassicAliens = [
+    
+    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenOvClassicFourArms', wikiUrl: 'Four_Arms_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/4-bracos-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/4-bracos-(omniverse)-2.png']},
+
+    {nomePtbr: 'Aquático', nomeIngles: "Ripjaws", seasonName: 'primeBenOvClassicRipJaws', wikiUrl: 'Ripjaws_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/aquatico-(omniverse)-1.png']},
+
+    {nomePtbr: 'Arctiguana', nomeIngles: "Arctiguana", seasonName: 'primeBenOvClassicArctiguana', wikiUrl: 'Arctiguana', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-2.png']},
+
+    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenOvClassicCannonBolt', wikiUrl: 'Cannonbolt_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-2.png']},
+
+    {nomePtbr: 'Ben Múmia', nomeIngles: "Snare-oh", seasonName: 'primeBenOvClassicSnareOh', wikiUrl: 'Snare-oh', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ben-mumia-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ben-mumia-(omniverse)-2.jpg']},
+    
+    {nomePtbr: 'Besta', nomeIngles: "Wildmutt", seasonName: 'primeBenOvClassicWildMutt', wikiUrl: 'Wildmutt', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-2.png']},
+
+    {nomePtbr: 'Buzzshock', nomeIngles: "Buzzshock", seasonName: 'primeBenOvClassicBuzzShock', wikiUrl: 'Buzzshock_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/buzzshock-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/buzzshock-(omniverse)-2.png']},
+
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenOvClassicHeatBlast', wikiUrl: 'Heatblast_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-2.png']},
+
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvClassic', wikiUrl: '', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/']},
+]
+
 function omniverseAlienTab() {
 
     let erase1 = document.getElementById('sinopse').innerHTML = ' '
@@ -265,6 +286,31 @@ function omniverseAlienTab() {
         return uaAliens
     }
 
+    // let benPrimeOvClassicAliens = () => {
+       
+    //     for(let i = 0; i < arrBenPrimeOvClassicAliens.length; i++){
+
+    //         var ovClassicAliens = document.getElementsByClassName("aliens-cards").innerHTML += `
+    //             <li class="alien-card ${arrBenPrimeOvClassicAliens[i].seasonName}">
+                        
+    //                 <div class="alien-card-img">
+    //                     <img src="${arrBenPrimeOvClassicAliens[i].imgOvClassic[0]}" alt="${arrBenPrimeOvClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvClassicAliens[i].seasonName}Modal">
+    //                 </div>
+
+    //                 <div class="alien-card-description">
+    //                     <a href="https://ben10.fandom.com/wiki/${arrBenPrimeOvClassicAliens[i].wikiUrl}" target="_blank">
+    //                         <p>${arrBenPrimeOvClassicAliens[i].nomePtbr}</p>
+    //                     </a>
+    //                 </div>
+                            
+    //             </li>
+    //         `
+    //     }
+
+    //     console.log('ov classic testando')
+    //     return ovClassicAliens
+    // }
+
     let tabContentOv = document.getElementById('nav-tab-content').innerHTML = `
         
         <div id="sinopse">
@@ -295,11 +341,12 @@ function omniverseAlienTab() {
             </div>
 
             
+            
             <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
                 <h4 id="alienForce-aliens-ov">Aliens do Força Alienígena</h4>
                 <hr>
             </div>
-
+            
             <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
                 <h4 id="ultimate-aliens-ov">Aliens do Supremacia Alienígena</h4>
                 <hr>
