@@ -137,9 +137,10 @@ const arrBenPrimeAfClassicAliens = [
 
 function alienForceAlienTab() {
 
-    let erase1 = document.getElementById('sinopse').innerHTML = ' '
-    let erase2 = document.getElementsByClassName("aliens-cards").innerHTML = ' '
-    
+    document.getElementById('sinopse').innerHTML = ' '
+    document.getElementsByClassName("aliens-cards").innerHTML = ' '
+    console.log("af apaga")
+        //BOTAR UL PRA CADA ABA E COM DISPLAY NONE/FLEX
 
     // let benPrimeAfAliens = () => {
     //     for(let i = 0; i < arrBenPrimeAfAliens.length; i++){
@@ -192,7 +193,7 @@ function alienForceAlienTab() {
         let afAliens = arrBenPrimeAfAliens
 
         for(let i = 0; i < afAliens.length; i++){
-
+           
             var testando = document.getElementsByClassName("aliens-cards").innerHTML += `
                 <li class="alien-card ${afAliens[i].seasonName}">
                         
@@ -218,7 +219,7 @@ function alienForceAlienTab() {
 
         let afClassicAliens = arrBenPrimeAfClassicAliens
 
-        let teste1 = document.querySelectorAll("aliens-cards")
+        let teste1 = document.querySelector(".aliens-cards")
 
         for(let i = 0; i < afClassicAliens.length; i++){
 
@@ -263,7 +264,7 @@ function alienForceAlienTab() {
 
         </div>
 
-        <ul class="aliens-cards">
+        <ul  id="testando123"  class="aliens-cards">
             ${benPrimeAfAliens()}
 
             <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
