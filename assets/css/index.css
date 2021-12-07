@@ -83,33 +83,33 @@
     border-radius: 6px;
 }
 
-#content main #nav-tab-content {
+#content main .nav-content {
     width: 93.5%;
     margin: 0 auto;
 }
 
-#content main #nav-tab-content #sinopse {
+#content main  #sinopse {
     text-align: center;
     margin: 1.5rem 0 3rem;
 }
 
-#content main #nav-tab-content #sinopse h1 {
+#content main  #sinopse h1 {
     font: normal 2.5rem 'Roboto', sans-serif;
 }
 
-#content main #nav-tab-content #sinopse p {
+#content main  #sinopse p {
     font-size: 1rem;
     line-height: 1.5;
 }
 
-#content main #nav-tab-content #sinopse a {
+#content main  #sinopse a {
     color: black; 
     font-weight: bold; 
     font-style: italic; 
     text-decoration: none;
 }   
 
-#content main #nav-tab-content #indice-list {
+#content main  #indice-list {
     display: inline-block;
     text-align: left;
     border: 1px solid black;
@@ -119,29 +119,29 @@
     box-shadow: 4px 4px 0px -1px rgb(0 0 0 / 75%);
 }
 
-#content main #nav-tab-content #indice-list p{
+#content main  #indice-list p{
     font-size: 1.5rem;
     margin-bottom: 0.313rem;
     font-weight: 500;
 }
 
-#content main #nav-tab-content #indice-list li {
+#content main  #indice-list li {
     font-size: 0.875rem;
     margin-bottom: 0.313rem;
     font-style: normal;
 }
 
-#content main #nav-tab-content #indice-list li a {
+#content main  #indice-list li a {
     color: black;
     text-decoration: none;
 }
 
-#content main #nav-tab-content #indice-list a:hover {
+#content main  #indice-list a:hover {
     text-decoration: underline;
 }
 
 
-#content main #nav-tab-content .aliens-cards {
+#content main  .aliens-cards {
     width: 100%;
     display: flex;
     /* justify-content: space-between; */
@@ -149,14 +149,14 @@
     flex-wrap: wrap;
 }
 
-#content main #nav-tab-content .alien-card {
+#content main  .alien-card {
     width: 202px;
     list-style: none;
     margin-right: 2%;
     margin-bottom: 2%;
 }
 
-#content main #nav-tab-content .alien-card-img {
+#content main  .alien-card-img {
     width: 100%;
     height: 248px;
     padding: 0.625rem;
@@ -169,28 +169,28 @@
     overflow: hidden;
 }
 
-#content main #nav-tab-content .alien-card-img img {
+#content main  .alien-card-img img {
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
 
-#content main #nav-tab-content .alien-card-description {
+#content main  .alien-card-description {
     text-align: center;
     font-size: 1.25rem;
 }
 
-#content main #nav-tab-content .alien-card-description a {
+#content main  .alien-card-description a {
     text-decoration: none;
     color: black;
 }
 
-#content main #nav-tab-content .alien-card-description a:hover {
+#content main  .alien-card-description a:hover {
     font-style: italic;
     text-decoration: underline !important;
 }
 
-#content main #nav-tab-content .alien-card-description p {
+#content main  .alien-card-description p {
     margin: 0.5rem 0;
     pointer-events: none;
     display: inline-block;
@@ -212,7 +212,7 @@
 }
 
 @media (max-width: 480px) {
-    #content main #nav-tab-content .aliens-cards {
+    #content main  .aliens-cards {
         justify-content: center !important;
     }
 }

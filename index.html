@@ -25,7 +25,7 @@
     <link rel="icon" href="img/icon/OmnitrixSymbol.png" type="image/icon type">
 </head>
 
-<body>
+<body onload="classicTab()">
     
     <header>
 
@@ -98,78 +98,48 @@
             </section>
 
             <!--NAV TAB CONTENT-->
-            <section id="nav-tab-content">
+          
+            <section id="nav-tab-content-os" class="nav-content">
 
-                <div id="sinopse">
+                <p>hi os</p>
+                <ul id="os-cards"></ul>
 
-                    <h1>SINOPSE</h1>
-                    <p>
-                        Aos 10 anos de idade, Benjamin Kirby Tennyson descobre um dispositivo alienígena na floresta chamado de Omnitrix, que lhe permite se transformar em 10 diferentes espécies alienígenas. Ao longo de suas férias de verão, viajando o país num trailer com seu
-                        avô Max e com a sua prima Gwen, Ben luta contra o crime e alienígenas do mal com seus novos poderes, adquirindo a capacidade de se transformar em mais nove novos alienígenas ao longo do caminho.
-                    </p>
+            </section>
 
-                </div>
+            <section id="nav-tab-content-af" class="nav-content">
 
-                <!--PRIME BEN'S ALIEN CARDS-->
-                <ul id="af-cards" class="aliens-cards">
-                    
-                    <!-- <li class="alien-card four-arms">
-                        
-                        <div class="alien-card-img">
-                            <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-                        </div>
+                <p>hi af</p>
+                <ul id="af-cards"></ul>
+                <ul id="af-os-cards"></ul>
 
-                        <div class="alien-card-description">
-                            <a href="/" target="_blank">
-                                <p>4 Braços</p>
-                            </a>
-                        </div>
-                         
-                    </li>
+            </section>
+            
+            <section id="nav-tab-content-ua" class="nav-content">
 
-                    <li class="alien-card four-arms">
-                        
-                        <div class="alien-card-img">
-                            <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-                        </div>
+                <p>hi ua</p>
+                <ul id="ua-cards"></ul>
+                <ul id="ua-ultimate-cards"></ul>
+                <ul id="ua-os-cards"></ul>
 
-                        <div class="alien-card-description">
-                            <a href="/" target="_blank">
-                                <p>4 Braços</p>
-                            </a>
-                        </div>
-                         
-                    </li>
+            </section>
 
-                    <li class="alien-card four-arms">
-                        
-                        <div class="alien-card-img">
-                            <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-                        </div>
+            <section id="nav-tab-content-ov" class="nav-content">
 
-                        <div class="alien-card-description">
-                            <a href="/" target="_blank">
-                                <p>4 Braços</p>
-                            </a>
-                        </div>
-                         
-                    </li>
+                <p>hi ov</p>
+                <ul id="ov-cards"></ul>
+                <ul id="ov-os-cards"></ul>
+                <ul id="ov-af-cards"></ul>
+                <ul id="ov-ua-cards"></ul>
 
-                    <li class="alien-card four-arms">
-                        
-                        <div class="alien-card-img">
-                            <img src="./4-bracos-(classico)-1.png" alt="Retângulo 1" class="img-fluid" data-toggle="modal" data-target="#ClassicBenFourArmsModal">
-                        </div>
+            </section>
 
-                        <div class="alien-card-description">
-                            <a href="/" target="_blank">
-                                <p>4 Braços</p>
-                            </a>
-                        </div>
-                         
-                    </li> -->
+            <section id="nav-tab-content-rb" class="nav-content">
 
-                </ul>
+                <p>hi rb</p>
+                <ul id="rb-cards"></ul>
+                <ul id="rb-tunado-cards"></ul>
+                <ul id="rb-kix-cards"></ul>
+                <ul id="rb-nauta-cards"></ul>
 
             </section>
 
@@ -197,9 +167,8 @@
 
     
     <script src="./assets/js/components/navbar.js"></script>
-    <script src="./assets/js/aliens/ben-prime/benPrimeAfAliens.js"></script>
+    <!-- <script src="./assets/js/aliens/ben-prime/benPrimeAfAliens.js"></script> -->
     <script src="./assets/js/aliens/ben-prime/benPrimeAliens.js"></script>
-    <script src="./assets/js/index.js" ></script>
 </body>
 
 </html>

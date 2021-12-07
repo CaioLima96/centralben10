@@ -51,159 +51,35 @@ const arrBenPrimeAfClassicAliens = [
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenAf', wikiUrl: '', imgAfClassic: ['./assets/img/aliens/ben-prime/af/']},
 ]
 
-// function alienForceTab() {
-
-//     let erase1 = document.getElementById('sinopse').innerHTML = ' '
-//     let erase2 = document.getElementsByClassName("aliens-cards").innerHTML = ' '
-    
-
-//     let benPrimeAfAliens = () => {
-//         for(let i = 0; i < arrBenPrimeAfAliens.length; i++){
-
-//             var testando = document.getElementsByClassName("aliens-cards").innerHTML += `
-//                 <li class="alien-card ${arrBenPrimeAfAliens[i].seasonName}">
-                        
-//                         <div class="alien-card-img">
-//                             <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfAliens[i].seasonName}Modal">
-//                         </div>
-
-//                         <div class="alien-card-description">
-//                             <a href="https://ben10.fandom.com/wiki/${arrBenPrimeAfAliens[i].wikiUrl}" target="_blank">
-//                                 <p>${arrBenPrimeAfAliens[i].nomePtbr}</p>
-//                             </a>
-//                         </div>
-                            
-//                 </li>
-//             `
-//         }
-//         return testando
-//     }
-
-//     // let benPrimeAfClassicAliens = () => {
-//     //     for(let i = 0; i < arrBenPrimeAfClassicAliens.length; i++){
-
-//     //         var testando2 = document.getElementsByClassName("aliens-cards").innerHTML += `
-//     //             <li class="alien-card ${arrBenPrimeAfClassicAliens[i].seasonName}">
-                        
-//     //                     <div class="alien-card-img">
-//     //                         <img src="${arrBenPrimeAfClassicAliens[i].imgAfClassic[0]}" alt="${arrBenPrimeAfClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfClassicAliens[i].seasonName}Modal">
-//     //                     </div>
-
-//     //                     <div class="alien-card-description">
-//     //                         <a href="https://ben10.fandom.com/wiki/${arrBenPrimeAfClassicAliens[i].wikiUrl}" target="_blank">
-//     //                             <p>${arrBenPrimeAfClassicAliens[i].nomePtbr}</p>
-//     //                         </a>
-//     //                     </div>
-                            
-//     //             </li>
-//     //         `
-//     //     }
-//     //     return testando2
-//     // }
-
-//     let tabContent = document.getElementById('nav-tab-content').innerHTML = `
-        
-//         <div id="sinopse">
-
-//             <h1>SINOPSE</h1>
-//             <p> 
-//                 Cinco anos após a série original, Ben reaparece sem o Omnitrix , até o desaparecimento de seu avô Max, tendo que colocá-lo de volta, reiniciando e dando a Ben um novo conjunto de 10 alienígenas. Junto de Gwen e seu antigo inimigo Kevin eles partem em missões encarando novos vilões e adquirindo novos alienígenas pelo tempo. A série fora originalmente intitulado Ben 10: Hero Generation (em tradução livre: Ben 10: Geração de Heróis).
-//             </p>
-
-//         </div>
-
-//         <div id="indice-list">
-
-//             <p>Índice</p>
-
-//             <li><a href="#classic-aliens-af">Aliens do Clássico</a></li>
-
-//         </div>
-
-//         <ul class="aliens-cards">
-//             ${benPrimeAfAliens()}
-
-//             <div class="alienDivisor">
-//                 <h4 id="classic-aliens-af">Aliens do Clássico em Alien Force</h4>
-//                 <hr>
-//             </div>
-
-//         </ul>
-        
-//     `
-//     console.log('teste')
-//     return tabContent
-// }
-
 function alienForceAlienTab() {
 
-    document.getElementById('sinopse').innerHTML = ' '
-    document.getElementsByClassName("aliens-cards").innerHTML = ' '
+    document.getElementById('af-cards').innerHTML = ' '
+    document.getElementById('af-os-cards').innerHTML = ' '
     console.log("af apaga")
-        //BOTAR UL PRA CADA ABA E COM DISPLAY NONE/FLEX
 
-    // let benPrimeAfAliens = () => {
-    //     for(let i = 0; i < arrBenPrimeAfAliens.length; i++){
-
-    //         var testando = document.getElementsByClassName("aliens-cards").innerHTML += `
-    //             <li class="alien-card ${arrBenPrimeAfAliens[i].seasonName}">
-                        
-    //                     <div class="alien-card-img">
-    //                         <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfAliens[i].seasonName}Modal">
-    //                     </div>
-
-    //                     <div class="alien-card-description">
-    //                         <a href="https://ben10.fandom.com/wiki/${arrBenPrimeAfAliens[i].wikiUrl}" target="_blank">
-    //                             <p>${arrBenPrimeAfAliens[i].nomePtbr}</p>
-    //                         </a>
-    //                     </div>
-                            
-    //             </li>
-    //         `
-    //     }
-    //     return testando
-    // }
-
-    // let benPrimeAfClassicAliens = () => {
-    //     for(let i = 0; i < arrBenPrimeAfClassicAliens.length; i++){
-
-    //         var testando2 = document.getElementsByClassName("aliens-cards").innerHTML += `
-    //             <li class="alien-card ${arrBenPrimeAfClassicAliens[i].seasonName}">
-                        
-    //                     <div class="alien-card-img">
-    //                         <img src="${arrBenPrimeAfClassicAliens[i].imgAfClassic[0]}" alt="${arrBenPrimeAfClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfClassicAliens[i].seasonName}Modal">
-    //                     </div>
-
-    //                     <div class="alien-card-description">
-    //                         <a href="https://ben10.fandom.com/wiki/${arrBenPrimeAfClassicAliens[i].wikiUrl}" target="_blank">
-    //                             <p>${arrBenPrimeAfClassicAliens[i].nomePtbr}</p>
-    //                         </a>
-    //                     </div>
-                            
-    //             </li>
-    //         `
-    //     }
-    //     return testando2
-    // }
-
-
+    document.getElementById('nav-tab-content-os').style.display = 'none'
+    document.getElementById('nav-tab-content-af').style.display = 'inherit'
+    document.getElementById('nav-tab-content-ua').style.display = 'none'
+    document.getElementById('nav-tab-content-ov').style.display = 'none'
+    document.getElementById('nav-tab-content-rb').style.display = 'none'
+    
+ 
     let benPrimeAfAliens = () => {
 
         // let afAliens = arrBenPrimeAfAliens.slice(0,15)
-        let afAliens = arrBenPrimeAfAliens
 
-        for(let i = 0; i < afAliens.length; i++){
+        for(let i = 0; i < arrBenPrimeAfAliens.length; i++){
            
-            var testando = document.getElementsByClassName("aliens-cards").innerHTML += `
-                <li class="alien-card ${afAliens[i].seasonName}">
+            var afAliens = document.getElementById("af-cards").innerHTML += `
+                <li class="alien-card ${arrBenPrimeAfAliens[i].seasonName}">
                         
                         <div class="alien-card-img">
-                            <img src="${afAliens[i].imgAf[0]}" alt="${afAliens[i].nomePtbr}" data-toggle="modal" data-target="#${afAliens[i].seasonName}Modal">
+                            <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfAliens[i].seasonName}Modal">
                         </div>
 
                         <div class="alien-card-description">
-                            <a href="https://ben10.fandom.com/wiki/${afAliens[i].wikiUrl}" target="_blank">
-                                <p>${afAliens[i].nomePtbr}</p>
+                            <a href="https://ben10.fandom.com/wiki/${arrBenPrimeAfAliens[i].wikiUrl}" target="_blank">
+                                <p>${arrBenPrimeAfAliens[i].nomePtbr}</p>
                             </a>
                         </div>
                             
@@ -212,40 +88,35 @@ function alienForceAlienTab() {
         }
 
         console.log('af testando')
-        return testando
+        return afAliens
     }
 
     let benPrimeAfClassicAliens = () => {
 
-        let afClassicAliens = arrBenPrimeAfClassicAliens
+        for(let i = 0; i < arrBenPrimeAfClassicAliens.length; i++){
 
-        let teste1 = document.querySelector(".aliens-cards")
-
-        for(let i = 0; i < afClassicAliens.length; i++){
-
-            var testando2 = teste1.innerHTML += `
-                <li class="alien-card ${afClassicAliens[i].seasonName}">
+            var afClassicAliens = document.getElementById("af-os-cards").innerHTML += `
+                <li class="alien-card ${arrBenPrimeAfClassicAliens[i].seasonName}">
                         
-                        <div class="alien-card-img">
-                            <img src="${afClassicAliens[i].imgAfClassic[0]}" alt="${afClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${afClassicAliens[i].seasonName}Modal">
-                        </div>
+                    <div class="alien-card-img">
+                        <img src="${arrBenPrimeAfClassicAliens[i].imgAfClassic[0]}" alt="${arrBenPrimeAfClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfClassicAliens[i].seasonName}Modal">
+                    </div>
 
-                        <div class="alien-card-description">
-                            <a href="https://ben10.fandom.com/wiki/${afClassicAliens[i].wikiUrl}" target="_blank">
-                                <p>${afClassicAliens[i].nomePtbr}</p>
-                            </a>
-                        </div>
+                    <div class="alien-card-description">
+                        <a href="https://ben10.fandom.com/wiki/${arrBenPrimeAfClassicAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenPrimeAfClassicAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
                             
                 </li>
             `
         }
 
-        //return teste2.appendChild(testando2)
         console.log('af classico')
-        return testando2
+        return afClassicAliens
     }
 
-    let tabContent = document.getElementById('nav-tab-content').innerHTML = `
+    let tabContentAf = document.getElementById('nav-tab-content-af').innerHTML = `
         
         <div id="sinopse">
 
@@ -264,19 +135,21 @@ function alienForceAlienTab() {
 
         </div>
 
-        <ul  id="testando123"  class="aliens-cards">
+        <ul id="af-cards" class="aliens-cards">
             ${benPrimeAfAliens()}
-
-            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
-                <h4 id="classic-aliens-af">Aliens do Clássico em Alien Force</h4>
-                <hr>
-            </div>
-
-            ${benPrimeAfClassicAliens()}
-
         </ul>
+
+        <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+            <h4 id="classic-aliens-af">Aliens do Clássico em Alien Force</h4>
+            <hr>
+        </div>
+
+        <ul id="af-os-cards" class="aliens-cards">
+            ${benPrimeAfClassicAliens()}
+        </ul>
+    </div>
         
     `
     console.log('af teste')
-    return tabContent
+    return tabContentAf
 }
