@@ -51,9 +51,6 @@ const arrBenPrimeAfClassicAliens = [
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenAf', wikiUrl: '', imgAfClassic: ['./assets/img/aliens/ben-prime/af/']},
 ]
 
-   
-//BOTAR UL PRA CADA ABA E COM DISPLAY NONE/FLEX
-
 function alienForceAlienTab() {
 
     document.getElementById('af-cards').innerHTML = ' '
