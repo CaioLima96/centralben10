@@ -125,7 +125,7 @@ function alienDraw2021JanTab() {
             <li class="card firstPlace">
                 
                 <div class="card-img">
-                    <img src="../../img/challenges/aliendraw/2021/01ª-edition-animais-mutantes-do-dr-animal/first-place-icaro-andrade.jpg" alt="Ícaro Andrade" >
+                    <img src="../../../assets/img/challenges/aliendraw/2021/01ª-edition-animais-mutantes-do-dr-animal/first-place-icaro-andrade.jpg" alt="Ícaro Andrade" >
                 </div>
 
                 <div class="author-info">
