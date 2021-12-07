@@ -65,16 +65,23 @@ const arrBenPrimeUaClassicAliens = [
 
 function ultimateAlienTab() {
 
-    let erase1 = document.getElementById('sinopse').innerHTML = ' '
-    let erase2 = document.getElementsByClassName("aliens-cards").innerHTML = ' '
+    document.getElementById('ua-cards').innerHTML = ' '
+    document.getElementById('ua-ultimate-cards').innerHTML = ' '
+    document.getElementById('ua-os-cards').innerHTML = ' '
+    console.log("ua apaga")
 
-    console.log('ua apagar teste')
+    document.getElementById('nav-tab-content-os').style.display = 'none'
+    document.getElementById('nav-tab-content-af').style.display = 'none'
+    document.getElementById('nav-tab-content-ua').style.display = 'inherit'
+    document.getElementById('nav-tab-content-ov').style.display = 'none'
+    document.getElementById('nav-tab-content-rb').style.display = 'none'
+
 
     let benPrimeUaAliens = () => {
 
         for(let i = 0; i < arrBenPrimeUaAliens.length; i++){
 
-            var uaAliens = document.getElementsByClassName("aliens-cards").innerHTML += `
+            var uaAliens = document.getElementById("ua-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaAliens[i].seasonName}">
                         
                         <div class="alien-card-img">
@@ -97,11 +104,9 @@ function ultimateAlienTab() {
 
     let benPrimeUaUltimateAliens = () => {
 
-        let aliensCards = document.querySelectorAll("aliens-cards")
-
         for(let i = 0; i < arrBenPrimeUaUltimateAliens.length; i++){
 
-            var uaUltimateAliens = aliensCards.innerHTML += `
+            var uaUltimateAliens = document.getElementById("ua-ultimate-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaUltimateAliens[i].seasonName}">
                         
                     <div class="alien-card-img">
@@ -124,11 +129,9 @@ function ultimateAlienTab() {
 
     let benPrimeUaClassicAliens = () => {
 
-        let aliensCards = document.querySelectorAll("aliens-cards")
-
         for(let i = 0; i < arrBenPrimeUaClassicAliens.length; i++){
 
-            var uaUltimateAliens = aliensCards.innerHTML += `
+            var uaClassicAliens = document.getElementById("ua-os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaClassicAliens[i].seasonName}">
                         
                     <div class="alien-card-img">
@@ -146,10 +149,10 @@ function ultimateAlienTab() {
         }
 
         console.log('ua classico')
-        return uaUltimateAliens
+        return uaClassicAliens
     }
 
-    let tabContentUa = document.getElementById('nav-tab-content').innerHTML = `
+    let tabContentUa = document.getElementById('nav-tab-content-ua').innerHTML = `
         
         <div id="sinopse">
 
@@ -164,31 +167,34 @@ function ultimateAlienTab() {
 
             <p>Índice</p>
 
-            <li><a href="#ultimate-aliens-ultimates">Aliens Supremos</a></li>
+            <li><a href="#ultimate-aliens-ua">Aliens Supremos</a></li>
             <li><a href="#classic-aliens-ua">Aliens do Clássico</a></li>
 
         </div>
 
-        <ul class="aliens-cards">
+        <ul id="ua-cards" class="aliens-cards">
             ${benPrimeUaAliens()}
-
-            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
-                <h4 id="ultimate-aliens-ultimates">Aliens Supremos</h4>
-                <hr>
-            </div>
-
-            ${benPrimeUaUltimateAliens()}
-
-            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
-                <h4 id="classic-aliens-ua">Aliens do Clássico em Supremacia Alienígena</h4>
-                <hr>
-            </div>
-
-            ${benPrimeUaClassicAliens()}
-
         </ul>
-        
+
+        <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+            <h4 id="ultimate-aliens-ua">Aliens Supremos</h4>
+            <hr>
+        </div>
+
+        <ul id="ua-ultimate-cards" class="aliens-cards">
+            ${benPrimeUaUltimateAliens()}
+        </ul>
+    
+        <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+            <h4 id="classic-aliens-ua">Aliens do Clássico em Supremacia Alienígena</h4>
+            <hr>
+        </div>
+
+        <ul id="ua-os-cards" class="aliens-cards">
+            ${benPrimeUaClassicAliens()}
+        </ul>  
     `
+
     console.log('ua teste')
     return tabContentUa
 }
@@ -257,16 +263,24 @@ const arrBenPrimeOvClassicAliens = [
 
 function omniverseAlienTab() {
 
-    let erase1 = document.getElementById('sinopse').innerHTML = ' '
-    let erase2 = document.getElementsByClassName("aliens-cards").innerHTML = ' '
+    document.getElementById('ov-cards').innerHTML = ' '
+    document.getElementById('ov-os-cards').innerHTML = ' '
+    document.getElementById('ov-af-cards').innerHTML = ' '
+    document.getElementById('ov-ua-cards').innerHTML = ' '
+    console.log("ov apaga")
 
-    console.log('apagar teste ov')
+    document.getElementById('nav-tab-content-os').style.display = 'none'
+    document.getElementById('nav-tab-content-af').style.display = 'none'
+    document.getElementById('nav-tab-content-ua').style.display = 'none'
+    document.getElementById('nav-tab-content-ov').style.display = 'inherit'
+    document.getElementById('nav-tab-content-rb').style.display = 'none'
+
 
     let benPrimeOvAliens = () => {
 
         for(let i = 0; i < arrBenPrimeOvAliens.length; i++){
 
-            var uaAliens = document.getElementsByClassName("aliens-cards").innerHTML += `
+            var ovAliens = document.getElementById("ov-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeOvAliens[i].seasonName}">
 
                     <div class="alien-card-img">
@@ -283,35 +297,35 @@ function omniverseAlienTab() {
         }
 
         console.log('ov testando')
-        return uaAliens
+        return ovAliens
     }
 
-    // let benPrimeOvClassicAliens = () => {
+    let benPrimeOvClassicAliens = () => {
        
-    //     for(let i = 0; i < arrBenPrimeOvClassicAliens.length; i++){
+        for(let i = 0; i < arrBenPrimeOvClassicAliens.length; i++){
 
-    //         var ovClassicAliens = document.getElementsByClassName("aliens-cards").innerHTML += `
-    //             <li class="alien-card ${arrBenPrimeOvClassicAliens[i].seasonName}">
+            var ovClassicAliens = document.getElementById("ov-os-cards").innerHTML += `
+                <li class="alien-card ${arrBenPrimeOvClassicAliens[i].seasonName}">
                         
-    //                 <div class="alien-card-img">
-    //                     <img src="${arrBenPrimeOvClassicAliens[i].imgOvClassic[0]}" alt="${arrBenPrimeOvClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvClassicAliens[i].seasonName}Modal">
-    //                 </div>
+                    <div class="alien-card-img">
+                        <img src="${arrBenPrimeOvClassicAliens[i].imgOvClassic[0]}" alt="${arrBenPrimeOvClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvClassicAliens[i].seasonName}Modal">
+                    </div>
 
-    //                 <div class="alien-card-description">
-    //                     <a href="https://ben10.fandom.com/wiki/${arrBenPrimeOvClassicAliens[i].wikiUrl}" target="_blank">
-    //                         <p>${arrBenPrimeOvClassicAliens[i].nomePtbr}</p>
-    //                     </a>
-    //                 </div>
+                    <div class="alien-card-description">
+                        <a href="https://ben10.fandom.com/wiki/${arrBenPrimeOvClassicAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenPrimeOvClassicAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
                             
-    //             </li>
-    //         `
-    //     }
+                </li>
+            `
+        }
 
-    //     console.log('ov classic testando')
-    //     return ovClassicAliens
-    // }
+        console.log('ov classic testando')
+        return ovClassicAliens
+    }
 
-    let tabContentOv = document.getElementById('nav-tab-content').innerHTML = `
+    let tabContentOv = document.getElementById('nav-tab-content-ov').innerHTML = `
         
         <div id="sinopse">
 
@@ -332,30 +346,38 @@ function omniverseAlienTab() {
 
         </div>
 
-        <ul class="aliens-cards">
+        <ul id="ov-cards" class="aliens-cards">
             ${benPrimeOvAliens()}
-
-            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
-                <h4 id="classic-aliens-ov">Aliens do clássico</h4>
-                <hr>
-            </div>
-
-            
-            
-            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
-                <h4 id="alienForce-aliens-ov">Aliens do Força Alienígena</h4>
-                <hr>
-            </div>
-            
-            <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
-                <h4 id="ultimate-aliens-ov">Aliens do Supremacia Alienígena</h4>
-                <hr>
-            </div>
-
         </ul>
+
+        <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+            <h4 id="classic-aliens-ov">Aliens do clássico</h4>
+            <hr>
+        </div>
+
+        <ul id="ov-os-cards" class="aliens-cards">
+            ${benPrimeOvClassicAliens()}
+        </ul> 
+            
+        <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+            <h4 id="alienForce-aliens-ov">Aliens do Força Alienígena</h4>
+            <hr>
+        </div>
+
+        <ul id="ov-af-cards" class="aliens-cards">
+        
+        </ul>   
+        
+        <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
+            <h4 id="ultimate-aliens-ov">Aliens do Supremacia Alienígena</h4>
+            <hr>
+        </div>
+
+        <ul id="ov-ua-cards" class="aliens-cards">
+        
+        </ul> 
         
     `
     console.log('teste ov')
     return tabContentOv
 }
-
