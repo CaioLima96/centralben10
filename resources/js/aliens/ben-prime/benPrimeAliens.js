@@ -32,7 +32,7 @@ const arrBenPrimeClassicAliens = [
 
     {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenOsGreyMatter', wikiUrl: 'https://ben10.fandom.com/wiki/Grey_Matter_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/massa-cinzenta-(classico)-1.png', './assets/img/aliens/ben-prime/classico/massa-cinzenta-(classico)-2.png', './assets/img/aliens/ben-prime/classico/massa-cinzenta-(classico)-3.png', './assets/img/aliens/ben-prime/classico/massa-cinzenta-(classico)-4.png', './assets/img/aliens/ben-prime/classico/massa-cinzenta-(classico)-5.png']},
 
-    {nomePtbr: 'Mega Olhos', nomeIngles: "Eye Guy", seasonName: 'primeBenOsEyeGuy', wikiUrl: 'https://ben10.fandom.com/wiki/Eye_Guy', imgOs: ['./assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-1.png', './assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-2.png', './assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-3.png', './assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-4.jpg']},
+    {nomePtbr: 'Mega Olhos', nomeIngles: "Eye Guy", seasonName: 'primeBenOsEyeGuy', wikiUrl: 'https://ben10.fandom.com/wiki/Eye_Guy', imgOs: ['./assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-1.png', './assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-2.png', './assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-3.png', './assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-4.png', './assets/img/aliens/ben-prime/classico/mega-olhos-(classico)-5.png']},
 
     {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenOsUpgrade', wikiUrl: 'https://ben10.fandom.com/wiki/Upgrade_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/ultra-t-(classico)-1.png', './assets/img/aliens/ben-prime/classico/ultra-t-(classico)-2.png', './assets/img/aliens/ben-prime/classico/ultra-t-(classico)-3.png', './assets/img/aliens/ben-prime/classico/ultra-t-(classico)-4.png']},
 
@@ -527,7 +527,30 @@ const arrBenPrimeOvClassicAliens = [
 
     {nomePtbr: 'Fantasmático', nomeIngles: "Ghostfreak", seasonName: 'primeBenOvClassicGhostFreak', wikiUrl: 'https://ben10.fandom.com/wiki/Ghostfreak', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/fantasmatico-(omniverse)-1.png']},
 
+    {nomePtbr: 'Frankenstrike', nomeIngles: "Frankenstrike", seasonName: 'primeBenOvClassicFrankenStrike', wikiUrl: 'https://ben10.fandom.com/wiki/Frankenstrike', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/frankenstrike-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/frankenstrike-(omniverse)-2.png']},
+
+    {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOvClassicUpchuck', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/glutao-p-(omniverse)-1.png']},
+
+    {nomePtbr: 'Insectóide', nomeIngles: "Stinkfly", seasonName: 'primeBenOvClassicStinkFly', wikiUrl: 'https://ben10.fandom.com/wiki/Stinkfly_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/insectoide-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/insectoide-(omniverse)-2.png']},
+
+    {nomePtbr: 'Lobisben', nomeIngles: "Blitzwolfer", seasonName: 'primeBenOvClassicBlitzWolfer', wikiUrl: 'https://ben10.fandom.com/wiki/Blitzwolfer', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-2.png']},
+
+    {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenOvClassicGreyMatter', wikiUrl: 'https://ben10.fandom.com/wiki/Grey_Matter_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/massa-cinzenta-(omniverse)-1.png']},
+
+    {nomePtbr: 'Mega Olhos', nomeIngles: "Eye Guy", seasonName: 'primeBenOvClassicEyeGuy', wikiUrl: 'https://ben10.fandom.com/wiki/Eye_Guy', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-1.png']},
+
+    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenOvClassic', wikiUrl: 'https://ben10.fandom.com/wiki/Upgrade_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-2.png']},
+
+    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenOvClassicXlr8', wikiUrl: 'https://ben10.fandom.com/wiki/XLR8_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-2.png']},
+    
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvClassic', wikiUrl: '', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/']},
+]
+
+const arrBenPrimeOvAfAliens = [
+
+    {nomePtbr: 'Alien X', nomeIngles: "Alien X", seasonName: 'primeBenOvClassicAlienX', wikiUrl: 'https://ben10.fandom.com/wiki/Alien_X_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/alien-x-(omniverse)-1.png']}, 
+    
+   // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvClassic', wikiUrl: '', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/']}, 
 ]
 
 function omniverseAlienTab() {
@@ -594,6 +617,30 @@ function omniverseAlienTab() {
         return ovClassicAliens
     }
 
+    let benPrimeOvAf = () => {
+
+        for(let i = 0; i < arrBenPrimeOvAfAliens.length; i++){
+
+            var ovAfAliens = document.getElementById("ov-af-cards").innerHTML += `
+                <li class="alien-card ${arrBenPrimeOvAfAliens[i].seasonName}">
+
+                    <div class="alien-card-img">
+                        <img src="${arrBenPrimeOvAfAliens[i].imgOvAf[0]}" alt="${arrBenPrimeOvAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvAfAliens[i].seasonName}Modal">
+                    </div>
+
+                    <div class="alien-card-description">
+                        <a href="${arrBenPrimeOvAfAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenPrimeOvAfAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
+                </li>
+            `
+        }
+
+        console.log('ov af testando')
+        return ovAfAliens
+    }
+
     let tabContentOv = document.getElementById('nav-tab-content-ov').innerHTML = `
         
         <div id="sinopse">
@@ -634,7 +681,7 @@ function omniverseAlienTab() {
         </div>
 
         <ul id="ov-af-cards" class="aliens-cards">
-        
+            ${benPrimeOvAf()}
         </ul>   
         
         <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
