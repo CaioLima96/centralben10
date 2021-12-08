@@ -185,3 +185,11 @@ footer #credits p {
     top: 31%;
     color: black;
 }
+
+@media (max-width: 850px) {
+    
+    #backToTopButton {
+        bottom: 1px;
+        right: 2px;
+    }
+}
