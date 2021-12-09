@@ -548,9 +548,59 @@ const arrBenPrimeOvClassicAliens = [
 
 const arrBenPrimeOvAfAliens = [
 
-    {nomePtbr: 'Alien X', nomeIngles: "Alien X", seasonName: 'primeBenOvClassicAlienX', wikiUrl: 'https://ben10.fandom.com/wiki/Alien_X_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/alien-x-(omniverse)-1.png']}, 
+    {nomePtbr: 'Alien X', nomeIngles: "Alien X", seasonName: 'primeBenOvAfAlienX', wikiUrl: 'https://ben10.fandom.com/wiki/Alien_X_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/alien-x-(omniverse)-1.png']},
+
+    {nomePtbr: 'Artrópode', nomeIngles: "Brainstorm", seasonName: 'primeBenOvAfBrainStorm', wikiUrl: 'https://ben10.fandom.com/wiki/Brainstorm', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-2.png']}, 
+
+    {nomePtbr: 'Calafrio (Friagem)', nomeIngles: "Big Chill", seasonName: 'primeBenOvAfBigChill', wikiUrl: 'https://ben10.fandom.com/wiki/Big_Chill', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-4.png']}, 
+
+    {nomePtbr: 'Cromático', nomeIngles: "Chromastone", seasonName: 'primeBenOvAfChromaStone', wikiUrl: 'https://ben10.fandom.com/wiki/Chromastone', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/cromatico-(omniverse)-1.png']}, 
     
-   // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvClassic', wikiUrl: '', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/']}, 
+    {nomePtbr: 'Eco Eco', nomeIngles: "Echo Echo", seasonName: 'primeBenOvAfEchoEcho', wikiUrl: 'https://ben10.fandom.com/wiki/Echo_Echo', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-3.png']}, 
+
+    {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenOvAfHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Humungousaur_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-2.png']}, 
+
+    {nomePtbr: 'Estrela Polar', nomeIngles: "Lodestar", seasonName: 'primeBenOvAfLodeStar', wikiUrl: 'https://ben10.fandom.com/wiki/Lodestar', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/estrela-polar-(omniverse)-1.png']}, 
+
+    {nomePtbr: 'Fogo Fátuo', nomeIngles: "Swampfire", seasonName: 'primeBenOvAfSwampFire', wikiUrl: 'https://ben10.fandom.com/wiki/Swampfire', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/fogo-fatuo-(omniverse)-1.png']},
+
+    {nomePtbr: 'Fogo Fátuo (Florescido)', nomeIngles: "Swampfire (Blossoming)", seasonName: 'primeBenOvAfSwampFireBlossoming', wikiUrl: 'https://ben10.fandom.com/wiki/Swampfire', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/fogo-fatuo-florescido-(omniverse)-1.png']},
+
+    {nomePtbr: 'Glutão (Murk)', nomeIngles: "Upchuck (Murk)", seasonName: 'primeBenOvAfUpchuck', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/glutao-m-(omniverse)-1.png']}, 
+
+
+    {nomePtbr: 'Gosma', nomeIngles: "Goop", seasonName: 'primeBenOvAfGoop', wikiUrl: 'https://ben10.fandom.com/wiki/Goop_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/gosma-(omniverse)-1.png']}, 
+
+    {nomePtbr: 'Macaco Aranha', nomeIngles: "Spidermonkey", seasonName: 'primeBenOvAfSpiderMonkey', wikiUrl: 'https://ben10.fandom.com/wiki/Spidermonkey', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-2.png']},
+    
+    {nomePtbr: 'Nanomech', nomeIngles: "Nanomech", seasonName: 'primeBenOvAfNanoMech', wikiUrl: 'https://ben10.fandom.com/wiki/Nanomech', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/nanomech-(omniverse)-1.png']}, 
+
+    {nomePtbr: 'Rath', nomeIngles: "Rath", seasonName: 'primeBenOvAfRath', wikiUrl: 'https://ben10.fandom.com/wiki/Rath_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-3.png']}, 
+
+   // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvAf', wikiUrl: '', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/']}, 
+]
+
+const arrBenPrimeOvUaAliens = [
+
+    {nomePtbr: 'Ameaça Aquática', nomeIngles: "Water Hazard", seasonName: 'primeBenOvUaWaterHazard', wikiUrl: 'https://ben10.fandom.com/wiki/Water_Hazard', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-4.png']},
+
+    {nomePtbr: 'Anfíbio', nomeIngles: "Ampfibian", seasonName: 'primeBenOvUaAmpfibian', wikiUrl: 'https://ben10.fandom.com/wiki/Ampfibian', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/anfibio-(omniverse)-1.png']},
+
+    {nomePtbr: 'Armatu', nomeIngles: "Armodrillo", seasonName: 'primeBenOvUaArmodrillo', wikiUrl: 'https://ben10.fandom.com/wiki/Armodrillo', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-2.png']},
+
+    {nomePtbr: 'Besouro', nomeIngles: "Eatle", seasonName: 'primeBenOvUaEatle', wikiUrl: 'https://ben10.fandom.com/wiki/Eatle', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/besouro-(omniverse)-1.png']},
+
+    {nomePtbr: 'Contra Tempo', nomeIngles: "Clockwork", seasonName: 'primeBenOvUaClockWork', wikiUrl: 'https://ben10.fandom.com/wiki/Clockwork', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/contra-tempo-(omniverse)-1.png']}, 
+
+    {nomePtbr: 'Diabrete', nomeIngles: "Juryrigg", seasonName: 'primeBenOvUaJuryRigg', wikiUrl: 'https://ben10.fandom.com/wiki/Juryrigg', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/diabrete-(omniverse)-1.png']}, 
+
+    {nomePtbr: 'NRG', nomeIngles: "NRG", seasonName: 'primeBenOvUaNrg', wikiUrl: 'https://ben10.fandom.com/wiki/NRG', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/NRG-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/NRG-verdadeira-forma-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/NRG-verdadeira-forma-(omniverse)-2.png']}, 
+
+    {nomePtbr: 'Shocksquatch', nomeIngles: "Shocksquatch", seasonName: 'primeBenOvUaShockSquatch', wikiUrl: 'https://ben10.fandom.com/wiki/Shocksquatch', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-2.png']},
+    
+    {nomePtbr: 'Tartagira', nomeIngles: "Terraspin", seasonName: 'primeBenOvUaTerraSpin', wikiUrl: 'https://ben10.fandom.com/wiki/Terraspin', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-2.png']}, 
+
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvUa', wikiUrl: '', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/']}, 
 ]
 
 function omniverseAlienTab() {
@@ -641,6 +691,29 @@ function omniverseAlienTab() {
         return ovAfAliens
     }
 
+    let benPrimeOvUa = () => {
+        for(let i = 0; i < arrBenPrimeOvUaAliens.length; i++){
+
+            var ovAfUa = document.getElementById("ov-ua-cards").innerHTML += `
+                <li class="alien-card ${arrBenPrimeOvUaAliens[i].seasonName}">
+
+                    <div class="alien-card-img">
+                        <img src="${arrBenPrimeOvUaAliens[i].imgOvUa[0]}" alt="${arrBenPrimeOvUaAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvUaAliens[i].seasonName}Modal">
+                    </div>
+
+                    <div class="alien-card-description">
+                        <a href="${arrBenPrimeOvUaAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenPrimeOvUaAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
+                </li>
+            `
+        }
+
+        console.log('ov ua testando')
+        return ovAfUa
+    }
+
     let tabContentOv = document.getElementById('nav-tab-content-ov').innerHTML = `
         
         <div id="sinopse">
@@ -690,7 +763,7 @@ function omniverseAlienTab() {
         </div>
 
         <ul id="ov-ua-cards" class="aliens-cards">
-        
+            ${benPrimeOvUa()}
         </ul> 
         
     `
