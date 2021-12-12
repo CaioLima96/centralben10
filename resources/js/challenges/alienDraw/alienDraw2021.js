@@ -12,7 +12,7 @@ function ad2021tab() {
                     <ul>
                         <li onclick="alienDraw2021JanTab()">JAN</li>
                         <li onclick="alienDraw2021FevTab()">FEV</li>
-                        <li>MAR</li>
+                        <li onclick="alienDraw2021MarTab()">MAR</li>
                         <li>ABR</li>
                         <li>MAI</li>
                         <li>JUN</li>
@@ -332,7 +332,7 @@ function alienDraw2021MarTab() {
                 <li class="card firstPlace">
                     
                     <div class="card-img">
-                        <img src="../../../assets/img/exemplo.png" alt="Retângulo 1" >
+                        <img src="../../../assets/img/challenges/aliendraw/2021/4º-edition-aliens-baseados-em-super-herois/first-place-eric-gomes-da-rosa.jpg" alt="Éric Gomes da Rosa" >
                     </div>
 
                     <div class="author-info">
@@ -340,9 +340,9 @@ function alienDraw2021MarTab() {
                         <div class="text">
 
                             <div>
-                                <a href="/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+                                <a href="https://www.instagram.com/pottereric/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
 
-                                <a href="/" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png"  alt="Facebook icon"></a>
+                                <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank" target="_blank"><img src="../../../assets/img/icons/artstations-icon.png" alt="artstation icon"></a>
                             </div>
 
                             <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank">
@@ -359,7 +359,7 @@ function alienDraw2021MarTab() {
                 <li class="card secondPlace">
                     
                     <div class="card-img">
-                        <img src="../../../assets/img/exemplo.png" alt="Retângulo 1" >
+                        <img src="../../../assets/img/challenges/aliendraw/2021/4º-edition-aliens-baseados-em-super-herois/second-place-emanuelle-froes.jpg" alt="Emanuelle Fróes" >
                     </div>
 
                     <div class="author-info">
@@ -367,13 +367,11 @@ function alienDraw2021MarTab() {
                         <div class="text">
 
                             <div>
-                                <a href="/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
-
-                                <a href="/" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                                <a href="https://www.facebook.com/photo?fbid=1666571683535561&set=pcb.828384151135496" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
                             </div>
 
                             <a href="/" target="_blank">
-                                <p>AUTHOR NOME</p>
+                                <p>Emanuelle Fróes</p>
                             </a>
 
                         </div>
@@ -385,7 +383,7 @@ function alienDraw2021MarTab() {
                 <li class="card thirdPlace">
                     
                     <div class="card-img">
-                        <img src="../../../assets/img/exemplo.png" alt="Retângulo 1" >
+                        <img src="../../../assets/img/challenges/aliendraw/2021/4º-edition-aliens-baseados-em-super-herois/third-place-kailane-nunes.jpg" alt="kaeni_art" >
                     </div>
 
                     <div class="author-info">
@@ -393,13 +391,11 @@ function alienDraw2021MarTab() {
                         <div class="text">
 
                             <div>
-                                <a href="/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
-
-                                <a href="/" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                                <a href="https://www.instagram.com/kaeni_art/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
                             </div>
 
-                            <a href="/" target="_blank">
-                                <p>AUTHOR NOME</p>
+                            <a href="https://www.instagram.com/kaeni_art/" target="_blank">
+                                <p>kaeni_art</p>
                             </a>
 
                         </div>
