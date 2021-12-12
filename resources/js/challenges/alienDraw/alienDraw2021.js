@@ -44,7 +44,7 @@ function alienDraw2021JanTab() {
         <!--NAV TAB CONTENT-->
         <div class="challenge-theme">
             <p>
-                Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/780047149272855/" target="_blank">Animais Mutantes do Dr.Animal</a><br> Data: 28/01/21 - 07/02/21
+                Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/780047149272855/" target="_blank">Animais Mutantes do Dr.Animal</a><br> Data: 28/01/2021 - 07/02/2021
             </p>
         </div>
 
@@ -292,12 +292,12 @@ function alienDraw2021FevTab(){
         </ul>
     `
 
-    let ad2021Fevtab = document.getElementById("nav-tab-content").innerHTML = `
+    let ad2021FevTab = document.getElementById("nav-tab-content").innerHTML = `
 
         <!--NAV TAB CONTENT-->
         <div class="challenge-theme">
             <p>
-                Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/787418341869069/" target="_blank">Folclore</a><br> Data: 10/02/21 - 20/02/21
+                Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/787418341869069/" target="_blank">Folclore</a><br> Data: 10/02/2021 - 20/02/2021
             </p>
         </div>
 
@@ -305,7 +305,7 @@ function alienDraw2021FevTab(){
 
         <div class="challenge-theme">
             <p>
-                Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/794689057808664/" target="_blank">Mitologias</a><br> Data: 24/02/21 - 06/03/21
+                Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/794689057808664/" target="_blank">Mitologias</a><br> Data: 24/02/2021 - 06/03/2021
             </p>
         </div>
 
@@ -313,6 +313,104 @@ function alienDraw2021FevTab(){
         
     `
     console.log('fevereiro 2021')
-    return ad2021Fevtab
+    return ad2021FevTab
 }
 
+function alienDraw2021MarTab() {
+
+    let ad2021MarTab = document.getElementById("nav-tab-content").innerHTML = `
+
+        <!--NAV TAB CONTENT-->
+        <div class="challenge-theme">
+            <p>
+                Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/787418341869069/" target="_blank">Aliens baseados em super-heróis</a><br> Data: 18/03/2021 - 28/03/2021
+            </p>
+        </div>
+
+        <ul class="grid-cards">
+                            
+                <li class="card firstPlace">
+                    
+                    <div class="card-img">
+                        <img src="../../../assets/img/exemplo.png" alt="Retângulo 1" >
+                    </div>
+
+                    <div class="author-info">
+
+                        <div class="text">
+
+                            <div>
+                                <a href="/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+
+                                <a href="/" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png"  alt="Facebook icon"></a>
+                            </div>
+
+                            <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank">
+                                <p style="white-space: nowrap;">Éric Gomes da Rosa
+                                </p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    
+                </li>
+
+                <li class="card secondPlace">
+                    
+                    <div class="card-img">
+                        <img src="../../../assets/img/exemplo.png" alt="Retângulo 1" >
+                    </div>
+
+                    <div class="author-info">
+
+                        <div class="text">
+
+                            <div>
+                                <a href="/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+
+                                <a href="/" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                            </div>
+
+                            <a href="/" target="_blank">
+                                <p>AUTHOR NOME</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    
+                </li>
+                
+                <li class="card thirdPlace">
+                    
+                    <div class="card-img">
+                        <img src="../../../assets/img/exemplo.png" alt="Retângulo 1" >
+                    </div>
+
+                    <div class="author-info">
+
+                        <div class="text">
+
+                            <div>
+                                <a href="/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+
+                                <a href="/" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                            </div>
+
+                            <a href="/" target="_blank">
+                                <p>AUTHOR NOME</p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    
+                </li>
+
+        </ul       
+        
+    `
+    console.log('março 2021')
+    return ad2021MarTab
+}
