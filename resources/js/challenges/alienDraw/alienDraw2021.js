@@ -16,7 +16,7 @@ function ad2021tab() {
                         <li onclick="alienDraw2021AbrTab()">ABR</li>
                         <li onclick="alienDraw2021MaiTab()">MAI</li>
                         <li onclick="alienDraw2021JunTab()">JUN</li>
-                        <li>JUL</li>
+                        <li onclick="alienDraw2021JulTab()">JUL</li>
                     </ul>
                 </nav>
 
@@ -943,7 +943,7 @@ function alienDraw2021JunTab(){
         </ul>
     `
 
-    let ad2021MJunTab = document.getElementById("nav-tab-content").innerHTML = `
+    let ad2021JunTab = document.getElementById("nav-tab-content").innerHTML = `
 
         <!--DESAFIO 1-->
         <div class="challenge-theme">
@@ -965,5 +965,96 @@ function alienDraw2021JunTab(){
         
     `
     console.log('junho 2021')
-    return ad2021MJunTab
+    return ad2021JunTab
+}
+
+function alienDraw2021JulTab(){
+
+    let ad2021JulTab = document.getElementById("nav-tab-content").innerHTML = `
+
+        <!--DESAFIO 1-->
+        <div class="challenge-theme">
+            <p>
+                Tema: <a href="https://www.facebook.com/groups/662503674390212/posts/872922200015024/" target="_blank">Aliens Ciberneticos/Cyberpunk</a><br> Data: 05/07/2021 - 15/07/2021
+            </p>
+        </div>
+
+        <ul class="grid-cards">
+                            
+            <li class="card firstPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/11ª-edition-aliens-ciberneticos-cyberpunk/first-place-andre-prates.jpg" alt="Andre Prates" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.facebook.com/photo?fbid=3517086695057960&set=pcb.857232984917279" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                        </div>
+
+                        <a href="https://www.facebook.com/photo?fbid=3517086695057960&set=pcb.857232984917279" target="_blank">
+                            <p>Andre Prates</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+            <li class="card secondPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/11ª-edition-aliens-ciberneticos-cyberpunk/second-place-joao-lucas-oliveira.jpg" alt="jeyel_art" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.instagram.com/jeyel_art/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+                        </div>
+
+                        <a href="https://www.instagram.com/jeyel_art/" target="_blank">
+                            <p>jeyel_art</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+            
+            <li class="card thirdPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/11ª-edition-aliens-ciberneticos-cyberpunk/third-place-icaro-andrade.jpg" alt="Ícaro Andrade" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.facebook.com/photo?fbid=3667363120030316&set=pcb.888898311750746" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                        </div>
+
+                        <a href="https://www.facebook.com/photo?fbid=3667363120030316&set=pcb.888898311750746" target="_blank">
+                            <p>Ícaro Andrade</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+        </ul>
+    `
+    console.log('julho 2021')
+    return ad2021JulTab
 }
