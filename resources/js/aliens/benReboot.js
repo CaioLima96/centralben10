@@ -2,9 +2,15 @@
 
 const arrBenRebootAliens = [
     
-    {nomePtbr: 'Quatro Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Four_Arms_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/reboot/4-bracos-(reboot)-1.png']}
+    {nomePtbr: 'Quatro Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Four_Arms_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/4-bracos-(reboot)-1.png']},
 
-    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOs', wikiUrl: '', imgOs: ['./assets/img/aliens/ben-reboot/reboot/']},
+    {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbJetray', wikiUrl: 'https://ben10.fandom.com/wiki/Jetray_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/arraia-jato-(reboot)-1.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-2.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-3.jpg']},
+
+    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenRbCannonBolt', wikiUrl: 'https://ben10.fandom.com/wiki/Cannonbolt_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-1.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-2.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-3.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-4.png']},
+    
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Heatblast_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/chama-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-(reboot)-2.png', './assets/img/aliens/ben-reboot/chama-(reboot)-3.png', './assets/img/aliens/ben-reboot/chama-(reboot)-4.png']},
+
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRb', wikiUrl: '', imgRb: ['./assets/img/aliens/ben-reboot/']},
 ]
 
 function rebootTab() {
@@ -33,7 +39,7 @@ function rebootTab() {
                     </div>
 
                     <div class="alien-card-description">
-                        <a href="https://ben10.fandom.com/wiki/${arrBenRebootAliens[i].wikiUrl}" target="_blank">
+                        <a href="${arrBenRebootAliens[i].wikiUrl}" target="_blank">
                             <p>${arrBenRebootAliens[i].nomePtbr}</p>
                         </a>
                     </div>
