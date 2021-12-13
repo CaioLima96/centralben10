@@ -31,16 +31,14 @@ function alienDraw2020Tab(){
 
             </div>
 
-            <div id="nav-tab-content" class="nav-tab-content-2021">
+            <div id="nav-tab-content" class="nav-tab-content-2020">
 
-                <!--NAV TAB CONTENT-->
+                <!--DESAFIO 1-->
                 <div class="challenge-theme">
                     <p>
                         Tema: <a href="https://www.facebook.com/groups/Ben10cidadedebaixo/permalink/680513452559559/" target="_blank">Aliens Supremos</a><br> Data: 11/9/2020
                     </p>
                 </div>
-
-            
 
                 <ul class="grid-cards">
                                 
