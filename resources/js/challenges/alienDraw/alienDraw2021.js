@@ -14,8 +14,8 @@ function ad2021tab() {
                         <li onclick="alienDraw2021FevTab()">FEV</li>
                         <li onclick="alienDraw2021MarTab()">MAR</li>
                         <li onclick="alienDraw2021AbrTab()">ABR</li>
-                        <li>MAI</li>
-                        <li>JUN</li>
+                        <li onclick="alienDraw2021MaiTab()">MAI</li>
+                        <li onclick="alienDraw2021JunTab()">JUN</li>
                         <li>JUL</li>
                     </ul>
                 </nav>
@@ -526,22 +526,22 @@ function alienDraw2021AbrTab(){
 
                 <div class="author-info">
 
-                        <div class="text">
+                    <div class="text">
 
-                            <div>
-                                <a href="https://www.instagram.com/pottereric/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+                        <div>
+                            <a href="https://www.instagram.com/pottereric/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
 
-                                <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank" target="_blank"><img src="../../../assets/img/icons/artstations-icon.png" alt="artstation icon"></a>
-                            </div>
-
-                            <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank">
-                                <p style="white-space: nowrap;">Éric Gomes da Rosa
-                                </p>
-                            </a>
-
+                            <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank" target="_blank"><img src="../../../assets/img/icons/artstations-icon.png" alt="artstation icon"></a>
                         </div>
 
+                        <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank">
+                            <p style="white-space: nowrap;">Éric Gomes da Rosa
+                            </p>
+                        </a>
+
                     </div>
+
+                </div>
                 
             </li>
             
@@ -595,4 +595,375 @@ function alienDraw2021AbrTab(){
     `
     console.log('abril 2021')
     return ad2021AbrTab
+}
+
+function alienDraw2021MaiTab(){
+
+    let desafio1Mai2021 = `
+        <ul class="grid-cards">
+                            
+            <li class="card firstPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/7ª-edition-redesign-de-viloes/first-place-felipe-sabino.jpg" alt="fesenha" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.instagram.com/fesenha/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+
+                            <a href="https://www.facebook.com/Fesenha-Arts-106001021180786" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png"  alt="Facebook icon"></a>
+                        </div>
+
+                        <a href="https://www.instagram.com/fesenha/" target="_blank">
+                            <p>fesenha</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+            <li class="card secondPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/7ª-edition-redesign-de-viloes/second-place-tiago-flores.jpg" alt="Tiago Flores" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.facebook.com/photo?fbid=3517086625057967&set=pcb.857232984917279" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                        </div>
+
+                        <a href="https://www.facebook.com/photo?fbid=3517086625057967&set=pcb.857232984917279" target="_blank">
+                            <p>Tiago Flores</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+            
+            <li class="card thirdPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/7ª-edition-redesign-de-viloes/third-place-andre-prates.jpg" alt="Andre Prates" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.facebook.com/photo?fbid=3517086695057960&set=pcb.857232984917279" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                        </div>
+
+                        <a href="https://www.facebook.com/photo?fbid=3517086695057960&set=pcb.857232984917279" target="_blank">
+                            <p>Andre Prates</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+        </ul>
+    `
+
+    let desafio2Maio2021 = `
+        <ul class="grid-cards">
+                            
+            <li class="card firstPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/8ª-edition-crossover/first-place-nadson-bezerra.jpg" alt="Nadzerra10" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://twitter.com/Nadzerra10?s=09&fbclid=IwAR0v0pBdle2MjLhWZ0zBMkXcrLQ-x0khjD2NWXd0KjLPzUNfSelm1d56gK4" target="_blank"><img src="../../../assets/img/icons/twitter-icon.png" alt="twitter icon"></a>
+                        </div>
+
+                        <a href="https://twitter.com/Nadzerra10?s=09&fbclid=IwAR0v0pBdle2MjLhWZ0zBMkXcrLQ-x0khjD2NWXd0KjLPzUNfSelm1d56gK4" target="_blank">
+                            <p>Nadzerra10</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+            <li class="card secondPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/8ª-edition-crossover/second-place-kaua-barros.jpg" alt="Kauã Barros" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.instagram.com/kaua_b_p/?utm_medium=copy_link&fbclid=IwAR3yicYglQISVYuO4Ng_SZbETumouZBPA3_NvOLYveEth9oeHy8jjB8oqag" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+                        </div>
+
+                        <a href="https://www.instagram.com/kaua_b_p/?utm_medium=copy_link&fbclid=IwAR3yicYglQISVYuO4Ng_SZbETumouZBPA3_NvOLYveEth9oeHy8jjB8oqag" target="_blank">
+                            <p>Kauã Barros</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+            
+            <li class="card thirdPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/8ª-edition-crossover/third-place-joao-lucas-oliveira.jpg" alt="Retângulo 1" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.instagram.com/jeyel_art/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+                        </div>
+
+                        <a href="https://www.instagram.com/jeyel_art/" target="_blank">
+                            <p>jeyel_art</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+        </ul>
+    `
+
+    let ad2021MaiTab = document.getElementById("nav-tab-content").innerHTML = `
+
+        <!--DESAFIO 1-->
+        <div class="challenge-theme">
+            <p>
+                Tema: <a href="https://www.facebook.com/groups/662503674390212/permalink/857232984917279" target="_blank">Redesign dos Vilões</a><br> Data: 10/05/2021 - 20/05/2021
+            </p>
+        </div>
+
+        ${desafio1Mai2021}
+
+        <!--DESAFIO 2-->
+        <div class="challenge-theme">
+            <p>
+                Tema: <a href="https://www.facebook.com/groups/662503674390212/permalink/865361237437787/" target="_blank">Crossover</a><br> Data: 23/05/2021 - 02/06/2021
+            </p>
+        </div>
+
+        ${desafio2Maio2021}
+        
+    `
+    console.log('maio 2021')
+    return ad2021MaiTab
+}
+
+function alienDraw2021JunTab(){
+
+    let desafio1Jun2021 = `
+        <ul class="grid-cards">
+                            
+            <li class="card firstPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/9º-edition-aliens-com-dois-poderes/first-place-joao-pedro-nogueira.jpg" alt="João Pedro Nogueira" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.facebook.com/photo/?fbid=3594636277303001&set=pcb.872922200015024" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png"  alt="Facebook icon"></a>
+                        </div>
+
+                        <a href="https://www.facebook.com/photo/?fbid=3594636277303001&set=pcb.872922200015024" target="_blank">
+                            <p style="white-space: nowrap">João Pedro Nogueira</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+            <li class="card secondPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/9º-edition-aliens-com-dois-poderes/second-place-joao-lucas-oliveira.jpg" alt="jeyel_art" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.instagram.com/jeyel_art/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+                        </div>
+
+                        <a href="https://www.instagram.com/jeyel_art/" target="_blank">
+                            <p>jeyel_art</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+            
+            <li class="card thirdPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/9º-edition-aliens-com-dois-poderes/third-place-andre-prates.jpg" alt="Andre Prates" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.facebook.com/photo?fbid=3517086695057960&set=pcb.857232984917279" target="_blank"><img src="../../../assets/img/icons/facebook-icon.png" alt="Facebook icon"></a>
+                        </div>
+
+                        <a href="https://www.facebook.com/photo?fbid=3517086695057960&set=pcb.857232984917279" target="_blank">
+                            <p>Andre Prates</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+        </ul>
+    `
+
+    let desafio2Jun2021 = `
+        <ul class="grid-cards">
+                            
+            <li class="card firstPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/10ª-edition-aliens-do-ben-como-waifus/first-place-vito-cantuaria.jpg" alt="icehito" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.instagram.com/icehito/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+                        </div>
+
+                        <a href="https://www.instagram.com/icehito/" target="_blank">
+                            <p>icehito</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+            <li class="card secondPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/10ª-edition-aliens-do-ben-como-waifus/second-place-nadson-bezerra.jpg" alt="Nadzerra10" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://twitter.com/Nadzerra10?s=09&fbclid=IwAR0v0pBdle2MjLhWZ0zBMkXcrLQ-x0khjD2NWXd0KjLPzUNfSelm1d56gK4" target="_blank"><img src="../../../assets/img/icons/twitter-icon.png" alt="twitter icon"></a>
+                        </div>
+
+                        <a href="https://twitter.com/Nadzerra10?s=09&fbclid=IwAR0v0pBdle2MjLhWZ0zBMkXcrLQ-x0khjD2NWXd0KjLPzUNfSelm1d56gK4" target="_blank">
+                            <p>Nadzerra10</p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+            
+            <li class="card thirdPlace">
+                
+                <div class="card-img">
+                    <img src="../../../assets/img/challenges/aliendraw/2021/10ª-edition-aliens-do-ben-como-waifus/third-place-eric-gomes-da-rosa.jpg" alt="Retângulo 1" >
+                </div>
+
+                <div class="author-info">
+
+                    <div class="text">
+
+                        <div>
+                            <a href="https://www.instagram.com/pottereric/" target="_blank"><img src="../../../assets/img/icons/insta-icon.png" alt="instagram icon"></a>
+
+                            <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank" target="_blank"><img src="../../../assets/img/icons/artstations-icon.png" alt="artstation icon"></a>
+                        </div>
+
+                        <a href="https://www.artstation.com/doutor?fbclid=IwAR2mGqAIdruxtnVURHn4ti7SHVUgbGf5b9mCsI12oLS7gqqCNDyjk-GdTk4" target="_blank">
+                            <p style="white-space: nowrap;">Éric Gomes da Rosa
+                            </p>
+                        </a>
+
+                    </div>
+
+                </div>
+                
+            </li>
+
+        </ul>
+    `
+
+    let ad2021MJunTab = document.getElementById("nav-tab-content").innerHTML = `
+
+        <!--DESAFIO 1-->
+        <div class="challenge-theme">
+            <p>
+                Tema: <a href="https://www.facebook.com/groups/662503674390212/posts/872922200015024/" target="_blank">Aliens com dois poderes</a><br> Data: 07/06/2021 - 17/06/2021
+            </p>
+        </div>
+
+        ${desafio1Jun2021}
+
+        <!--DESAFIO 2-->
+        <div class="challenge-theme">
+            <p>
+                Tema: <a href="https://www.facebook.com/groups/662503674390212/posts/880438859263358/" target="_blank">Aliens do Ben como Waifus</a><br> Data: 20/06/2021 - 30/06/2021
+            </p>
+        </div>
+
+        ${desafio2Jun2021}
+        
+    `
+    console.log('junho 2021')
+    return ad2021MJunTab
 }
