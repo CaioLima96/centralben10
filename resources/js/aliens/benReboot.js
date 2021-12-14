@@ -45,6 +45,22 @@ const arrBenRebootOmnitunadoAliens = [
 
     {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbTunadoFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Four_Arms', imgRbTunado: ['./assets/img/aliens/ben-reboot/4-bracos-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/4-bracos-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/4-bracos-omnitunado-(reboot)-3.png']},
 
+    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenRbTunadoCannonBolt', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Cannonbolt', imgRbTunado: ['./assets/img/aliens/ben-reboot/bala-de-canhao-OmniTunado(reboot)-1.png', './assets/img/aliens/ben-reboot/bala-de-canhao-OmniTunado(reboot)-2.png', './assets/img/aliens/ben-reboot/bala-de-canhao-OmniTunado(reboot)-3.png']}, 
+
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbTunadoHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Heatblast', imgRbTunado: ['./assets/img/aliens/ben-reboot/chama-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/chama-omnitunado-(reboot)-3.png']}, 
+
+    {nomePtbr: 'Cipó Selvagem', nomeIngles: "Wildvine", seasonName: 'primeBenRbTunadoWildVine', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Wildvine', imgRbTunado: ['./assets/img/aliens/ben-reboot/cipo-selvagem-omnitunado-(reboot)-1.png','./assets/img/aliens/ben-reboot/cipo-selvagem-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/cipo-selvagem-omnitunado-(reboot)-3.png']},
+    
+    {nomePtbr: 'Diamante', nomeIngles: "Diamondhead", seasonName: 'primeBenRbTunadoDiamondHead', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Diamondhead', imgRbTunado: ['./assets/img/aliens/ben-reboot/diamante-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/diamante-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/diamante-omnitunado-(reboot)-3.png']}, 
+
+    {nomePtbr: 'Enxurrada', nomeIngles: "Overflow", seasonName: 'primeBenRbTunadoOverFlow', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Overflow', imgRbTunado: ['./assets/img/aliens/ben-reboot/enxurrada-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/enxurrada-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/enxurrada-omnitunado-(reboot)-3.png', './assets/img/aliens/ben-reboot/enxurrada-omnitunado-(reboot)-4.png',]}, 
+
+    {nomePtbr: 'Insectóide', nomeIngles: "Stinkfly", seasonName: 'primeBenRbTunadoStinkFly', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Stinkfly', imgRbTunado: ['./assets/img/aliens/ben-reboot/insectoide-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/insectoide-omnitunado-(reboot)-2.png']}, 
+
+    {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenRbTunadoGreyMatter', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Grey_Matter', imgRbTunado: ['./assets/img/aliens/ben-reboot/massa-cinzenta-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/massa-cinzenta-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/massa-cinzenta-omnitunado-(reboot)-3.png',]},
+    
+    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenRbTunadoXlr8', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_XLR8', imgRbTunado: ['./assets/img/aliens/ben-reboot/xlr8-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/xlr8-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/xlr8-omnitunado-(reboot)-3.png']},  
+
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbTunado', wikiUrl: '', imgRbTunado: ['./assets/img/aliens/ben-reboot/']},  
 ]
 
