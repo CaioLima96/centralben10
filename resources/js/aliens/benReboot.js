@@ -2,7 +2,7 @@
 
 const arrBenRebootAliens = [
     
-    {nomePtbr: 'Quatro Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Four_Arms_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/4-bracos-(reboot)-1.png']},
+    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Four_Arms_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/4-bracos-(reboot)-1.png']},
 
     {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbJetray', wikiUrl: 'https://ben10.fandom.com/wiki/Jetray_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/arraia-jato-(reboot)-1.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-2.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-3.jpg']},
 
@@ -18,7 +18,34 @@ const arrBenRebootAliens = [
 
     {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenRbHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Humungousaur_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/enormossauro-(reboot)-1.png', './assets/img/aliens/ben-reboot/enormossauro-(reboot)-2.png', './assets/img/aliens/ben-reboot/enormossauro-(reboot)-3.png', './assets/img/aliens/ben-reboot/enormossauro-(reboot)-4.png']},
 
+    {nomePtbr: 'Enxurrada', nomeIngles: "Overflow", seasonName: 'primeBenRbOverFlow', wikiUrl: 'https://ben10.fandom.com/wiki/Overflow', imgRb: ['./assets/img/aliens/ben-reboot/enxurrada-(reboot)-1.png', './assets/img/aliens/ben-reboot/enxurrada-(reboot)-2.png', './assets/img/aliens/ben-reboot/enxurrada-(reboot)-3.png', './assets/img/aliens/ben-reboot/enxurrada-(reboot)-4.png']},
+
+    {nomePtbr: 'Gax', nomeIngles: "Gax", seasonName: 'primeBenRbGax', wikiUrl: 'https://ben10.fandom.com/wiki/Gax', imgRb: ['./assets/img/aliens/ben-reboot/gax-(reboot)-1.png']},
+
+    {nomePtbr: 'Goop', nomeIngles: "Goop", seasonName: 'primeBenRbGoop', wikiUrl: 'https://ben10.fandom.com/wiki/Goop_(Reboot)/Gallery', imgRb: ['./assets/img/aliens/ben-reboot/gosma-(reboot)-1.png', './assets/img/aliens/ben-reboot/gosma-(reboot)-2.png']},
+
+    {nomePtbr: 'Insectóide', nomeIngles: "Stinkfly", seasonName: 'primeBenRbStinkFly', wikiUrl: 'https://ben10.fandom.com/wiki/Stinkfly_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/insectoide-(reboot)-1.png']},
+
+    {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenRbGreyMatter', wikiUrl: 'https://ben10.fandom.com/wiki/Grey_Matter_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-1.png', './assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-2.png', './assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-3.png', './assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-4.png']},
+
+    {nomePtbr: 'Rath', nomeIngles: "Rath", seasonName: 'primeBenRbRath', wikiUrl: 'https://ben10.fandom.com/wiki/Rath_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/rath-(reboot)-1.png', './assets/img/aliens/ben-reboot/rath-(reboot)-2.png']},
+
+    {nomePtbr: 'Tapinha', nomeIngles: "Slapback", seasonName: 'primeBenRbSlapBack', wikiUrl: 'https://ben10.fandom.com/wiki/Slapback', imgRb: ['./assets/img/aliens/ben-reboot/tapinha-(reboot)-1.png', './assets/img/aliens/ben-reboot/tapinha-(reboot)-2.png', './assets/img/aliens/ben-reboot/tapinha-(reboot)-3.png', './assets/img/aliens/ben-reboot/tapinha-(reboot)-4.png']},
+
+    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenRbUpGrade', wikiUrl: 'https://ben10.fandom.com/wiki/Upgrade_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/ultra-t-(reboot)-1.png', './assets/img/aliens/ben-reboot/ultra-t-(reboot)-2.png', './assets/img/aliens/ben-reboot/ultra-t-(reboot)-3.png']},
+
+    {nomePtbr: 'Way Big', nomeIngles: "Way Big", seasonName: 'primeBenRbWayBig', wikiUrl: 'https://ben10.fandom.com/wiki/Way_Big_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/way-big-(reboot)-1.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-2.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-3.png']},
+
+    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenRbXlr8', wikiUrl: 'https://ben10.fandom.com/wiki/XLR8_(Reboot)/Gallery', imgRb: ['./assets/img/aliens/ben-reboot/XLR8-(reboot)-1.png', './assets/img/aliens/ben-reboot/XLR8-(reboot)-2.png']},
+
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRb', wikiUrl: '', imgRb: ['./assets/img/aliens/ben-reboot/']},
+]
+
+const arrBenRebootOmnitunadoAliens = [
+
+    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbTunadoFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Enhanced_Four_Arms', imgRbTunado: ['./assets/img/aliens/ben-reboot/4-bracos-omnitunado-(reboot)-1.png', './assets/img/aliens/ben-reboot/4-bracos-omnitunado-(reboot)-2.png', './assets/img/aliens/ben-reboot/4-bracos-omnitunado-(reboot)-3.png']},
+
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbTunado', wikiUrl: '', imgRbTunado: ['./assets/img/aliens/ben-reboot/']},  
 ]
 
 function rebootTab() {
@@ -60,6 +87,31 @@ function rebootTab() {
         return rbAliens
     }
 
+    let benRebootTunadoAliens = () => {
+
+        for(let i = 0; i < arrBenRebootOmnitunadoAliens.length; i++){
+           
+            var rbTunadoAliens = document.getElementById("rb-tunado-cards").innerHTML += `
+                <li class="alien-card ${arrBenRebootOmnitunadoAliens[i].seasonName}">
+                        
+                    <div class="alien-card-img">
+                        <img src="${arrBenRebootOmnitunadoAliens[i].imgRbTunado[0]}" alt="${arrBenRebootOmnitunadoAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenRebootOmnitunadoAliens[i].seasonName}Modal">
+                    </div>
+
+                    <div class="alien-card-description">
+                        <a href="${arrBenRebootOmnitunadoAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenRebootOmnitunadoAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
+                            
+                </li>
+            `
+        }
+
+        console.log('reboot tunado testando')
+        return rbTunadoAliens
+    }
+
     let tabContentRb = document.getElementById('nav-tab-content-rb').innerHTML = `
 
         <div id="sinopse">
@@ -91,7 +143,7 @@ function rebootTab() {
         </div>
 
         <ul id="rb-tunado-cards" class="aliens-cards">
-            
+            ${benRebootTunadoAliens()}
         </ul>
         
         <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
