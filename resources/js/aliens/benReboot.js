@@ -64,6 +64,31 @@ const arrBenRebootOmnitunadoAliens = [
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbTunado', wikiUrl: '', imgRbTunado: ['./assets/img/aliens/ben-reboot/']},  
 ]
 
+const arrBenRebootOmnikixAliens = [
+
+    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbKixFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Four_Arms', imgRbKix: ['./assets/img/aliens/ben-reboot/4-bracos-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/4-bracos-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/4-bracos-omnikix-(reboot)-3.png']},
+
+    {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbKixJetRay', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Jetray', imgRbKix: ['./assets/img/aliens/ben-reboot/arraia-jato-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/arraia-jato-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/arraia-jato-omnikix-(reboot)-3.png', ]},
+
+    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenRbKixCannonBolt', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Cannonbolt', imgRbKix: ['./assets/img/aliens/ben-reboot/bala-de-canhao-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/bala-de-canhao-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/bala-de-canhao-omnikix-(reboot)-3.png', './assets/img/aliens/ben-reboot/bala-de-canhao-omnikix-(reboot)-4.png',]},
+
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbKixHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Heatblast', imgRbKix: ['./assets/img/aliens/ben-reboot/chama-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-omnikix-(reboot)-2.png']},
+
+    {nomePtbr: 'Choque Rochoso', nomeIngles: "Shock Rock", seasonName: 'primeBenRbKixShockRock', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Shock_Rock', imgRbKix: ['./assets/img/aliens/ben-reboot/choque-rochoso-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/choque-rochoso-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/choque-rochoso-omnikix-(reboot)-3.png', './assets/img/aliens/ben-reboot/choque-rochoso-omnikix-(reboot)-4.png']},
+
+    {nomePtbr: 'Diamante', nomeIngles: "Diamondhead", seasonName: 'primeBenRbKixDiamondHead', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Diamondhead', imgRbKix: ['./assets/img/aliens/ben-reboot/diamante-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/diamante-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/diamante-omnikix-(reboot)-3.png']},
+
+    {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenRbKixHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Humungousaur', imgRbKix: ['./assets/img/aliens/ben-reboot/enormossauro-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/enormossauro-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/enormossauro-omnikix-(reboot)-3.png']},
+
+    {nomePtbr: 'Rath', nomeIngles: "Rath", seasonName: 'primeBenRbKixRath', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Rath', imgRbKix: ['./assets/img/aliens/ben-reboot/rath-omnikix(reboot)-1.png', './assets/img/aliens/ben-reboot/rath-omnikix(reboot)-2.png', './assets/img/aliens/ben-reboot/rath-omnikix(reboot)-3.png']},
+
+    {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbKix', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_Slapback', imgRbKix: ['./assets/img/aliens/ben-reboot/tapinha-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/tapinha-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/tapinha-omnikix-(reboot)-3.png', './assets/img/aliens/ben-reboot/tapinha-omnikix-(reboot)-4.png']},
+
+    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenRbKixXlr8', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Kix_XLR8', imgRbKix: ['./assets/img/aliens/ben-reboot/xlr8-omnikix-(reboot)-1.png', './assets/img/aliens/ben-reboot/xlr8-omnikix-(reboot)-2.png', './assets/img/aliens/ben-reboot/xlr8-omnikix-(reboot)-3.png', './assets/img/aliens/ben-reboot/xlr8-omnikix-(reboot)-4.png']},
+
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbKix', wikiUrl: '', imgRbKix: ['./assets/img/aliens/ben-reboot/']},
+]
+
 function rebootTab() {
 
     document.getElementById('rb-cards').innerHTML = ' '
@@ -128,6 +153,31 @@ function rebootTab() {
         return rbTunadoAliens
     }
 
+    let benRebootKixAliens = () => {
+
+        for(let i = 0; i < arrBenRebootOmnikixAliens.length; i++){
+           
+            var rbKixAliens = document.getElementById("rb-kix-cards").innerHTML += `
+                <li class="alien-card ${arrBenRebootOmnikixAliens[i].seasonName}">
+                        
+                    <div class="alien-card-img">
+                        <img src="${arrBenRebootOmnikixAliens[i].imgRbKix[0]}" alt="${arrBenRebootOmnikixAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenRebootOmnikixAliens[i].seasonName}Modal">
+                    </div>
+
+                    <div class="alien-card-description">
+                        <a href="${arrBenRebootOmnikixAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenRebootOmnikixAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
+                            
+                </li>
+            `
+        }
+
+        console.log('reboot kix testando')
+        return rbKixAliens
+    }
+
     let tabContentRb = document.getElementById('nav-tab-content-rb').innerHTML = `
 
         <div id="sinopse">
@@ -168,7 +218,7 @@ function rebootTab() {
         </div>
 
         <ul id="rb-kix-cards" class="aliens-cards">
-            
+            ${benRebootKixAliens()}
         </ul>
 
         <div class="alienDivisor" style="max-width: 1140px; width: 100%;">
