@@ -89,6 +89,19 @@ const arrBenRebootOmnikixAliens = [
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbKix', wikiUrl: '', imgRbKix: ['./assets/img/aliens/ben-reboot/']},
 ]
 
+const arrBenRebootOmninautaAliens = [
+
+    {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbNautaJetRay', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Jetray', imgRbNauta: ['./assets/img/aliens/ben-reboot/arraia-jato-omninauta-(reboot)-1.png']},
+
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbNautaHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Heatblast', imgRbNauta: ['./assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-2.png',  './assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-3.png']},
+
+    {nomePtbr: 'Choque Rochoso', nomeIngles: "Shock Rock", seasonName: 'primeBenRbNautaShockRock', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Shock_Rock', imgRbNauta: ['./assets/img/aliens/ben-reboot/choque-rochoso-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/choque-rochoso-omninauta-(reboot)-2.png', './assets/img/aliens/ben-reboot/choque-rochoso-omninauta-(reboot)-3.png']},
+
+    {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenRbNautaHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Humungousaur', imgRbNauta: ['./assets/img/aliens/ben-reboot/enormossauro-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/enormossauro-omninauta-(reboot)-2.png']},
+
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbNauta', wikiUrl: '', imgRbNauta: ['./assets/img/aliens/ben-reboot/']},
+]
+
 function rebootTab() {
 
     document.getElementById('rb-cards').innerHTML = ' '
@@ -152,7 +165,7 @@ function rebootTab() {
         console.log('reboot tunado testando')
         return rbTunadoAliens
     }
-
+    
     let benRebootKixAliens = () => {
 
         for(let i = 0; i < arrBenRebootOmnikixAliens.length; i++){
@@ -175,6 +188,31 @@ function rebootTab() {
         }
 
         console.log('reboot kix testando')
+        return rbKixAliens
+    }
+
+    let benRebootNautaAliens = () => {
+
+        for(let i = 0; i < arrBenRebootOmninautaAliens.length; i++){
+           
+            var rbKixAliens = document.getElementById("rb-nauta-cards").innerHTML += `
+                <li class="alien-card ${arrBenRebootOmninautaAliens[i].seasonName}">
+                        
+                    <div class="alien-card-img">
+                        <img src="${arrBenRebootOmninautaAliens[i].imgRbNauta[0]}" alt="${arrBenRebootOmninautaAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenRebootOmninautaAliens[i].seasonName}Modal">
+                    </div>
+
+                    <div class="alien-card-description">
+                        <a href="${arrBenRebootOmninautaAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenRebootOmninautaAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
+                            
+                </li>
+            `
+        }
+
+        console.log('reboot nauta testando')
         return rbKixAliens
     }
 
@@ -227,7 +265,7 @@ function rebootTab() {
         </div>
 
         <ul id="rb-nauta-cards" class="aliens-cards">
-            
+            ${benRebootNautaAliens()}
         </ul>
 
     `
