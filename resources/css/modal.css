@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */

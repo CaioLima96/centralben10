@@ -24,7 +24,7 @@ const arrBenPrimeClassicAliens = [
 
     {nomePtbr: 'Frankenstrike', nomeIngles: "Frankenstrike", seasonName: 'primeBenOsFrankenstrike', wikiUrl: 'https://ben10.fandom.com/wiki/FrankenStrike', imgOs: ['./assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-1.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-2.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-3.jpg']},
 
-    {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOs', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOs: ['./assets/img/aliens/ben-prime/classico/glutao-P-(classico)-1.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-2.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-3.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-4.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-5.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-6.png']},
+    {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOsUpChuckP', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOs: ['./assets/img/aliens/ben-prime/classico/glutao-P-(classico)-1.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-2.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-3.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-4.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-5.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-6.png']},
 
     {nomePtbr: 'Insectóide', nomeIngles: "Stinkfly", seasonName: 'primeBenOsStinkFly', wikiUrl: 'https://ben10.fandom.com/wiki/Stinkfly_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/insectoide-(classico)-1.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-2.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-3.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-4.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-5.png']},
 
@@ -59,10 +59,10 @@ function classicTab() {
         for(let i = 0; i < arrBenPrimeClassicAliens.length; i++){
            
             var classicAliens = document.getElementById("os-cards").innerHTML += `
-                <li class="alien-card ${arrBenPrimeClassicAliens[i].seasonName}">
+                <li class="alien-card ${arrBenPrimeClassicAliens[i].seasonName}" >
                         
-                    <div class="alien-card-img">
-                        <img src="${arrBenPrimeClassicAliens[i].imgOs[0]}" alt="${arrBenPrimeClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeClassicAliens[i].seasonName}Modal">
+                    <div class="alien-card-img" onclick="btnclick()">
+                        <img src="${arrBenPrimeClassicAliens[i].imgOs[0]}" alt="${arrBenPrimeClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeClassicAliens[i].seasonName}Modal"  data-season="${arrBenPrimeClassicAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
@@ -82,7 +82,7 @@ function classicTab() {
     let tabContentOs = document.getElementById('nav-tab-content-os').innerHTML = `
 
         <div id="sinopse">
-        <button id="myBtn" onclick="btnclick()">Open Modal</button>
+
             <h1 >SINOPSE</h1>
             <p> 
                 Aos 10 anos de idade, Benjamin Kirby Tennyson descobre um dispositivo alienígena na floresta chamado de Omnitrix, que lhe permite se transformar em 10 diferentes espécies alienígenas. Ao longo de suas férias de verão, viajando o país num trailer com seu avô Max e com a sua prima Gwen, Ben luta contra o crime e alienígenas do mal com seus novos poderes, adquirindo a capacidade de se transformar em mais nove novos alienígenas ao longo do caminho.
