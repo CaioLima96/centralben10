@@ -30,26 +30,58 @@ window.onclick = function (event) {
 
 
 
+
+
 document.getElementById('nav-tab-content-os').addEventListener('click', (event) => {
 	
+	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
 	
-	let pegaModal = event.target.getAttribute('data-season')
-	console.log(event)
-	console.log(pegaModal)
-	// let valor = event.dataset.season
+	let pegaSeasonName = event.target.getAttribute('data-season')
 
-	//console.log(arrBenPrimeClassicAliens.seasonName.indexOf(pegaModal))
-
-	function abc(value) {
-		if(value.seasonName === pegaModal){
+	function alienFilter(value) {
+		if(value.seasonName === pegaSeasonName){
 			console.log(value)
 			return value
 		}
 	}
 
-	let teste1 = arrBenPrimeClassicAliens.filter(abc)
-	teste1.forEach((alien) => {
-		console.log(alien)
+	let teste1 = arrBenPrimeClassicAliens.filter(alienFilter)
+
+	teste1.forEach((obj) => {
+		console.log(obj)
+
+		let modalContentList = () => {
+
+			for(let i = 0; i < obj.imgOs.length; i++) {
+
+				var modalList = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card">
+						<div>
+							<img src="${obj.imgOs[i]}" alt="${obj.seasonName}">
+						</div>
+					</li>
+
+				`
+			} 
+			// console.log(modalList)
+			return modalList
+		}
+
+		let modal = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>${obj.nomePtbr}</h2>
+            </div>
+
+			<ul class="modal-card-list">
+				${modalContentList()}
+			</ul>
+		
+		`
+
+		return modal
 	})
 
 }) 
