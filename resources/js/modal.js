@@ -12,9 +12,9 @@ var span = document.getElementsByClassName("close")[0];
 //   modal.style.display = "block";
 // }
 
-// function btnclick() {
-// 	modal.style.display = "block";
-// }
+function btnclick() {
+	modal.style.display = "block";
+}
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
@@ -30,11 +30,13 @@ window.onclick = function (event) {
 
 
 
+// =========================================
 
 
+
+//Ben 10 Classic
 document.getElementById('nav-tab-content-os').addEventListener('click', (event) => {
 
-	modal.style.display = "block";
 	
 	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
 	
@@ -48,16 +50,16 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 		}
 	}
 
-	let teste1 = arrBenPrimeClassicAliens.filter(alienFilter)
+	let benPrimeOsFilter = arrBenPrimeClassicAliens.filter(alienFilter)
 
-	teste1.forEach((alien) => {
-		console.log(alien)
+	benPrimeOsFilter.forEach((alien) => {
+		console.log(alien, 'os')
 
-		let modalContentListItens = () => {
+		let modalContentListBenPrimeOs = () => {
 
 			for(let i = 0; i < alien.imgOs.length; i++) {
 
-				var modalList = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBenPrimeOs = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -68,10 +70,10 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 				`
 			}
 
-			return modalList
+			return modalListBenPrimeOs
 		}
 
-		let modal = document.getElementsByClassName('modal-body')[0].innerHTML = `
+		let modalBenPrimeOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
                 <span class="close">&times;</span>
@@ -79,7 +81,7 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
             </div>
 
 			<ul class="modal-card-list">
-				${modalContentListItens()}
+				${modalContentListBenPrimeOs()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -89,15 +91,14 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 			</div>
 		
 		`
-
-		return modal
+		return modalBenPrimeOs
 	})
 
 }) 
 
-document.getElementById('nav-tab-content-af').addEventListener('click', (event) => {
 
-	modal.style.display = "block";
+//Ben 10 Alien Force
+document.getElementById('nav-tab-content-af').addEventListener('click', (event) => {
 	
 	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
 	
@@ -106,58 +107,148 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 
 	let key = 0
 
-	function alienFilter(value) {
+	// let arr = () => {
+	// 	for (let i = 0; i < arrBenPrimeAfAliens.length; i++ ) {
+	// 		var arrValue =  arrBenPrimeAfAliens[i].seasonName
+	// 	}
+	// 	console.log(arrValue)
+	// 	return arrValue
+	// }
+
+	function arrAfFilter(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	let teste2 = arrBenPrimeAfAliens.filter(alienFilter)
-
-	teste2.forEach((alien) => {
-		console.log(alien)
-
-		let modalContentListItens = () => {
-
-			for(let i = 0; i < alien.imgAf.length; i++) {
-
-				var modalList = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
-
-					<li class="modal-card" id="${alien.seasonName}${key += 1}">
-						
-						<img src="${alien.imgAf[i]}" alt="${alien.seasonName}">
-						
-					</li>
-
-				`
-			}
-
-			return modalList
+	function arrAfOsFilter(value) {
+		if(value.seasonName === pegaSeasonName){
+			return value
 		}
+	}
+	
+	let afFilter = arrBenPrimeAfAliens.filter(arrAfFilter)
+	console.log(afFilter, 'afFILTER')
+	let afOsFilter = arrBenPrimeAfClassicAliens.filter(arrAfOsFilter)
+	console.log(afOsFilter, 'afOSFILTER')
 
-		let modal = document.getElementsByClassName('modal-body')[0].innerHTML = `
+	
+	if(afFilter) {
 
-			<div class="modal-header">
-                <span class="close">&times;</span>
-                <h2>${alien.nomePtbr}</h2>
-            </div>
+		// function alienAfFilter(value) {
+		// 	if(value.seasonName === pegaSeasonName){
+		// 		return value
+		// 	}
+		// }
+	
+		// let benPrimeAfFilter = arrBenPrimeAfAliens.filter(alienAfFilter)
+	
+		afFilter.forEach((alien) => {
+			console.log(alien, 'af')
+	
+			let modalContentListBenPrimeAf = () => {
+	
+				for(let i = 0; i < alien.imgAf.length; i++) {
+	
+					var modalListBenPrimeAf = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+	
+						<li class="modal-card" id="${alien.seasonName}${key += 1}">
+							
+							<img src="${alien.imgAf[i]}" alt="${alien.seasonName}">
+							
+						</li>
+	
+					`
+				}
+	
+				return modalListBenPrimeAf
+			}
+	
+			let modalBenPrimeAf = document.getElementsByClassName('modal-body')[0].innerHTML = `
+	
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>${alien.nomePtbr}</h2>
+				</div>
+	
+				<ul class="modal-card-list">
+					${modalContentListBenPrimeAf()}
+				</ul>
+	
+				<div class="modal-alt-forms">
+	
+					<div></div>                    
+	
+				</div>
+			
+			`
+	
+			return modalBenPrimeAf
+		})
 
-			<ul class="modal-card-list">
-				${modalContentListItens()}
-			</ul>
+	} else if(afOsFilter) {
 
-			<div class="modal-alt-forms">
+		// function alienAfOsFilter(value) {
+		// 	if(value.seasonName === pegaSeasonName){
+		// 		return value
+		// 	}
+		// }
+	
+		// let benPrimeAfOsFilter = arrBenPrimeAfClassicAliens.filter(alienAfOsFilter)
+		// console.log(benPrimeAfOsFilter, 'teste')
+	
+		afOsFilter.forEach((alien) => {
+			console.log(alien, 'af os')
+	
+			let modalContentListBenPrimeAfOs = () => {
+	
+				for(let i = 0; i < alien.imgAfClassic.length; i++) {
+	
+					var modalListBenPrimeAfOs = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+	
+						<li class="modal-card" id="${alien.seasonName}${key += 1}">
+							
+							<img src="${alien.imgAfClassic}" alt="${alien.seasonName}">
+							
+						</li>
+	
+					`
+				}
+	
+				return modalListBenPrimeAfOs
+			}
+	
+			let modalBenPrimeAfOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
+	
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>${alien.nomePtbr}</h2>
+				</div>
+	
+				<ul class="modal-card-list">
+					${modalContentListBenPrimeAfOs()}
+				</ul>
+	
+				<div class="modal-alt-forms">
+	
+					<div></div>                    
+	
+				</div>
+			
+			`
+	
+			return modalBenPrimeAfOs
+		})
 
-				<div></div>                    
+	}
+	else {
+		console.log('nao foi')
+	}
 
-			</div>
-		
-		`
+})
 
-		return modal
-	})
 
-}) 
+
 
 // function btnclick(obj) {
 // 	modal.style.display = "block";

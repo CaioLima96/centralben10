@@ -4,7 +4,7 @@ const arrBenPrimeClassicAliens = [
 
     {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenOsFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Four_Arms_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/4-bracos-(classico)-1.png', './assets/img/aliens/ben-prime/classico/4-bracos-(classico)-2.png', './assets/img/aliens/ben-prime/classico/4-bracos-(classico)-3.png', './assets/img/aliens/ben-prime/classico/4-bracos-(classico)-4.png']},
 
-    {nomePtbr: 'Aquático', nomeIngles: "Ripjaws", seasonName: 'primeBenOsRipjaws', wikiUrl: 'https://ben10.fandom.com/wiki/Ripjaws_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/aquatico-(classico)-1.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-2.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-3.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-4.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-5.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-6.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-7.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-8.png']},
+    {nomePtbr: 'Aquático', nomeIngles: "Ripjaws", seasonName: 'primeBenOsRipjaws', wikiUrl: 'https://ben10.fandom.com/wiki/Ripjaws_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/aquatico-(classico)-1.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-2.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-3.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-4.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-5.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-6.png', './assets/img/aliens/ben-prime/classico/aquatico-(classico)-7.png']},
 
     {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenOsCannonBolt', wikiUrl: 'https://ben10.fandom.com/wiki/Cannonbolt_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-1.png', './assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-2.png', './assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-3.png', './assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-4.png', './assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-5.png', './assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-6.png', './assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-7.jpg', './assets/img/aliens/ben-prime/classico/bala-de-canhao-(classico)-8.jpg']},
 
@@ -62,11 +62,11 @@ function classicTab() {
                 <li class="alien-card ${arrBenPrimeClassicAliens[i].seasonName}" >
                         
                     <div class="alien-card-img" onclick="btnclick()">
-                        <img src="${arrBenPrimeClassicAliens[i].imgOs[0]}" alt="${arrBenPrimeClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeClassicAliens[i].seasonName}Modal"  data-season="${arrBenPrimeClassicAliens[i].seasonName}">
+                        <img src="${arrBenPrimeClassicAliens[i].imgOs[0]}" alt="${arrBenPrimeClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeClassicAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
-                        <a href="https://ben10.fandom.com/wiki/${arrBenPrimeClassicAliens[i].wikiUrl}" target="_blank">
+                        <a href="${arrBenPrimeClassicAliens[i].wikiUrl}" target="_blank">
                             <p>${arrBenPrimeClassicAliens[i].nomePtbr}</p>
                         </a>
                     </div>
@@ -177,8 +177,8 @@ function alienForceAlienTab() {
             var afAliens = document.getElementById("af-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeAfAliens[i].seasonName}">
                         
-                        <div class="alien-card-img">
-                            <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfAliens[i].seasonName}Modal" data-season="${arrBenPrimeAfAliens[i].seasonName}">
+                        <div class="alien-card-img" onclick="btnclick()">
+                            <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-season="${arrBenPrimeAfAliens[i].seasonName}">
                         </div>
 
                         <div class="alien-card-description">
@@ -202,8 +202,8 @@ function alienForceAlienTab() {
             var afClassicAliens = document.getElementById("af-os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeAfClassicAliens[i].seasonName}">
                         
-                    <div class="alien-card-img">
-                        <img src="${arrBenPrimeAfClassicAliens[i].imgAfClassic[0]}" alt="${arrBenPrimeAfClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfClassicAliens[i].seasonName}Modal">
+                    <div class="alien-card-img" onclick="btnclick()">
+                        <img src="${arrBenPrimeAfClassicAliens[i].imgAfClassic[0]}" alt="${arrBenPrimeAfClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeAfClassicAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
