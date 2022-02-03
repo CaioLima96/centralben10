@@ -12,9 +12,9 @@ var span = document.getElementsByClassName("close")[0];
 //   modal.style.display = "block";
 // }
 
-function btnclick() {
-	modal.style.display = "block";
-}
+// function btnclick() {
+// 	modal.style.display = "block";
+// }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
@@ -33,38 +33,41 @@ window.onclick = function (event) {
 
 
 document.getElementById('nav-tab-content-os').addEventListener('click', (event) => {
+
+	modal.style.display = "block";
 	
 	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
 	
 	let pegaSeasonName = event.target.getAttribute('data-season')
 
+	let key = 0
+
 	function alienFilter(value) {
 		if(value.seasonName === pegaSeasonName){
-			console.log(value)
 			return value
 		}
 	}
 
 	let teste1 = arrBenPrimeClassicAliens.filter(alienFilter)
 
-	teste1.forEach((obj) => {
-		console.log(obj)
+	teste1.forEach((alien) => {
+		console.log(alien)
 
-		let modalContentList = () => {
+		let modalContentListItens = () => {
 
-			for(let i = 0; i < obj.imgOs.length; i++) {
+			for(let i = 0; i < alien.imgOs.length; i++) {
 
 				var modalList = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
-					<li class="modal-card">
-						<div>
-							<img src="${obj.imgOs[i]}" alt="${obj.seasonName}">
-						</div>
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgOs[i]}" alt="${alien.seasonName}">
+						
 					</li>
 
 				`
-			} 
-			// console.log(modalList)
+			}
+
 			return modalList
 		}
 
@@ -72,12 +75,82 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 
 			<div class="modal-header">
                 <span class="close">&times;</span>
-                <h2>${obj.nomePtbr}</h2>
+                <h2>${alien.nomePtbr}</h2>
             </div>
 
 			<ul class="modal-card-list">
-				${modalContentList()}
+				${modalContentListItens()}
 			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
+		
+		`
+
+		return modal
+	})
+
+}) 
+
+document.getElementById('nav-tab-content-af').addEventListener('click', (event) => {
+
+	modal.style.display = "block";
+	
+	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
+	
+	let pegaSeasonName = event.target.getAttribute('data-season')
+	console.log(pegaSeasonName)
+
+	let key = 0
+
+	function alienFilter(value) {
+		if(value.seasonName === pegaSeasonName){
+			return value
+		}
+	}
+
+	let teste2 = arrBenPrimeAfAliens.filter(alienFilter)
+
+	teste2.forEach((alien) => {
+		console.log(alien)
+
+		let modalContentListItens = () => {
+
+			for(let i = 0; i < alien.imgAf.length; i++) {
+
+				var modalList = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgAf[i]}" alt="${alien.seasonName}">
+						
+					</li>
+
+				`
+			}
+
+			return modalList
+		}
+
+		let modal = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>${alien.nomePtbr}</h2>
+            </div>
+
+			<ul class="modal-card-list">
+				${modalContentListItens()}
+			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
 		
 		`
 

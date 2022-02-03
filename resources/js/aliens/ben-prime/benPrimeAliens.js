@@ -24,7 +24,7 @@ const arrBenPrimeClassicAliens = [
 
     {nomePtbr: 'Frankenstrike', nomeIngles: "Frankenstrike", seasonName: 'primeBenOsFrankenstrike', wikiUrl: 'https://ben10.fandom.com/wiki/FrankenStrike', imgOs: ['./assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-1.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-2.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-3.jpg']},
 
-    {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOsUpChuckP', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOs: ['./assets/img/aliens/ben-prime/classico/glutao-P-(classico)-1.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-2.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-3.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-4.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-5.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-6.png']},
+    {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOsUpChuckP', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOs: ['./assets/img/aliens/ben-prime/classico/glutao-P-(classico)-1.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-2.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-3.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-4.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-5.png']},
 
     {nomePtbr: 'Insectóide', nomeIngles: "Stinkfly", seasonName: 'primeBenOsStinkFly', wikiUrl: 'https://ben10.fandom.com/wiki/Stinkfly_(Classic)', imgOs: ['./assets/img/aliens/ben-prime/classico/insectoide-(classico)-1.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-2.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-3.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-4.png', './assets/img/aliens/ben-prime/classico/insectoide-(classico)-5.png']},
 
@@ -178,7 +178,7 @@ function alienForceAlienTab() {
                 <li class="alien-card ${arrBenPrimeAfAliens[i].seasonName}">
                         
                         <div class="alien-card-img">
-                            <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfAliens[i].seasonName}Modal">
+                            <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeAfAliens[i].seasonName}Modal" data-season="${arrBenPrimeAfAliens[i].seasonName}">
                         </div>
 
                         <div class="alien-card-description">
