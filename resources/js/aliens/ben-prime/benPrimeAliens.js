@@ -265,7 +265,7 @@ const arrBenPrimeUaAliens = [
 
     {nomePtbr: 'Acelerado', nomeIngles: "Fasttrack", seasonName: 'primeBenUaFasttrack', wikiUrl: 'Fasttrack', imgUa: ['./assets/img/aliens/ben-prime/ua/acelerado-(ua)-1.png', './assets/img/aliens/ben-prime/ua/acelerado-(ua)-2.png']},
 
-    {nomePtbr: 'Ameaça Aquática', nomeIngles: "Water Hazard", seasonName: 'primeBenUaWaterHazard', wikiUrl: 'Water_Hazard', imgUa: ['./assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-1.png', './assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-2.png', './assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-3.png']},
+    {nomePtbr: 'Ameaça Aquática', nomeIngles: "Water Hazard", seasonName: 'primeBenUaWaterHazard', wikiUrl: 'Water_Hazard', imgUa: ['./assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-1.png', './assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-2.png', './assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-3.jpg']},
 
     {nomePtbr: 'Anfíbio', nomeIngles: "Ampfibian", seasonName: 'primeBenUaAmpfibian', wikiUrl: 'Ampfibian', imgUa: ['./assets/img/aliens/ben-prime/ua/anfibio-(ua)-1.png', './assets/img/aliens/ben-prime/ua/anfibio-(ua)-2.png', './assets/img/aliens/ben-prime/ua/anfibio-(ua)-3.jpg']},
 
@@ -275,7 +275,7 @@ const arrBenPrimeUaAliens = [
 
     {nomePtbr: 'ChamAlien', nomeIngles: "ChamAlien", seasonName: 'primeBenUaChamalien', wikiUrl: 'Chamalien', imgUa: ['./assets/img/aliens/ben-prime/ua/chamalien-(ua)-1.png', './assets/img/aliens/ben-prime/ua/chamalien-(ua)-2.png']},
 
-    {nomePtbr: 'Contratempo', nomeIngles: "Clockwork", seasonName: 'primeBenUaClockwork', wikiUrl: 'Clockwork', imgUa: ['./assets/img/aliens/ben-prime/ua/contra-tempo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/contra-tempo-(ua)-2.png']},
+    {nomePtbr: 'Contratempo', nomeIngles: "Clockwork", seasonName: 'primeBenUaClockwork', wikiUrl: 'Clockwork', imgUa: ['./assets/img/aliens/ben-prime/ua/contra-tempo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/contra-tempo-(ua)-2.jpg']},
 
     {nomePtbr: 'Diabrete', nomeIngles: "Juryrigg", seasonName: 'primeBenUaJuryrigg', wikiUrl: 'Juryrigg', imgUa: ['./assets/img/aliens/ben-prime/ua/diabrete-(ua)-1.png', './assets/img/aliens/ben-prime/ua/diabrete-(ua)-2.png']},
 
@@ -345,15 +345,15 @@ function ultimateAlienTab() {
             var uaAliens = document.getElementById("ua-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaAliens[i].seasonName}">
                         
-                        <div class="alien-card-img">
-                            <img src="${arrBenPrimeUaAliens[i].imgUa[0]}" alt="${arrBenPrimeUaAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeUaAliens[i].seasonName}Modal">
-                        </div>
+                    <div class="alien-card-img" onclick="btnclick()">
+                        <img src="${arrBenPrimeUaAliens[i].imgUa[0]}" alt="${arrBenPrimeUaAliens[i].nomePtbr}" data-season="${arrBenPrimeUaAliens[i].seasonName}">
+                    </div>
 
-                        <div class="alien-card-description">
-                            <a href="https://ben10.fandom.com/wiki/${arrBenPrimeUaAliens[i].wikiUrl}" target="_blank">
-                                <p>${arrBenPrimeUaAliens[i].nomePtbr}</p>
-                            </a>
-                        </div>
+                    <div class="alien-card-description">
+                        <a href="https://ben10.fandom.com/wiki/${arrBenPrimeUaAliens[i].wikiUrl}" target="_blank">
+                            <p>${arrBenPrimeUaAliens[i].nomePtbr}</p>
+                        </a>
+                    </div>
                             
                 </li>
             `
@@ -370,8 +370,8 @@ function ultimateAlienTab() {
             var uaUltimateAliens = document.getElementById("ua-ultimate-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaUltimateAliens[i].seasonName}">
                         
-                    <div class="alien-card-img">
-                        <img src="${arrBenPrimeUaUltimateAliens[i].imgUa[0]}" alt="${arrBenPrimeUaUltimateAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeUaUltimateAliens[i].seasonName}Modal">
+                    <div class="alien-card-img" onclick="btnclick()">
+                        <img src="${arrBenPrimeUaUltimateAliens[i].imgUa[0]}" alt="${arrBenPrimeUaUltimateAliens[i].nomePtbr}" data-season="${arrBenPrimeUaAliens[i].seasonName}Modal">
                     </div>
 
                     <div class="alien-card-description">
@@ -395,8 +395,8 @@ function ultimateAlienTab() {
             var uaClassicAliens = document.getElementById("ua-os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaClassicAliens[i].seasonName}">
                         
-                    <div class="alien-card-img">
-                        <img src="${arrBenPrimeUaClassicAliens[i].imgUaClassic[0]}" alt="${arrBenPrimeUaClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeUaClassicAliens[i].seasonName}Modal">
+                    <div class="alien-card-img" onclick="btnclick()">
+                        <img src="${arrBenPrimeUaClassicAliens[i].imgUaClassic[0]}" alt="${arrBenPrimeUaClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeUaAliens[i].seasonName}Modal">
                     </div>
 
                     <div class="alien-card-description">

@@ -80,7 +80,7 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
                 <h2>${alien.nomePtbr}</h2>
             </div>
 
-			<ul class="modal-card-list">
+			<ul id="${alien.seasonName}Modal" class="modal-card-list">
 				${modalContentListBenPrimeOs()}
 			</ul>
 
@@ -106,14 +106,6 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 	console.log(pegaSeasonName)
 
 	let key = 0
-
-	// let arr = () => {
-	// 	for (let i = 0; i < arrBenPrimeAfAliens.length; i++ ) {
-	// 		var arrValue =  arrBenPrimeAfAliens[i].seasonName
-	// 	}
-	// 	console.log(arrValue)
-	// 	return arrValue
-	// }
 
 	function arrAfFilter(value) {
 		if(value.seasonName === pegaSeasonName){
@@ -229,6 +221,77 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 })
 
 
+//Ben 10 Ultimate Alien
+document.getElementById('nav-tab-content-ua').addEventListener('click', (event) => {
+
+	
+	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
+	
+	let pegaSeasonName = event.target.getAttribute('data-season')
+	console.log(pegaSeasonName)
+
+	let key = 0
+
+	function alienUaFilter(value) {
+		if(value.seasonName === pegaSeasonName){
+			return value
+		}
+	}
+
+	let benPrimeUaFilter = arrBenPrimeUaAliens.filter(alienUaFilter)
+	console.log(benPrimeUaFilter)
+
+	if(benPrimeUaFilter) {
+
+		benPrimeUaFilter.forEach((alien) => {
+			console.log(alien, 'ua')
+	
+			let modalContentListBenPrimeUa = () => {
+	
+				for(let i = 0; i < alien.imgUa.length; i++) {
+	
+					var modalListBenPrimeUa = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+	
+						<li class="modal-card" id="${alien.seasonName}${key += 1}">
+							
+							<img src="${alien.imgUa[i]}" alt="${alien.seasonName}">
+							
+						</li>
+	
+					`
+				}
+	
+				return modalListBenPrimeUa
+			}
+	
+			let modalBenPrimeUa = document.getElementsByClassName('modal-body')[0].innerHTML = `
+	
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>${alien.nomePtbr}</h2>
+				</div>
+	
+				<ul id="${alien.seasonName}Modal" class="modal-card-list">
+					${modalContentListBenPrimeUa()}
+				</ul>
+	
+				<div class="modal-alt-forms">
+	
+					<div></div>                    
+	
+				</div>
+			
+			`
+			return modalBenPrimeUa
+		})
+		
+	} else {
+		console.log('nao foi')
+	}
+
+	
+
+}) 
 
 
 // function btnclick(obj) {
