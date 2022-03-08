@@ -134,14 +134,6 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 
 	
 	if(afFilter) {
-
-		// function alienAfFilter(value) {
-		// 	if(value.seasonName === pegaSeasonName){
-		// 		return value
-		// 	}
-		// }
-	
-		// let benPrimeAfFilter = arrBenPrimeAfAliens.filter(alienAfFilter)
 	
 		afFilter.forEach((alien) => {
 			console.log(alien, 'af')
@@ -171,7 +163,7 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 					<h2>${alien.nomePtbr}</h2>
 				</div>
 	
-				<ul class="modal-card-list">
+				<ul id="${alien.seasonName}Modal" class="modal-card-list">
 					${modalContentListBenPrimeAf()}
 				</ul>
 	
@@ -186,20 +178,9 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 			return modalBenPrimeAf
 		})
 
-	} else if(afOsFilter) {
-
-		// function alienAfOsFilter(value) {
-		// 	if(value.seasonName === pegaSeasonName){
-		// 		return value
-		// 	}
-		// }
-	
-		// let benPrimeAfOsFilter = arrBenPrimeAfClassicAliens.filter(alienAfOsFilter)
-		// console.log(benPrimeAfOsFilter, 'teste')
-	
 		afOsFilter.forEach((alien) => {
 			console.log(alien, 'af os')
-	
+
 			let modalContentListBenPrimeAfOs = () => {
 	
 				for(let i = 0; i < alien.imgAfClassic.length; i++) {
@@ -208,7 +189,7 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 	
 						<li class="modal-card" id="${alien.seasonName}${key += 1}">
 							
-							<img src="${alien.imgAfClassic}" alt="${alien.seasonName}">
+							<img src="${alien.imgAfClassic[i]}" alt="${alien.seasonName}">
 							
 						</li>
 	
@@ -225,7 +206,7 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 					<h2>${alien.nomePtbr}</h2>
 				</div>
 	
-				<ul class="modal-card-list">
+				<ul id="${alien.seasonName}Modal" class="modal-card-list">
 					${modalContentListBenPrimeAfOs()}
 				</ul>
 	
@@ -239,8 +220,8 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 	
 			return modalBenPrimeAfOs
 		})
-
 	}
+	// } else if(afOsFilter) {
 	else {
 		console.log('nao foi')
 	}
