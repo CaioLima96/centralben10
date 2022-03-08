@@ -21,6 +21,14 @@ span.onclick = function () {
 	modal.style.display = "none";
 }
 
+// span.addEventListener('click', (event) => {
+// 	modal.style.display = "none";
+// })
+
+function closeModal () {
+	modal.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
 	if (event.target == modal) {
@@ -76,7 +84,7 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 		let modalBenPrimeOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-                <span class="close">&times;</span>
+                <span class="close" onclick="closeModal()">&times;</span>
                 <h2>${alien.nomePtbr}</h2>
             </div>
 
@@ -225,6 +233,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 
 
 	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
+	document.getElementsByClassName('modal-alt-forms')[0].innerHTML = ' '
 	
 	let pegaSeasonName = event.target.getAttribute('data-season')
 	console.log(pegaSeasonName)
@@ -371,6 +380,28 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 			return modalListBenPrimeUaOs
 		}
 
+		let modalContentListAltFormsBenPrimeUaOs = () => {
+
+			for(let i = 0; i < alien.episodes.epiImg; i++) {
+				
+				var modalListBenPrimeUsOsHU = document.getElementsByClassName('modal-alt-forms')[0].innerHTML += `
+
+					<li> 
+
+						<p>${alien.episodes.epiName}</p>
+
+						${imgHU(alien.episodes.epiImg[i])}
+					
+					</li>
+
+				`
+				var teste = alien.episodes[i].epiName
+			}
+			console.log(teste)
+
+			return modalListBenPrimeUsOsHU
+		}
+
 		let modalBenPrimeUaOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
@@ -384,10 +415,9 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 
 			<div class="modal-alt-forms">
 
-				<div>
-					<p>${alien.heroesUnited.epiName}</p>
-					<img src="${alien.heroesUnited.imgUaHeroesUnited[0]}">
-				</div>                    
+				<ul>
+					${modalContentListAltFormsBenPrimeUaOs()}
+				</ul>                    
 
 			</div>
 		
