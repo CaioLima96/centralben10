@@ -290,21 +290,21 @@ const arrBenPrimeUaAliens = [
 
 const arrBenPrimeUaUltimateAliens = [
 
-    {nomePtbr: 'Bala de Canhão Supremo', nomeIngles: "Ultimate Cannonbolt", seasonName: 'primeBenUaUltimateCannonbolt', wikiUrl: 'Ultimate_Cannonbolt', imgUa: ['./assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-4.jpg',]},
+    {nomePtbr: 'Bala de Canhão Supremo', nomeIngles: "Ultimate Cannonbolt", seasonName: 'primeBenUaUltimateCannonbolt', wikiUrl: 'Ultimate_Cannonbolt', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-4.jpg',]},
 
-    {nomePtbr: 'Besta Supremo', nomeIngles: "Ultimate Wildmutt", seasonName: 'primeBenUaUltimateWildmutt', wikiUrl: 'Ultimate_Wildmutt', imgUa: ['./assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-2.png']},
+    {nomePtbr: 'Besta Supremo', nomeIngles: "Ultimate Wildmutt", seasonName: 'primeBenUaUltimateWildmutt', wikiUrl: 'Ultimate_Wildmutt', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-2.png']},
     
-    {nomePtbr: 'Calafrio Supremo', nomeIngles: "Ultimate Big Chill", seasonName: 'primeBenUaUltimateBigChill', wikiUrl: 'Ultimate_Big_Chill', imgUa: ['./assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-3.png',]},
+    {nomePtbr: 'Calafrio Supremo', nomeIngles: "Ultimate Big Chill", seasonName: 'primeBenUaUltimateBigChill', wikiUrl: 'Ultimate_Big_Chill', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-3.png',]},
 
-    {nomePtbr: 'Eco Eco Supremo', nomeIngles: "Ultimate Echo Echo", seasonName: 'primeBenUaUltimateEchoEcho', wikiUrl: 'Ultimate_Echo_Echo', imgUa: ['./assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-3.png']},
+    {nomePtbr: 'Eco Eco Supremo', nomeIngles: "Ultimate Echo Echo", seasonName: 'primeBenUaUltimateEchoEcho', wikiUrl: 'Ultimate_Echo_Echo', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-3.png']},
 
-    {nomePtbr: 'Enormossauro Supremo', nomeIngles: "Ultimate Humungousaur", seasonName: 'primeBenUaUltimateHumungousaur', wikiUrl: 'Ultimate_Humungousaur', imgUa: ['./assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-2.png']},
+    {nomePtbr: 'Enormossauro Supremo', nomeIngles: "Ultimate Humungousaur", seasonName: 'primeBenUaUltimateHumungousaur', wikiUrl: 'Ultimate_Humungousaur', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-2.png']},
 
-    {nomePtbr: 'Fogo Fátuo Supremo', nomeIngles: "Ultimate Swampfire", seasonName: 'primeBenUaUltimateSwampFire', wikiUrl: 'Ultimate_Swampfire', imgUa: ['./assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-2.png']},
+    {nomePtbr: 'Fogo Fátuo Supremo', nomeIngles: "Ultimate Swampfire", seasonName: 'primeBenUaUltimateSwampFire', wikiUrl: 'Ultimate_Swampfire', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-2.png']},
 
-    {nomePtbr: 'Macaco Aranha Supremo', nomeIngles: "Ultimate Spidermonkey", seasonName: 'primeBenUaUltimateSpiderMonkey', wikiUrl: 'Ultimate_Spidermonkey', imgUa: ['./assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-2.png']},
+    {nomePtbr: 'Macaco Aranha Supremo', nomeIngles: "Ultimate Spidermonkey", seasonName: 'primeBenUaUltimateSpiderMonkey', wikiUrl: 'Ultimate_Spidermonkey', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-2.png']},
 
-    {nomePtbr: 'Way Big Supremo', nomeIngles: "Ultimate Way Big", seasonName: 'primeBenUaUltimateWayBig', wikiUrl: 'Ultimate_Way_Big', imgUa: ['./assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-1.png'], imgUaHeroesUnited: ['./assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-1.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-4.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-5.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-6.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-7.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-8.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-9.jpg',]}
+    {nomePtbr: 'Way Big Supremo', nomeIngles: "Ultimate Way Big", seasonName: 'primeBenUaUltimateWayBig', wikiUrl: 'Ultimate_Way_Big', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-1.png']}
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenUa', wikiUrl: '', imgUa: ['./assets/img/aliens/ben-prime/ua/']},
 ]
@@ -319,7 +319,7 @@ const arrBenPrimeUaClassicAliens = [
 
     {nomePtbr: 'Fantasmático', nomeIngles: "Ghostfreak", seasonName: 'primeBenUaGhostFreak', wikiUrl: 'Ghostfreak', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/fantasmatico-(ua)-1.png']},
 
-    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenUaUpgrade', wikiUrl: 'Upgrade_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/ultra-t-(ua)-1.png']}
+    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenUaUpgrade', wikiUrl: 'Upgrade_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/ultra-t-(ua)-1.png'], heroesUnited: { epiName: "Heroes United", imgUaHeroesUnited: ['./assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-1.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-4.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-5.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-6.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-7.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-8.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-9.jpg',]}}
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenUa', wikiUrl: '', imgUa: ['./assets/img/aliens/ben-prime/ua/']},
 ]
@@ -371,7 +371,7 @@ function ultimateAlienTab() {
                 <li class="alien-card ${arrBenPrimeUaUltimateAliens[i].seasonName}">
                         
                     <div class="alien-card-img" onclick="btnclick()">
-                        <img src="${arrBenPrimeUaUltimateAliens[i].imgUa[0]}" alt="${arrBenPrimeUaUltimateAliens[i].nomePtbr}" data-season="${arrBenPrimeUaAliens[i].seasonName}Modal">
+                        <img src="${arrBenPrimeUaUltimateAliens[i].imgUaUlti[0]}" alt="${arrBenPrimeUaUltimateAliens[i].nomePtbr}" data-season="${arrBenPrimeUaUltimateAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
@@ -396,7 +396,7 @@ function ultimateAlienTab() {
                 <li class="alien-card ${arrBenPrimeUaClassicAliens[i].seasonName}">
                         
                     <div class="alien-card-img" onclick="btnclick()">
-                        <img src="${arrBenPrimeUaClassicAliens[i].imgUaClassic[0]}" alt="${arrBenPrimeUaClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeUaAliens[i].seasonName}Modal">
+                        <img src="${arrBenPrimeUaClassicAliens[i].imgUaClassic[0]}" alt="${arrBenPrimeUaClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeUaClassicAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
