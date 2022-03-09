@@ -25,8 +25,12 @@ body {
     --blue1: #008CBA;
     --gold1: #d6d64c;
     --bronze1: #cd7f32;
+    --white1: #fefefe;
 }
 
+ul {
+    list-style: none;
+}
 
 
 /*

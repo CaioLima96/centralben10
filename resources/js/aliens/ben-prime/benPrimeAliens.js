@@ -319,9 +319,9 @@ const arrBenPrimeUaClassicAliens = [
 
     {nomePtbr: 'Fantasmático', nomeIngles: "Ghostfreak", seasonName: 'primeBenUaGhostFreak', wikiUrl: 'Ghostfreak', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/fantasmatico-(ua)-1.png']},
 
-    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenUaUpgrade', wikiUrl: 'Upgrade_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/ultra-t-(ua)-1.png'], episodes: [{ epiName: "Heroes United", epiImg: ['./assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-1.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-4.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-5.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-6.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-7.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-8.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-9.jpg',]}]}
+    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenUaUpgrade', wikiUrl: 'Upgrade_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/ultra-t-(ua)-1.png'], episodes: [{ epiName: "Ben 10/Mutante Rex: Heróis Unidos", epiImg: ['./assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-1.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-4.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-5.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-6.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-7.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-8.jpg', './assets/img/aliens/ben-prime/ua/alternative-form/ben-rex-(ua)-9.jpg',]}]}
 
-    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenUa', wikiUrl: '', imgUa: ['./assets/img/aliens/ben-prime/ua/']},
+    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenUa', wikiUrl: '', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/']},
 ]
 
 function ultimateAlienTab() {
