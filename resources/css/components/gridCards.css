@@ -5,20 +5,20 @@
     flex-wrap: wrap;
 }
 
-.grid-cards .card {
+.card {
     width: 280px;
     list-style: none;
     margin: 1%;
 }
 
-.grid-cards .card .card-img {
+.card-img {
     width: 100%;
     height: 350px;
 
     overflow: hidden;
 }
 
-.grid-cards .card .card-img img {
+.card-img img {
     object-fit: cover;
     width: 100%;
     height: 100%;
