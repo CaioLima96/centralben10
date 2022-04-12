@@ -72,8 +72,6 @@ header {
 
 /*================== FOOTER ==================*/
 
-
-
 footer {
     background-color: var(--grey1);
     text-align: center;
@@ -87,37 +85,37 @@ footer h3 {
     font-weight: 500;
 }
 
-footer #copyright {
+#copyright {
     margin: 0.75rem 0 1.875rem 0;
 }
 
-footer #copyright p {
+#copyright p {
     font-size: 0.875rem;
 }
 
-footer #copyright a, footer #credits a {
+#copyright a, #credits a {
     color: black;
     text-decoration: none;
 }
 
-footer #copyright a:hover, footer #credits a:hover {
+#copyright a:hover, #credits a:hover {
     text-decoration: underline;
     font-style: italic;
 }
 
-footer #copyright a:active, footer #credits a:active {
+#copyright a:active, #credits a:active {
     color: var(--grey1);
     background-color: black;
 } 
 
-footer #credits {
+#credits {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-footer #credits p {
+#credits p {
     font-size: 0.813rem;
     margin-right: 0.625rem;
 }
@@ -125,8 +123,6 @@ footer #credits p {
 
 
 /*================== @MEDIA ==================*/
-
-
 
 @media (max-width: 600px) {
 
