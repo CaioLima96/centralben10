@@ -625,8 +625,8 @@ function omniverseAlienTab() {
             var ovAliens = document.getElementById("ov-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeOvAliens[i].seasonName}">
 
-                    <div class="alien-card-img">
-                        <img src="${arrBenPrimeOvAliens[i].imgOv[0]}" alt="${arrBenPrimeOvAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvAliens[i].seasonName}Modal">
+                    <div class="alien-card-img" onclick="btnclick()">
+                        <img src="${arrBenPrimeOvAliens[i].imgOv[0]}" alt="${arrBenPrimeOvAliens[i].nomePtbr}" data-season="${arrBenPrimeOvAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
@@ -649,7 +649,7 @@ function omniverseAlienTab() {
             var ovClassicAliens = document.getElementById("ov-os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeOvClassicAliens[i].seasonName}">
                         
-                    <div class="alien-card-img">
+                    <div class="alien-card-img" onclick="btnclick()">
                         <img src="${arrBenPrimeOvClassicAliens[i].imgOvClassic[0]}" alt="${arrBenPrimeOvClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvClassicAliens[i].seasonName}Modal">
                     </div>
 

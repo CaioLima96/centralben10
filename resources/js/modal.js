@@ -442,7 +442,79 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 		return modalBenPrimeUaOs
 	})
 	
-}) 
+})
+
+
+//Ben 10 Omniverse
+document.getElementById('nav-tab-content-ov').addEventListener('click', (event) => {
+
+
+	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
+	document.getElementsByClassName('modal-alt-forms')[0].innerHTML = ' '
+
+	let pegaSeasonName = event.target.getAttribute('data-season')
+	console.log(pegaSeasonName)
+
+
+	//Iteração para não precisar usar ID repetido nos itens da lista de aliens
+	let key = 0
+
+
+	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
+	function alienFilterBenPrimeOv(value) {
+		if(value.seasonName === pegaSeasonName){
+			return value
+		}
+	}
+
+	//Aplica o filtro e armazena o alien retornado
+	let filteredBenPrimeOv = arrBenPrimeOvAliens.filter(alienFilterBenPrimeOv)
+	console.log(filteredBenPrimeOv, 'ov filter')
+
+
+	//Joga na tela o valor filtrado
+	filteredBenPrimeOv.forEach((alien) => {
+		console.log(alien, 'ov')
+
+		let modalContentListBenPrimeOv = () => {
+
+			for(let i = 0; i < alien.imgOv.length; i++) {
+
+				var modalListBenPrimeOv = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgOv[i]}" alt="${alien.seasonName}">
+						
+					</li>
+
+				`
+			}
+
+			return modalListBenPrimeOv
+		}
+
+		let modalBenPrimeOv = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>${alien.nomePtbr}</h2>
+			</div>
+
+			<ul id="${alien.seasonName}Modal" class="modal-card-list">
+				${modalContentListBenPrimeOv()}
+			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
+		
+		`
+		return modalBenPrimeOv
+	})
+})
 
 
 // function btnclick(obj) {
