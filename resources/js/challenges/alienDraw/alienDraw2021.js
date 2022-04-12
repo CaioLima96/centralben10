@@ -25,7 +25,7 @@ function ad2021tab() {
             <!--NAV TAB CONTENT-->
             <div id="nav-tab-content" class="nav-tab-content-2021">
 
-                
+                ${alienDraw2021JanTab()}
 
             </div>
 
