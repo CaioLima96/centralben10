@@ -471,12 +471,30 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 		}
 	}
 
+	function alienFilterBenPrimeOvAf(value) {
+		if(value.seasonName === pegaSeasonName){
+			return value
+		}
+	}
+
+	function alienFilterBenPrimeOvUa(value) {
+		if(value.seasonName === pegaSeasonName){
+			return value
+		}
+	}
+
 	//Aplica o filtro e armazena o alien retornado
 	let filteredBenPrimeOv = arrBenPrimeOvAliens.filter(alienFilterBenPrimeOv)
 	console.log(filteredBenPrimeOv, 'ov filter')
 
 	let filteredBenPrimeOvOs = arrBenPrimeOvClassicAliens.filter(alienFilterBenPrimeOvOs)
 	console.log(filteredBenPrimeOvOs, 'ov os filter')
+
+	let filteredBenPrimeOvAf = arrBenPrimeOvAfAliens.filter(alienFilterBenPrimeOvAf)
+	console.log(filteredBenPrimeOvAf, 'ov af filter')
+
+	let filteredBenPrimeOvUa = arrBenPrimeOvUaAliens.filter(alienFilterBenPrimeOvUa)
+	console.log(filteredBenPrimeOvUa, 'ov ua filter')
 
 
 	//Joga na tela o valor filtrado
@@ -550,5 +568,77 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 		
 		`
 		return modalBenPrimeOvOs
+	})
+
+	filteredBenPrimeOvAf.forEach((alien) => {
+		console.log(alien, 'ov af')
+
+		let modalContentListBenPrimeOvAf = () => {
+
+			for(let i = 0; i < alien.imgOvAf.length; i++) {
+
+				var modalListBenPrimeOvAf = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgOvAf[i]}" alt="${alien.seasonName}">
+						
+					</li>
+
+				`
+			}
+
+			return modalListBenPrimeOvAf
+		}
+
+		let modalBenPrimeOvAf = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>${alien.nomePtbr}</h2>
+			</div>
+
+			<ul id="${alien.seasonName}Modal" class="modal-card-list">
+				${modalContentListBenPrimeOvAf()}
+			</ul>
+		
+		`
+		return modalBenPrimeOvAf
+	})
+
+	filteredBenPrimeOvUa.forEach((alien) => {
+		console.log(alien, 'ov ua')
+
+		let modalContentListBenPrimeOvUa = () => {
+
+			for(let i = 0; i < alien.imgOvUa.length; i++) {
+
+				var modalListBenPrimeOvUa = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgOvUa[i]}" alt="${alien.seasonName}">
+						
+					</li>
+
+				`
+			}
+
+			return modalListBenPrimeOvUa
+		}
+
+		let modalBenPrimeOvUa = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>${alien.nomePtbr}</h2>
+			</div>
+
+			<ul id="${alien.seasonName}Modal" class="modal-card-list">
+				${modalContentListBenPrimeOvUa()}
+			</ul>
+		
+		`
+		return modalBenPrimeOvUa
 	})
 })
