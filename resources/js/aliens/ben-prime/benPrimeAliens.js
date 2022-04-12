@@ -650,7 +650,7 @@ function omniverseAlienTab() {
                 <li class="alien-card ${arrBenPrimeOvClassicAliens[i].seasonName}">
                         
                     <div class="alien-card-img" onclick="btnclick()">
-                        <img src="${arrBenPrimeOvClassicAliens[i].imgOvClassic[0]}" alt="${arrBenPrimeOvClassicAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvClassicAliens[i].seasonName}Modal">
+                        <img src="${arrBenPrimeOvClassicAliens[i].imgOvClassic[0]}" alt="${arrBenPrimeOvClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeOvClassicAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
@@ -675,7 +675,7 @@ function omniverseAlienTab() {
                 <li class="alien-card ${arrBenPrimeOvAfAliens[i].seasonName}">
 
                     <div class="alien-card-img">
-                        <img src="${arrBenPrimeOvAfAliens[i].imgOvAf[0]}" alt="${arrBenPrimeOvAfAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvAfAliens[i].seasonName}Modal">
+                        <img src="${arrBenPrimeOvAfAliens[i].imgOvAf[0]}" alt="${arrBenPrimeOvAfAliens[i].nomePtbr}" data-season="${arrBenPrimeOvAfAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">
@@ -698,7 +698,7 @@ function omniverseAlienTab() {
                 <li class="alien-card ${arrBenPrimeOvUaAliens[i].seasonName}">
 
                     <div class="alien-card-img">
-                        <img src="${arrBenPrimeOvUaAliens[i].imgOvUa[0]}" alt="${arrBenPrimeOvUaAliens[i].nomePtbr}" data-toggle="modal" data-target="#${arrBenPrimeOvUaAliens[i].seasonName}Modal">
+                        <img src="${arrBenPrimeOvUaAliens[i].imgOvUa[0]}" alt="${arrBenPrimeOvUaAliens[i].nomePtbr}" data-season="${arrBenPrimeOvUaAliens[i].seasonName}">
                     </div>
 
                     <div class="alien-card-description">

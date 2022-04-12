@@ -241,7 +241,6 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 	//Iteração para não precisar usar ID repetido nos itens da lista de aliens
 	let key = 0
 
-
 	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
 	function alienFilterBenPrimeUa(value) {
 		if(value.seasonName === pegaSeasonName){
@@ -450,7 +449,6 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 
 
 	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
-	document.getElementsByClassName('modal-alt-forms')[0].innerHTML = ' '
 
 	let pegaSeasonName = event.target.getAttribute('data-season')
 	console.log(pegaSeasonName)
@@ -467,9 +465,18 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 		}
 	}
 
+	function alienFilterBenPrimeOvOs(value) {
+		if(value.seasonName === pegaSeasonName){
+			return value
+		}
+	}
+
 	//Aplica o filtro e armazena o alien retornado
 	let filteredBenPrimeOv = arrBenPrimeOvAliens.filter(alienFilterBenPrimeOv)
 	console.log(filteredBenPrimeOv, 'ov filter')
+
+	let filteredBenPrimeOvOs = arrBenPrimeOvClassicAliens.filter(alienFilterBenPrimeOvOs)
+	console.log(filteredBenPrimeOvOs, 'ov os filter')
 
 
 	//Joga na tela o valor filtrado
@@ -504,20 +511,44 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
 				${modalContentListBenPrimeOv()}
 			</ul>
-
-			<div class="modal-alt-forms">
-
-				<div></div>                    
-
-			</div>
 		
 		`
 		return modalBenPrimeOv
 	})
+
+	filteredBenPrimeOvOs.forEach((alien) => {
+		console.log(alien, 'ov os')
+
+		let modalContentListBenPrimeOvOs = () => {
+
+			for(let i = 0; i < alien.imgOvClassic.length; i++) {
+
+				var modalListBenPrimeOvOs = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgOvClassic[i]}" alt="${alien.seasonName}">
+						
+					</li>
+
+				`
+			}
+
+			return modalListBenPrimeOvOs
+		}
+
+		let modalBenPrimeOvOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>${alien.nomePtbr}</h2>
+			</div>
+
+			<ul id="${alien.seasonName}Modal" class="modal-card-list">
+				${modalContentListBenPrimeOvOs()}
+			</ul>
+		
+		`
+		return modalBenPrimeOvOs
+	})
 })
-
-
-// function btnclick(obj) {
-// 	modal.style.display = "block";
-// 	console.log(obj)
-// }
