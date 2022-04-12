@@ -19,6 +19,7 @@ body {
 :root {
     --green1: #97C93D;
     --green2: #16712a;
+    --green3: rgb(51 149 72);
     --grey1: #C4C4C4;
     --grey2: #efefefa6;
     --grey3: #dee2e6;
@@ -49,7 +50,7 @@ header nav #navBarLista {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    font-weight: 500;
     list-style: none;
 }
 
@@ -64,19 +65,17 @@ header nav #navBarLista li a:not(.dropdown-content li a) {
     color: white;
 }
 
-/* header nav #navBarLista li:nth-child(2)::after {
-    display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: 0.255em;
-    content: "";
-    border-top: 0.3em solid;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0;
-    border-left: 0.3em solid transparent;
+/* header nav #navBarLista li:not(li:nth-child(2)):hover{
+    background-color: white;
+} */
+
+/* header nav #navBarLista li:not(li:nth-child(2)):hover a{
+    color: black;
+    font-weight: 500;
 } */
 
 header nav #navBarLista li a:not(.dropdown-content li a):hover {
-    font-weight: bold;
+    font-weight: 500;
     color: black;
 }
 

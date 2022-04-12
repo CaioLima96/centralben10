@@ -10,7 +10,7 @@ header #headerNavBar > div {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(192, 101, 101);
+    background-color: var(--green3);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -25,6 +25,11 @@ header #headerNavBar > div {
 .dropdown-content li a {
     text-decoration: none;
     color: white;
+}
+
+.dropdown-content li a:hover {
+    font-style: italic;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -46,6 +51,10 @@ header #headerNavBar > div {
 
     header #headerNavBar #navBarLista {
         display: none;
+    }
+
+    #navBarLista li a {
+        display: flex;
     }
 
     header #headerNavBar > div {
