@@ -31,14 +31,14 @@
     padding: 0.75rem;
 }
 
-#content .nav-tab-menu ul {
+.nav-tab-menu ul {
     display: flex;
     list-style: none;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#content .nav-tab-menu ul li {
+.nav-tab-menu ul li {
     padding: 0.5rem;
     text-transform: uppercase;
     
@@ -46,25 +46,25 @@
     border-radius: 0.375rem;
 }
 
-#content .nav-tab-menu ul li:not(li:last-child) {
+.nav-tab-menu ul li:not(li:last-child) {
     margin-right: 0.25rem;
 }
 
-#content .nav-tab-menu ul li:last-child {
+.nav-tab-menu ul li:last-child {
     margin-right: 0 !important;
 }
 
-#content .nav-tab-menu ul li:hover {
+.nav-tab-menu ul li:hover {
     border-color: white;
     border-radius: 0.375rem;
 }
 
-#content .nav-tab-menu ul li:active {
+.nav-tab-menu ul li:active {
     border-color: white;
     border-radius: 0.375rem;
 }
 
-#content .nav-tab-menu ul li:active {
+.nav-tab-menu ul li:active {
     border-color: white;
     border-radius: 0.375rem;
 }
@@ -73,20 +73,20 @@
 
 /*====== NAV TAB CONTENT ======*/
 
-#content main #nav-tab-content {
+#nav-tab-content {
     width: 94.5%;
     margin: 0 auto;
 }
 
-#content main #nav-tab-content .challenge:not(.challenge:last-child) {
+.challenge:not(.challenge:last-child) {
     margin-bottom: 3.75rem;
 }
 
-#content main #nav-tab-content .challenge-theme {
+.challenge-theme {
     margin: 1.25rem 0;
 }
 
-#content main #nav-tab-content .challenge-theme a{
+.challenge-theme a{
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -94,7 +94,7 @@
     line-height: 1.7;
 }
 
-#content main #nav-tab-content .challenge-theme a:hover {
+.challenge-theme a:hover {
     text-decoration: underline;
 }
 
