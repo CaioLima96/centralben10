@@ -1,23 +1,5 @@
 function alienDraw2020Tab(){
 
-    // document.getElementById("ad2021tab").innerHTML = ' '
-
-    // let teste = document.getElementById('ad2020tab').innerHTML = `
-        // <!--CHALLENGE-MENU-->
-        // <div class="nav-tab-menu">
-
-        //     <nav>
-        //         <ul>
-        //             <li>JAN</li>
-        //         </ul>
-        //     </nav>
-
-        // </div>
-
-        // hello world
-    // `
-
-    console.log('teste 2020')
     let tab2020 = document.getElementById("challengeTab").innerHTML = `
         <div id="ad2020tab">
             <!--CHALLENGE-MENU-->
@@ -125,6 +107,5 @@ function alienDraw2020Tab(){
         </div>
     `
 
-    console.log('2020')
     return tab2020
 }

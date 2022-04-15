@@ -1,6 +1,5 @@
 function ad2021tab() {
     
-    console.log('tab2021 teste1')
     let tab2021 = document.getElementById("challengeTab").innerHTML = `
 
         <div id="ad2021tab">
@@ -31,13 +30,11 @@ function ad2021tab() {
 
         </div>
     `
-    console.log('tab2021 teste2')
+
     return tab2021
 }
 
 function alienDraw2021JanTab() {
-
-    console.log('s')
 
     let ad2021Jantab = document.getElementById("nav-tab-content").innerHTML = `
 
@@ -126,7 +123,6 @@ function alienDraw2021JanTab() {
 
     `
 
-    console.log('janeiro 2021')
     return ad2021Jantab
 }
 
@@ -312,7 +308,7 @@ function alienDraw2021FevTab(){
         ${desafio2Fev2021}
         
     `
-    console.log('fevereiro 2021')
+
     return ad2021FevTab
 }
 
@@ -407,7 +403,7 @@ function alienDraw2021MarTab() {
         </ul       
         
     `
-    console.log('março 2021')
+
     return ad2021MarTab
 }
 
@@ -593,7 +589,7 @@ function alienDraw2021AbrTab(){
         ${desafio2Abr2021}
         
     `
-    console.log('abril 2021')
+
     return ad2021AbrTab
 }
 
@@ -778,7 +774,7 @@ function alienDraw2021MaiTab(){
         ${desafio2Maio2021}
         
     `
-    console.log('maio 2021')
+
     return ad2021MaiTab
 }
 
@@ -964,7 +960,7 @@ function alienDraw2021JunTab(){
         ${desafio2Jun2021}
         
     `
-    console.log('junho 2021')
+
     return ad2021JunTab
 }
 
@@ -1055,6 +1051,6 @@ function alienDraw2021JulTab(){
 
         </ul>
     `
-    console.log('julho 2021')
+
     return ad2021JulTab
 }
