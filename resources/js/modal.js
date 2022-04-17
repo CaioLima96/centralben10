@@ -511,6 +511,12 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
 				${modalContentListBPOV()}
 			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
 		
 		`
 		return modalBenPrimeOv
@@ -546,6 +552,12 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
 				${modalContentListBPOVos()}
 			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
 		
 		`
 		return modalBenPrimeOvOs
@@ -581,6 +593,12 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
 				${modalContentListBPOVaf()}
 			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
 		
 		`
 		return modalBenPrimeOvAf
@@ -616,6 +634,12 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
 				${modalContentListBPOVua()}
 			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
 		
 		`
 		return modalBenPrimeOvUa
