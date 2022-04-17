@@ -40,6 +40,8 @@ window.onclick = function (event) {
 
 // =========================================
 
+// BP=BenPrime -- BR=BenReboot
+
 
 
 //Ben 10 Classic
@@ -52,22 +54,21 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 
 	let key = 0
 
-	function alienFilter(value) {
+	function alienFilterBPOS(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	let benPrimeOsFilter = arrBenPrimeClassicAliens.filter(alienFilter)
+	let filteredAlienBPOS = arrBenPrimeClassicAliens.filter(alienFilterBPOS)
 
-	benPrimeOsFilter.forEach((alien) => {
-		console.log(alien, 'os')
+	filteredAlienBPOS.forEach((alien) => {
 
-		let modalContentListBenPrimeOs = () => {
+		let modalContentListBPOS = () => {
 
 			for(let i = 0; i < alien.imgOs.length; i++) {
 
-				var modalListBenPrimeOs = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBPO = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -78,7 +79,7 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenPrimeOs
+			return modalListBPO
 		}
 
 		let modalBenPrimeOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -89,7 +90,7 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
             </div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenPrimeOs()}
+				${modalContentListBPOS()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -107,123 +108,116 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 
 //Ben 10 Alien Force
 document.getElementById('nav-tab-content-af').addEventListener('click', (event) => {
+
 	
 	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
 	
 	let pegaSeasonName = event.target.getAttribute('data-season')
-	console.log(pegaSeasonName)
 
 	let key = 0
 
-	function arrAfFilter(value) {
+
+	function alienFilterBPAF(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function arrAfOsFilter(value) {
+	function alienFilterBPAFos(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
-	
-	let afFilter = arrBenPrimeAfAliens.filter(arrAfFilter)
-	console.log(afFilter, 'afFILTER')
-	let afOsFilter = arrBenPrimeAfClassicAliens.filter(arrAfOsFilter)
-	console.log(afOsFilter, 'afOSFILTER')
 
 	
-	if(afFilter) {
+	let filteredAlienBPAF = arrBenPrimeAfAliens.filter(alienFilterBPAF)
 	
-		afFilter.forEach((alien) => {
-			console.log(alien, 'af')
+	let filteredAlienBPAFos = arrBenPrimeAfClassicAliens.filter(alienFilterBPAFos)
 	
-			let modalContentListBenPrimeAf = () => {
-	
-				for(let i = 0; i < alien.imgAf.length; i++) {
-	
-					var modalListBenPrimeAf = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
-	
-						<li class="modal-card" id="${alien.seasonName}${key += 1}">
-							
-							<img src="${alien.imgAf[i]}" alt="${alien.seasonName}">
-							
-						</li>
-	
-					`
-				}
-	
-				return modalListBenPrimeAf
+
+	filteredAlienBPAF.forEach((alien) => {
+
+		let modalContentListBPAF = () => {
+
+			for(let i = 0; i < alien.imgAf.length; i++) {
+
+				var modalListBPAF = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgAf[i]}" alt="${alien.seasonName}">
+						
+					</li>
+
+				`
 			}
-	
-			let modalBenPrimeAf = document.getElementsByClassName('modal-body')[0].innerHTML = `
-	
-				<div class="modal-header">
-					<span class="close">&times;</span>
-					<h2>${alien.nomePtbr}</h2>
-				</div>
-	
-				<ul id="${alien.seasonName}Modal" class="modal-card-list">
-					${modalContentListBenPrimeAf()}
-				</ul>
-	
-				<div class="modal-alt-forms">
-	
-					<div></div>                    
-	
-				</div>
-			
-			`
-	
-			return modalBenPrimeAf
-		})
 
-		afOsFilter.forEach((alien) => {
-			console.log(alien, 'af os')
+			return modalListBPAF
+		}
 
-			let modalContentListBenPrimeAfOs = () => {
-	
-				for(let i = 0; i < alien.imgAfClassic.length; i++) {
-	
-					var modalListBenPrimeAfOs = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
-	
-						<li class="modal-card" id="${alien.seasonName}${key += 1}">
-							
-							<img src="${alien.imgAfClassic[i]}" alt="${alien.seasonName}">
-							
-						</li>
-	
-					`
-				}
-	
-				return modalListBenPrimeAfOs
+		let modalBenPrimeAf = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>${alien.nomePtbr}</h2>
+			</div>
+
+			<ul id="${alien.seasonName}Modal" class="modal-card-list">
+				${modalContentListBPAF()}
+			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
+		
+		`
+
+		return modalBenPrimeAf
+	})
+
+	filteredAlienBPAFos.forEach((alien) => {
+
+		let modalContentListBPAFos = () => {
+
+			for(let i = 0; i < alien.imgAfClassic.length; i++) {
+
+				var modalListBPAFos = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+
+					<li class="modal-card" id="${alien.seasonName}${key += 1}">
+						
+						<img src="${alien.imgAfClassic[i]}" alt="${alien.seasonName}">
+						
+					</li>
+
+				`
 			}
-	
-			let modalBenPrimeAfOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
-	
-				<div class="modal-header">
-					<span class="close">&times;</span>
-					<h2>${alien.nomePtbr}</h2>
-				</div>
-	
-				<ul id="${alien.seasonName}Modal" class="modal-card-list">
-					${modalContentListBenPrimeAfOs()}
-				</ul>
-	
-				<div class="modal-alt-forms">
-	
-					<div></div>                    
-	
-				</div>
-			
-			`
-	
-			return modalBenPrimeAfOs
-		})
-	}
-	else {
-		console.log('nao foi')
-	}
+
+			return modalListBPAFos
+		}
+
+		let modalBenPrimeAfOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
+
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>${alien.nomePtbr}</h2>
+			</div>
+
+			<ul id="${alien.seasonName}Modal" class="modal-card-list">
+				${modalContentListBPAFos()}
+			</ul>
+
+			<div class="modal-alt-forms">
+
+				<div></div>                    
+
+			</div>
+		
+		`
+
+		return modalBenPrimeAfOs
+	})
 
 })
 
@@ -236,25 +230,24 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 	document.getElementsByClassName('modal-alt-forms')[0].innerHTML = ' '
 	
 	let pegaSeasonName = event.target.getAttribute('data-season')
-	console.log(pegaSeasonName)
 
 	//Iteração para não precisar usar ID repetido nos itens da lista de aliens
 	let key = 0
 
 	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
-	function alienFilterBenPrimeUa(value) {
+	function alienFilterBPUA(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenPrimeUaUlti(value) {
+	function alienFilterBPUAul(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenPrimeUaOs(value) {
+	function alienFilterBPUAos(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
@@ -262,25 +255,21 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 	
 
 	//Aplica o filtro e armazena o alien retornado
-	let filteredBenPrimeUa = arrBenPrimeUaAliens.filter(alienFilterBenPrimeUa)
-	console.log(filteredBenPrimeUa, 'ua filter')
+	let filteredAlienBPUA = arrBenPrimeUaAliens.filter(alienFilterBPUA)
 
-	let filteredBenPrimeUaUlti = arrBenPrimeUaUltimateAliens.filter(alienFilterBenPrimeUaUlti)
-	console.log(filteredBenPrimeUaUlti, 'ua ulti filter')
+	let filteredAlienBPUAul = arrBenPrimeUaUltimateAliens.filter(alienFilterBPUAul)
 
-	let filteredBenPrimeUaOs = arrBenPrimeUaClassicAliens.filter(alienFilterBenPrimeUaOs)
-	console.log(filteredBenPrimeUaOs, 'ua os filter')
+	let filteredAlienBPUAos = arrBenPrimeUaClassicAliens.filter(alienFilterBPUAos)
 	
 
 	//Joga na tela o valor filtrado
-	filteredBenPrimeUa.forEach((alien) => {
-		console.log(alien, 'ua')
+	filteredAlienBPUA.forEach((alien) => {
 
-		let modalContentListBenPrimeUa = () => {
+		let modalContentListBPUA = () => {
 
 			for(let i = 0; i < alien.imgUa.length; i++) {
 
-				var modalListBenPrimeUa = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBPUA = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -291,7 +280,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenPrimeUa
+			return modalListBPUA
 		}
 
 		let modalBenPrimeUa = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -302,7 +291,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 			</div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenPrimeUa()}
+				${modalContentListBPUA()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -315,14 +304,13 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 		return modalBenPrimeUa
 	})
 
-	filteredBenPrimeUaUlti.forEach((alien) => {
-		console.log(alien, 'ua ulti')
+	filteredAlienBPUAul.forEach((alien) => {
 
-		let modalContentListBenPrimeUaUlti = () => {
+		let modalContentListBPUAul = () => {
 
 			for(let i = 0; i < alien.imgUaUlti.length; i++) {
 
-				var modalListBenPrimeUaUlti = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBPUAul = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -333,7 +321,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenPrimeUaUlti
+			return modalListBPUAul
 		}
 
 		let modalBenPrimeUaUlti = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -344,7 +332,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 			</div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenPrimeUaUlti()}
+				${modalContentListBPUAul()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -358,7 +346,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 		return modalBenPrimeUaUlti
 	})
 
-	filteredBenPrimeUaOs.forEach((alien) => {
+	filteredAlienBPUAos.forEach((alien) => {
 		console.log(alien, 'ua os')
 
 		let modalContentListBenPrimeUaOs = () => {
@@ -451,61 +439,55 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 	document.getElementsByClassName('modal-card-list')[0].innerHTML = ' '
 
 	let pegaSeasonName = event.target.getAttribute('data-season')
-	console.log(pegaSeasonName)
-
 
 	//Iteração para não precisar usar ID repetido nos itens da lista de aliens
 	let key = 0
 
 
 	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
-	function alienFilterBenPrimeOv(value) {
+	function alienFilterBPOV(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenPrimeOvOs(value) {
+	function alienFilterBPOVos(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenPrimeOvAf(value) {
+	function alienFilterBPOVaf(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenPrimeOvUa(value) {
+	function alienFilterBPOVua(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
+
 
 	//Aplica o filtro e armazena o alien retornado
-	let filteredBenPrimeOv = arrBenPrimeOvAliens.filter(alienFilterBenPrimeOv)
-	console.log(filteredBenPrimeOv, 'ov filter')
+	let filteredAlienBPOV = arrBenPrimeOvAliens.filter(alienFilterBPOV)
 
-	let filteredBenPrimeOvOs = arrBenPrimeOvClassicAliens.filter(alienFilterBenPrimeOvOs)
-	console.log(filteredBenPrimeOvOs, 'ov os filter')
+	let filteredAlienBPOVos = arrBenPrimeOvClassicAliens.filter(alienFilterBPOVos)
 
-	let filteredBenPrimeOvAf = arrBenPrimeOvAfAliens.filter(alienFilterBenPrimeOvAf)
-	console.log(filteredBenPrimeOvAf, 'ov af filter')
+	let filteredAlienBPOVaf = arrBenPrimeOvAfAliens.filter(alienFilterBPOVaf)
 
-	let filteredBenPrimeOvUa = arrBenPrimeOvUaAliens.filter(alienFilterBenPrimeOvUa)
-	console.log(filteredBenPrimeOvUa, 'ov ua filter')
+	let filteredAlienBPOVua = arrBenPrimeOvUaAliens.filter(alienFilterBPOVua)
 
 
 	//Joga na tela o valor filtrado
-	filteredBenPrimeOv.forEach((alien) => {
-		console.log(alien, 'ov')
+	filteredAlienBPOV.forEach((alien) => {
 
-		let modalContentListBenPrimeOv = () => {
+		let modalContentListBPOV = () => {
 
 			for(let i = 0; i < alien.imgOv.length; i++) {
 
-				var modalListBenPrimeOv = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBPOV = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -516,7 +498,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenPrimeOv
+			return modalListBPOV
 		}
 
 		let modalBenPrimeOv = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -527,21 +509,20 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			</div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenPrimeOv()}
+				${modalContentListBPOV()}
 			</ul>
 		
 		`
 		return modalBenPrimeOv
 	})
 
-	filteredBenPrimeOvOs.forEach((alien) => {
-		console.log(alien, 'ov os')
+	filteredAlienBPOVos.forEach((alien) => {
 
-		let modalContentListBenPrimeOvOs = () => {
+		let modalContentListBPOVos = () => {
 
 			for(let i = 0; i < alien.imgOvClassic.length; i++) {
 
-				var modalListBenPrimeOvOs = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBPOVos = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -552,7 +533,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenPrimeOvOs
+			return modalListBPOVos
 		}
 
 		let modalBenPrimeOvOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -563,21 +544,20 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			</div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenPrimeOvOs()}
+				${modalContentListBPOVos()}
 			</ul>
 		
 		`
 		return modalBenPrimeOvOs
 	})
 
-	filteredBenPrimeOvAf.forEach((alien) => {
-		console.log(alien, 'ov af')
+	filteredAlienBPOVaf.forEach((alien) => {
 
-		let modalContentListBenPrimeOvAf = () => {
+		let modalContentListBPOVaf = () => {
 
 			for(let i = 0; i < alien.imgOvAf.length; i++) {
 
-				var modalListBenPrimeOvAf = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBPOVaf = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -588,7 +568,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenPrimeOvAf
+			return modalListBPOVaf
 		}
 
 		let modalBenPrimeOvAf = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -599,21 +579,20 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			</div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenPrimeOvAf()}
+				${modalContentListBPOVaf()}
 			</ul>
 		
 		`
 		return modalBenPrimeOvAf
 	})
 
-	filteredBenPrimeOvUa.forEach((alien) => {
-		console.log(alien, 'ov ua')
+	filteredAlienBPOVua.forEach((alien) => {
 
-		let modalContentListBenPrimeOvUa = () => {
+		let modalContentListBPOVua = () => {
 
 			for(let i = 0; i < alien.imgOvUa.length; i++) {
 
-				var modalListBenPrimeOvUa = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBPOVua = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -624,7 +603,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenPrimeOvUa
+			return modalListBPOVua
 		}
 
 		let modalBenPrimeOvUa = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -635,7 +614,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 			</div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenPrimeOvUa()}
+				${modalContentListBPOVua()}
 			</ul>
 		
 		`
@@ -656,25 +635,25 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 
 
 	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
-	function alienFilterBenRb(value) {
+	function alienFilterBR(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenRbOt(value) {
+	function alienFilterBRot(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenRbOk(value) {
+	function alienFilterBRok(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
-	function alienFilterBenRbOn(value) {
+	function alienFilterBRon(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
@@ -682,23 +661,23 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 
 
 	//Aplica o filtro e armazena o alien retornado
-	let filteredBenRb = arrBenRebootAliens.filter(alienFilterBenRb)
+	let filteredAlienBR = arrBenRebootAliens.filter(alienFilterBR)
 
-	let filteredBenRbOt = arrBenRebootOmnitunadoAliens.filter(alienFilterBenRbOt)
+	let filteredAlienBRot = arrBenRebootOmnitunadoAliens.filter(alienFilterBRot)
 
-	let filteredBenRbOk = arrBenRebootOmnikixAliens.filter(alienFilterBenRbOk)
+	let filteredAlienBRok = arrBenRebootOmnikixAliens.filter(alienFilterBRok)
 
-	let filteredBenRbOn = arrBenRebootOmninautaAliens.filter(alienFilterBenRbOn)
+	let filteredAlienBRon = arrBenRebootOmninautaAliens.filter(alienFilterBRon)
+
 
 	//Joga na tela o valor filtrado
-	filteredBenRb.forEach((alien) => {
-		console.log(alien, 'rb')
+	filteredAlienBR.forEach((alien) => {
 
-		let modalContentListBenRb = () => {
+		let modalContentListBR = () => {
 
 			for(let i = 0; i < alien.imgRb.length; i++) {
 
-				var modalListBenRb = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBR = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -709,7 +688,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenRb
+			return modalListBR
 		}
 
 		let modalBenRb = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -720,7 +699,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
             </div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenRb()}
+				${modalContentListBR()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -733,14 +712,13 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 		return modalBenRb
 	})
 
-	filteredBenRbOt.forEach((alien) => {
-		console.log(alien, 'rb ot')
+	filteredAlienBRot.forEach((alien) => {
 
-		let modalContentListBenRbOt = () => {
+		let modalContentListBRot = () => {
 
 			for(let i = 0; i < alien.imgRbTunado.length; i++) {
 
-				var modalListBenRbOt = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBRot = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -751,7 +729,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenRbOt
+			return modalListBRot
 		}
 
 		let modalBenRbOt = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -762,7 +740,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
             </div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenRbOt()}
+				${modalContentListBRot()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -775,14 +753,13 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 		return modalBenRbOt
 	})
 
-	filteredBenRbOk.forEach((alien) => {
-		console.log(alien, 'rb ok')
+	filteredAlienBRok.forEach((alien) => {
 
-		let modalContentListBenRbOk = () => {
+		let modalContentListBRok= () => {
 
 			for(let i = 0; i < alien.imgRbKix.length; i++) {
 
-				var modalListBenRbOk = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBRok = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -793,7 +770,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenRbOk
+			return modalListBRok
 		}
 
 		let modalBenRbOk = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -804,7 +781,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
             </div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenRbOk()}
+				${modalContentListBRok()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -817,14 +794,13 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 		return modalBenRbOk
 	})
 
-	filteredBenRbOn.forEach((alien) => {
-		console.log(alien, 'rb on')
+	filteredAlienBRon.forEach((alien) => {
 
-		let modalContentListBenRbOn = () => {
+		let modalContentListBRon = () => {
 
 			for(let i = 0; i < alien.imgRbNauta.length; i++) {
 
-				var modalListBenRbOn = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
+				var modalListBRon = document.getElementsByClassName('modal-card-list')[0].innerHTML +=`
 
 					<li class="modal-card" id="${alien.seasonName}${key += 1}">
 						
@@ -835,7 +811,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 				`
 			}
 
-			return modalListBenRbOn
+			return modalListBRon
 		}
 
 		let modalBenRbOn = document.getElementsByClassName('modal-body')[0].innerHTML = `
@@ -846,7 +822,7 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
             </div>
 
 			<ul id="${alien.seasonName}Modal" class="modal-card-list">
-				${modalContentListBenRbOn()}
+				${modalContentListBRon()}
 			</ul>
 
 			<div class="modal-alt-forms">
@@ -859,4 +835,4 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 		return modalBenRbOn
 	})
 
-}) 
+})

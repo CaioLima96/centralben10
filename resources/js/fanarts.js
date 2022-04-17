@@ -186,7 +186,7 @@ function fanArtTab1() {
 
         </ul>
     `
-    console.log('abc1')
+
     return fanArtsTab1
 }
 
@@ -226,6 +226,5 @@ function fanArtTab2() {
         </ul>
     `
 
-    console.log('abc2')
     return fanArtsTab2
 }
