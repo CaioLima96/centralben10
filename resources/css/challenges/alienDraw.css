@@ -104,7 +104,6 @@
 
 .firstPlace .card-img {
     border: 0.313rem solid var(--gold1);
-    border-radius: 0.125rem;
 }
 
 .firstPlace .author-info {
@@ -113,7 +112,6 @@
 
 .secondPlace .card-img {
     border: 0.313rem solid silver;
-    border-radius: 0.125rem;
 }
 
 .secondPlace .author-info {
@@ -122,9 +120,17 @@
 
 .thirdPlace .card-img {
     border: 0.313rem solid var(--bronze1);
-    border-radius: 0.125rem;
 }
 
 .thirdPlace .author-info {
     background-color: var(--bronze1);
+}
+
+
+
+/*======================== @MEDIA ========================*/
+
+@media (max-width: 1065px) {
+    
+   
 }
