@@ -25,18 +25,18 @@
     flex-wrap: wrap;
 }
 
-#content .nav-tab-menu nav ul li {
+/* #content .nav-tab-menu nav ul li {
     padding: 0.5rem;
     text-transform: uppercase;
     margin-right: 18px;
     border: 1px solid var(--green1);
-}
+} */
 
 #content .nav-tab-menu nav ul li:last-child {
     margin-right: 0 !important;
 }
 
-#content .nav-tab-menu nav ul li:hover {
+/* #content .nav-tab-menu nav ul li:hover {
     border-color: white;
     border-radius: 6px;
-}
+} */

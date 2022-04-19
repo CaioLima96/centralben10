@@ -228,3 +228,5 @@ function fanArtTab2() {
 
     return fanArtsTab2
 }
+
+fanArtTab1()
