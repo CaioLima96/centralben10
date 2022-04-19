@@ -37,7 +37,7 @@
     color: white;
     border-radius: 0.625rem 0.625rem 0 0;
     margin-bottom: 3.125rem;
-    padding-top: 1.5rem;
+    padding: 1.5rem 1rem 0;
     text-align: center;
 }
 
@@ -79,6 +79,7 @@
 .rulesContent ul {
     padding-left: 2.5rem;
     line-height: 1.6;
+    list-style: disc;
 }
 
 .rulesContent #obs {
@@ -86,5 +87,16 @@
 }
 
 .rulesContent #obs p {
-    margin: 1rem 0;
+    margin: 2rem 0 1rem;
+}
+
+
+
+/*================== @MEDIA ==================*/
+
+@media (max-width: 768px) {
+
+    .rulesContent ul {
+        padding: 0.375rem !important;
+    }
 }
