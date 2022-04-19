@@ -120,6 +120,25 @@ footer h3 {
     margin-right: 0.625rem;
 }
 
+.navTabBtn {
+    padding: 0.5rem;
+    text-transform: uppercase;
+    margin-right: 18px;
+    border: 1px solid black;
+
+    transition: .5s ease;
+}
+
+.navTabBtn:hover {
+    border-color: white;
+    border-radius: 6px;
+}
+
+.activeTabBtn {
+    border-color: white;
+    border-radius: 6px;
+}
+
 
 
 /*================== @MEDIA ==================*/
