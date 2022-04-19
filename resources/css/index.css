@@ -74,6 +74,10 @@
     border: 1px solid black;
 } */
 
+/* #content .nav-tab-menu nav ul li {
+    border: 1px solid black;
+} */
+
 #content .nav-tab-menu nav ul li:last-child {
     margin-right: 0 !important;
 }

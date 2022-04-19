@@ -7,7 +7,7 @@ function alienDraw2020Tab(){
 
                 <nav>
                     <ul>
-                        <li style="border: 1px solid white;">SET</li>
+                        <li class="navTabBtn activeTabBtn">SET</li>
                     </ul>
                 </nav>
 

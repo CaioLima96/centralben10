@@ -5,17 +5,17 @@ function ad2021tab() {
         <div id="ad2021tab">
 
             <!--CHALLENGE-MENU-->
-            <div id="nav-tab-menu-2021" class="nav-tab-menu">
+            <div class="nav-tab-menu">
 
                 <nav>
                     <ul>
-                        <li onclick="alienDraw2021JanTab()">JAN</li>
-                        <li onclick="alienDraw2021FevTab()">FEV</li>
-                        <li onclick="alienDraw2021MarTab()">MAR</li>
-                        <li onclick="alienDraw2021AbrTab()">ABR</li>
-                        <li onclick="alienDraw2021MaiTab()">MAI</li>
-                        <li onclick="alienDraw2021JunTab()">JUN</li>
-                        <li onclick="alienDraw2021JulTab()">JUL</li>
+                        <li class="navTabBtn" onclick="alienDraw2021JanTab()">JAN</li>
+                        <li class="navTabBtn" onclick="alienDraw2021FevTab()">FEV</li>
+                        <li class="navTabBtn" onclick="alienDraw2021MarTab()">MAR</li>
+                        <li class="navTabBtn" onclick="alienDraw2021AbrTab()">ABR</li>
+                        <li class="navTabBtn" onclick="alienDraw2021MaiTab()">MAI</li>
+                        <li class="navTabBtn" onclick="alienDraw2021JunTab()">JUN</li>
+                        <li class="navTabBtn" onclick="alienDraw2021JulTab()">JUL</li>
                     </ul>
                 </nav>
 
@@ -1054,3 +1054,5 @@ function alienDraw2021JulTab(){
 
     return ad2021JulTab
 }
+
+ad2021tab()
