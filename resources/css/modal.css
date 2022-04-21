@@ -176,7 +176,7 @@
 
 /* =============== BEM PRIME =============== */
 
-#myModal .modal-card-list #primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsHeatBlast5, #primeBenOsDitto3, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenOsWildMutt5, #primeBenOsWildvine3, #primeBenAfAlienX3 {
+#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3 {
     grid-column: 1/3;
 }
 
@@ -205,12 +205,23 @@
         grid-column: 1/3;
     }
 
-    #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsSnareOh2, #primeBenOsSnareOh3, #primeBenOsWildvine3, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsUpgrade4, #primeBenOsEyeGuyModal li, #primeBenOsBlitzWolferModal li, #primeBenAfAlienX3{
+    #primeBenOsSnareOh2, #primeBenOsSnareOh3, #primeBenOsWildvine3, #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsUpgrade4, #primeBenOsEyeGuyModal li, #primeBenOsBlitzWolferModal li, #primeBenAfAlienX3{
         height: auto !important;
     }
 }
 
+/* @media (max-width: 350px) {
+   
+    .modal-card {
+        height: 350px;
+    }
+} */
+
 @media (min-width: 951px) {
+
+    /* .modal-card {
+        height: 350px;
+    } */
 
     #primeBenAfAlienXModal li:not(li:last-child){
         height: 500px;
