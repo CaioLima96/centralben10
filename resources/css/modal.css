@@ -105,6 +105,7 @@
     /* width: 350px; */
     margin: 1% auto;
     /* height: 350px; */
+    height: 400px;
 }
 
 .modal-card img {
@@ -212,9 +213,9 @@
 
 @media (min-width: 951px) {
 
-    .modal-card {
+    /* .modal-card {
         height: 350px;
-    }
+    } */
 
     #primeBenAfAlienXModal li:not(li:last-child){
         height: 500px;
