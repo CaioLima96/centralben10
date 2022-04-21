@@ -104,7 +104,7 @@
 .modal-card {
     /* width: 350px; */
     margin: 1% auto;
-    height: 350px;
+    /* height: 350px; */
 }
 
 .modal-card img {
@@ -176,13 +176,32 @@
 
 /* =============== BEM PRIME CLASSIC =============== */
 
-#myModal .modal-card-list #primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsHeatBlast5, #primeBenOsDitto3, #primeBenOsFrankenstrike3, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85 {
+#myModal .modal-card-list #primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsHeatBlast5, #primeBenOsDitto3, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenOsWildMutt5, #primeBenOsWildvine3 {
     grid-column: 1/3;
+}
+
+#primeBenOsWildvine1, #primeBenOsWildvine2 {
+    height: 500px !important;
+}
+
+#primeBenOsWayBig1, #primeBenOsWayBig2 {
+    height: 400px !important;
+}
+
+#primeBenOsXlr8Modal li {
+    height: 300px;
 }
 
 @media (max-width: 950px) {
 
     .modal-card {
         grid-column: 1/3;
+    }
+}
+
+@media (min-width: 951px) {
+
+    .modal-card{
+        height: 350px;
     }
 }
