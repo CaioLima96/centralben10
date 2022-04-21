@@ -104,7 +104,7 @@
 .modal-card {
     /* width: 350px; */
     margin: 1% auto;
-    height: 350px;
+    /* height: 350px; */
 }
 
 .modal-card img {
@@ -183,12 +183,8 @@
 
 /* ===== CLASSIC ===== */
 
-#primeBenOsWildvine1, #primeBenOsWildvine2 {
-    height: 500px !important;
-}
-
-#primeBenOsWayBig1, #primeBenOsWayBig2 {
-    height: 400px !important;
+#primeBenOsFrankenstrike3 {
+    height: 400px;
 }
 
 #primeBenOsXlr8Modal li {
@@ -205,25 +201,21 @@
         grid-column: 1/3;
     }
 
-    #primeBenOsSnareOh2, #primeBenOsSnareOh3, #primeBenOsWildvine3, #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsUpgrade4, #primeBenOsEyeGuyModal li, #primeBenOsBlitzWolferModal li, #primeBenAfAlienX3{
-        height: auto !important;
-    }
+    
 }
 
-/* @media (max-width: 350px) {
+@media (max-width: 400px) {
    
     .modal-card {
         height: 350px;
     }
-} */
 
-@media (min-width: 951px) {
+    /*VERIFICAR A ALTURA DESSAS IMAGENS E POR IGUAL*/
+    #primeBenOsRipjaws7, #primeBenOsCannonBoltModal li, #primeBenOsSnareOh3, #primeBenOsWildMuttModal li, #primeBenOsWildvine3, #primeBenOsDiamondHead6, #primeBenOsDitto3, #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5,#primeBenOsStinkFly5  #primeBenOsBlitzWolferModal li, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsEyeGuyModal li, #primeBenOsUpgrade4{
+        height: auto !important;
+    }
 
-    /* .modal-card {
-        height: 350px;
-    } */
-
-    #primeBenAfAlienXModal li:not(li:last-child){
-        height: 500px;
+    #primeBenAfAlienX3 {
+        height: auto !important;
     }
 }
