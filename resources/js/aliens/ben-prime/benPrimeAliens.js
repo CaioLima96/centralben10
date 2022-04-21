@@ -124,7 +124,7 @@ const arrBenPrimeAfAliens = [
 
     {nomePtbr: 'Fogo Fátuo', nomeIngles: "Swampfire", seasonName: 'primeBenAfSwampfire', wikiUrl: 'Swampfire', imgAf: ['./assets/img/aliens/ben-prime/af/fogo-selvagem-(af)-1.png', './assets/img/aliens/ben-prime/af/fogo-selvagem-(af)-2.png', './assets/img/aliens/ben-prime/af/fogo-selvagem-(af)-3.png', './assets/img/aliens/ben-prime/af/fogo-selvagem-(af)-4.png']},
 
-    {nomePtbr: 'Glutão (Murk)', nomeIngles: "Upchuck (Murk)", seasonName: 'primeBenAfUpchuck', wikiUrl: 'Upchuck', imgAf: ['./assets/img/aliens/ben-prime/af/glutao-m-(af)-1.png']},
+    {nomePtbr: 'Glutão (Murk)', nomeIngles: "Upchuck (Murk)", seasonName: 'primeBenAfUpchuck', wikiUrl: 'Upchuck', imgAf: ['./assets/img/aliens/ben-prime/af/glutao-m-(af)-1.png', './assets/img/aliens/ben-prime/af/glutao-m-(af)-2.png', './assets/img/aliens/ben-prime/af/glutao-m-(af)-3.png']},
 
     {nomePtbr: 'Gosma', nomeIngles: "Goop", seasonName: 'primeBenAfGoop', wikiUrl: 'Goop_(Classic)', imgAf: ['./assets/img/aliens/ben-prime/af/gosma-(af)-1.png', './assets/img/aliens/ben-prime/af/gosma-(af)-2.png']},
 
