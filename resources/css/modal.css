@@ -104,8 +104,7 @@
 .modal-card {
     /* width: 350px; */
     margin: 1% auto;
-    /* height: 350px; */
-    height: 400px;
+    height: 350px;
 }
 
 .modal-card img {
@@ -206,16 +205,12 @@
         grid-column: 1/3;
     }
 
-    #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsSnareOh2, #primeBenOsSnareOh3, #primeBenOsWildvine3, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsUpgrade4, #primeBenOsBlitzWolferModal li{
+    #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsSnareOh2, #primeBenOsSnareOh3, #primeBenOsWildvine3, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsUpgrade4, #primeBenOsEyeGuyModal li, #primeBenOsBlitzWolferModal li, #primeBenAfAlienX3{
         height: auto !important;
     }
 }
 
 @media (min-width: 951px) {
-
-    /* .modal-card {
-        height: 350px;
-    } */
 
     #primeBenAfAlienXModal li:not(li:last-child){
         height: 500px;
