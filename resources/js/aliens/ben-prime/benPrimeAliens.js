@@ -104,7 +104,7 @@ function classicTab() {
 
 const arrBenPrimeAfAliens = [
 
-    {nomePtbr: 'Alien X', nomeIngles: 'Alien X', seasonName: 'primeBenAfAlienX', wikiUrl: 'Alien_X_(Classic)', imgAf: ['./assets/img/aliens/ben-prime/af/alien-x-(af)-1.png', './assets/img/aliens/ben-prime/af/alien-x-(af)-2.png']},
+    {nomePtbr: 'Alien X', nomeIngles: 'Alien X', seasonName: 'primeBenAfAlienX', wikiUrl: 'Alien_X_(Classic)', imgAf: ['./assets/img/aliens/ben-prime/af/alien-x-(af)-1.png', './assets/img/aliens/ben-prime/af/alien-x-(af)-2.png', './assets/img/aliens/ben-prime/af/alien-x-(af)-3.jpg']},
 
     {nomePtbr: 'Arraia Jato', nomeIngles: 'Jetray', seasonName: 'primeBenAfJetRay', wikiUrl: 'Jetray_(Classic)', imgAf: ['./assets/img/aliens/ben-prime/af/arraia-jato-(af)-1.png', './assets/img/aliens/ben-prime/af/arraia-jato-(af)-2.png', './assets/img/aliens/ben-prime/af/arraia-jato-(af)-3.png', './assets/img/aliens/ben-prime/af/arraia-jato-(af)-4.png']},
 
