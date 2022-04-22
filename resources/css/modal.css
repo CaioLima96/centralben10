@@ -176,7 +176,7 @@
 
 /* =============== BEM PRIME =============== */
 
-#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3 {
+#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3, #primeBenAfCannonbolt1 {
     grid-column: 1/3;
 }
 
@@ -222,7 +222,7 @@
         height: auto !important;
     }
 
-    #primeBenAfAlienX3, #primeBenAfJetRayModal li, #primeBenAfBrainStormModal li, #primeBenAfBigChillBaby1, #primeBenAfBigChillBaby5, #primeBenAfBigChillBaby6, #primeBenAfBigChillModal li:not(li:first-child), #primeBenAfChromastone4, #primeBenAfHumungousaur4, #primeBenAfHumungousaur5, #primeBenAfHumungousaur6 {
+    #primeBenAfAlienX3, #primeBenAfJetRayModal li, #primeBenAfBrainStormModal li, #primeBenAfBigChillBaby1, #primeBenAfBigChillBaby5, #primeBenAfBigChillBaby6, #primeBenAfBigChillModal li:not(li:first-child), #primeBenAfChromastone4, #primeBenAfHumungousaur4, #primeBenAfHumungousaur5, #primeBenAfHumungousaur6, #primeBenAfUpchuck2, #primeBenAfUpchuck3, #primeBenAfSpidermonkeyModal li {
         height: auto !important;
     }
 
