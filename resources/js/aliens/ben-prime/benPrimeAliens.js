@@ -263,15 +263,15 @@ function alienForceAlienTab() {
 
 const arrBenPrimeUaAliens = [
 
-    {nomePtbr: 'Acelerado', nomeIngles: "Fasttrack", seasonName: 'primeBenUaFasttrack', wikiUrl: 'Fasttrack', imgUa: ['./assets/img/aliens/ben-prime/ua/acelerado-(ua)-1.png', './assets/img/aliens/ben-prime/ua/acelerado-(ua)-2.png']},
+    {nomePtbr: 'Acelerado', nomeIngles: "Fasttrack", seasonName: 'primeBenUaFasttrack', wikiUrl: 'Fasttrack', imgUa: ['./assets/img/aliens/ben-prime/ua/acelerado-(ua)-1.png', './assets/img/aliens/ben-prime/ua/acelerado-(ua)-2.png', './assets/img/aliens/ben-prime/ua/acelerado-(ua)-3.png',  './assets/img/aliens/ben-prime/ua/acelerado-(ua)-4.jpg']},
 
     {nomePtbr: 'Ameaça Aquática', nomeIngles: "Water Hazard", seasonName: 'primeBenUaWaterHazard', wikiUrl: 'Water_Hazard', imgUa: ['./assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-1.png', './assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-2.png', './assets/img/aliens/ben-prime/ua/ameaca-aquatica-(ua)-3.jpg']},
 
-    {nomePtbr: 'Anfíbio', nomeIngles: "Ampfibian", seasonName: 'primeBenUaAmpfibian', wikiUrl: 'Ampfibian', imgUa: ['./assets/img/aliens/ben-prime/ua/anfibio-(ua)-1.png', './assets/img/aliens/ben-prime/ua/anfibio-(ua)-2.png', './assets/img/aliens/ben-prime/ua/anfibio-(ua)-3.jpg']},
+    {nomePtbr: 'Anfíbio', nomeIngles: "Ampfibian", seasonName: 'primeBenUaAmpfibian', wikiUrl: 'Ampfibian_(Classic)', imgUa: ['./assets/img/aliens/ben-prime/ua/anfibio-(ua)-1.png', './assets/img/aliens/ben-prime/ua/anfibio-(ua)-2.png', './assets/img/aliens/ben-prime/ua/anfibio-(ua)-3.jpg']},
 
-    {nomePtbr: 'Armatu', nomeIngles: "Armodrillo", seasonName: 'primeBenUaArmodrillo', wikiUrl: 'Armodrillo', imgUa: ['./assets/img/aliens/ben-prime/ua/armatu-(ua)-1.png', './assets/img/aliens/ben-prime/ua/armatu-(ua)-2.png']},
+    {nomePtbr: 'Armatu', nomeIngles: "Armodrillo", seasonName: 'primeBenUaArmodrillo', wikiUrl: 'Armodrillo', imgUa: ['./assets/img/aliens/ben-prime/ua/armatu-(ua)-1.png', './assets/img/aliens/ben-prime/ua/armatu-(ua)-2.png', './assets/img/aliens/ben-prime/ua/armatu-(ua)-3.png']},
 
-    {nomePtbr: 'Besouro', nomeIngles: "Eatle", seasonName: 'primeBenUaEatle', wikiUrl: 'Eatle', imgUa: ['./assets/img/aliens/ben-prime/ua/besouro-(ua)-1.png', './assets/img/aliens/ben-prime/ua/besouro-(ua)-2.jpg']},
+    {nomePtbr: 'Besouro', nomeIngles: "Eatle", seasonName: 'primeBenUaEatle', wikiUrl: 'Eatle', imgUa: ['./assets/img/aliens/ben-prime/ua/besouro-(ua)-1.png', './assets/img/aliens/ben-prime/ua/besouro-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/besouro-(ua)-3.png', './assets/img/aliens/ben-prime/ua/besouro-(ua)-4.png']},
 
     {nomePtbr: 'ChamAlien', nomeIngles: "ChamAlien", seasonName: 'primeBenUaChamalien', wikiUrl: 'Chamalien', imgUa: ['./assets/img/aliens/ben-prime/ua/chamalien-(ua)-1.png', './assets/img/aliens/ben-prime/ua/chamalien-(ua)-2.png']},
 
