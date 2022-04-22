@@ -279,9 +279,9 @@ const arrBenPrimeUaAliens = [
 
     {nomePtbr: 'Diabrete', nomeIngles: "Juryrigg", seasonName: 'primeBenUaJuryrigg', wikiUrl: 'Juryrigg', imgUa: ['./assets/img/aliens/ben-prime/ua/diabrete-(ua)-1.png', './assets/img/aliens/ben-prime/ua/diabrete-(ua)-2.png']},
 
-    {nomePtbr: 'NRG', nomeIngles: "NRG", seasonName: 'primeBenUaNRG', wikiUrl: 'NRG', imgUa: ['./assets/img/aliens/ben-prime/ua/nrg-(ua)-1.png', './assets/img/aliens/ben-prime/ua/nrg-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/nrg-(ua)-3.png',]},
+    {nomePtbr: 'NRG', nomeIngles: "NRG", seasonName: 'primeBenUaNRG', wikiUrl: 'NRG', imgUa: ['./assets/img/aliens/ben-prime/ua/nrg-(ua)-1.png', './assets/img/aliens/ben-prime/ua/nrg-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/nrg-(ua)-3.png', './assets/img/aliens/ben-prime/ua/nrg-(ua)-4.png',]},
 
-    {nomePtbr: 'Shocksquatch', nomeIngles: "Shocksquatch", seasonName: 'primeBenUaShockSquatch', wikiUrl: 'Shocksquatch', imgUa: ['./assets/img/aliens/ben-prime/ua/shocksquatch-(ua)-1.png']},
+    {nomePtbr: 'Shocksquatch', nomeIngles: "Shocksquatch", seasonName: 'primeBenUaShockSquatch', wikiUrl: 'Shocksquatch', imgUa: ['./assets/img/aliens/ben-prime/ua/shocksquatch-(ua)-1.png', './assets/img/aliens/ben-prime/ua/shocksquatch-(ua)-2.png']},
 
     {nomePtbr: 'Tartagira', nomeIngles: "Terraspin", seasonName: 'primeBenUaTerraSpin', wikiUrl: 'Terraspin', imgUa: ['./assets/img/aliens/ben-prime/ua/tartagira-(ua)-1.png', './assets/img/aliens/ben-prime/ua/tartagira-(ua)-2.png', './assets/img/aliens/ben-prime/ua/tartagira-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/tartagira-(ua)-4.jpg']}
 
