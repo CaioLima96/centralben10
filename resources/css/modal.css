@@ -176,7 +176,7 @@
 
 /* =============== BEM PRIME =============== */
 
-#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3, #primeBenAfCannonbolt1, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaArmodrillo3 {
+#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3, #primeBenAfCannonbolt1, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaArmodrillo3, #primeBenUaUltimateBigChill3, #primeBenUaUltimateEchoEcho3, #primeBenUaUltimateSpiderMonkey3, #primeBenUaUltimateWayBig3 {
     grid-column: 1/3;
 }
 
@@ -218,7 +218,7 @@
     }
 
     /*VERIFICAR A ALTURA DESSAS IMAGENS E POR IGUAL*/
-    #primeBenOsRipjaws7, #primeBenOsCannonBoltModal li, #primeBenOsSnareOh3, #primeBenOsWildMuttModal li, #primeBenOsWildvine3, #primeBenOsDiamondHead6, #primeBenOsDitto3, #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5,#primeBenOsStinkFly5  #primeBenOsBlitzWolferModal li, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsEyeGuyModal li, #primeBenOsUpgrade4{
+    #primeBenOsRipjaws7, #primeBenOsCannonBoltModal li, #primeBenOsSnareOh3, #primeBenOsWildMuttModal li, #primeBenOsWildvine3, #primeBenOsDiamondHead6, #primeBenOsDitto3, #primeBenOsFrankenstrike3, #primeBenOsFrankenstrike4, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5,#primeBenOsStinkFly5  #primeBenOsBlitzWolferModal li, #primeBenOsEyeGuy5, #primeBenOsUpgrade3, #primeBenOsEyeGuyModal li, #primeBenOsUpgrade4, #primeBenUaUltimateSpiderMonkey3{
         height: auto !important;
     }
 
@@ -226,7 +226,7 @@
         height: auto !important;
     }
 
-    #primeBenUaFasttrack4, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaEatle2, #primeBenUaEatle3, #primeBenUaEatle4, #primeBenUaShockSquatch2, #primeBenUaTerraSpin2, #primeBenUaTerraSpin3, #primeBenUaTerraSpin4 {
+    #primeBenUaFasttrack4, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaEatle2, #primeBenUaEatle3, #primeBenUaEatle4, #primeBenUaShockSquatch2, #primeBenUaTerraSpin2, #primeBenUaTerraSpin3, #primeBenUaTerraSpin4, #primeBenUaUltimateCannonboltModal li:not(li:first-child), #primeBenUaUltimateWildmuttModal li, #primeBenUaUltimateBigChillModal li:not(li:first-child), #primeBenUaUltimateSpiderMonkeyModal li{
         height: auto !important;
     }
 

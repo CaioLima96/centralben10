@@ -290,21 +290,21 @@ const arrBenPrimeUaAliens = [
 
 const arrBenPrimeUaUltimateAliens = [
 
-    {nomePtbr: 'Bala de Canhão Supremo', nomeIngles: "Ultimate Cannonbolt", seasonName: 'primeBenUaUltimateCannonbolt', wikiUrl: 'Ultimate_Cannonbolt', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-4.jpg',]},
+    {nomePtbr: 'Bala de Canhão Supremo', nomeIngles: "Ultimate Cannonbolt", seasonName: 'primeBenUaUltimateCannonbolt', wikiUrl: 'Ultimate_Cannonbolt', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-3.png', './assets/img/aliens/ben-prime/ua/bala-de-canhao-supremo-(ua)-4.png']},
 
-    {nomePtbr: 'Besta Supremo', nomeIngles: "Ultimate Wildmutt", seasonName: 'primeBenUaUltimateWildmutt', wikiUrl: 'Ultimate_Wildmutt', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-2.png']},
+    {nomePtbr: 'Besta Supremo', nomeIngles: "Ultimate Wildmutt", seasonName: 'primeBenUaUltimateWildmutt', wikiUrl: 'Ultimate_Wildmutt', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/besta-supremo-(ua)-4.png']},
     
     {nomePtbr: 'Calafrio Supremo', nomeIngles: "Ultimate Big Chill", seasonName: 'primeBenUaUltimateBigChill', wikiUrl: 'Ultimate_Big_Chill', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/calafrio-supremo-(ua)-3.png',]},
 
     {nomePtbr: 'Eco Eco Supremo', nomeIngles: "Ultimate Echo Echo", seasonName: 'primeBenUaUltimateEchoEcho', wikiUrl: 'Ultimate_Echo_Echo', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/eco-eco-supremo-(ua)-3.png']},
 
-    {nomePtbr: 'Enormossauro Supremo', nomeIngles: "Ultimate Humungousaur", seasonName: 'primeBenUaUltimateHumungousaur', wikiUrl: 'Ultimate_Humungousaur', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-2.png']},
+    {nomePtbr: 'Enormossauro Supremo', nomeIngles: "Ultimate Humungousaur", seasonName: 'primeBenUaUltimateHumungousaur', wikiUrl: 'Ultimate_Humungousaur', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-3.png', './assets/img/aliens/ben-prime/ua/enormossauro-supremo-(ua)-4.png']},
 
-    {nomePtbr: 'Fogo Fátuo Supremo', nomeIngles: "Ultimate Swampfire", seasonName: 'primeBenUaUltimateSwampFire', wikiUrl: 'Ultimate_Swampfire', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-2.png']},
+    {nomePtbr: 'Fogo Fátuo Supremo', nomeIngles: "Ultimate Swampfire", seasonName: 'primeBenUaUltimateSwampFire', wikiUrl: 'Ultimate_Swampfire', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-3.png', './assets/img/aliens/ben-prime/ua/fogo-selvagem-supremo-(ua)-4.png']},
 
-    {nomePtbr: 'Macaco Aranha Supremo', nomeIngles: "Ultimate Spidermonkey", seasonName: 'primeBenUaUltimateSpiderMonkey', wikiUrl: 'Ultimate_Spidermonkey', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-2.png']},
+    {nomePtbr: 'Macaco Aranha Supremo', nomeIngles: "Ultimate Spidermonkey", seasonName: 'primeBenUaUltimateSpiderMonkey', wikiUrl: 'Ultimate_Spidermonkey', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/macaco-aranha-supremo-(ua)-3.png']},
 
-    {nomePtbr: 'Way Big Supremo', nomeIngles: "Ultimate Way Big", seasonName: 'primeBenUaUltimateWayBig', wikiUrl: 'Ultimate_Way_Big', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-1.png']}
+    {nomePtbr: 'Way Big Supremo', nomeIngles: "Ultimate Way Big", seasonName: 'primeBenUaUltimateWayBig', wikiUrl: 'Ultimate_Way_Big', imgUaUlti: ['./assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-1.png', './assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-2.png', './assets/img/aliens/ben-prime/ua/waybig-supremo-(ua)-3.png']}
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenUa', wikiUrl: '', imgUa: ['./assets/img/aliens/ben-prime/ua/']},
 ]
