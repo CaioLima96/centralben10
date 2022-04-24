@@ -313,7 +313,7 @@ const arrBenPrimeUaClassicAliens = [
 
     {nomePtbr: 'Aquático', nomeIngles: "Ripjaws", seasonName: 'primeBenUaRipJaws', wikiUrl: 'Ripjaws_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/aquatico-(ua)-1.png', './assets/img/aliens/ben-prime/ua/aquatico-(ua)-2.jpg', './assets/img/aliens/ben-prime/ua/aquatico-(ua)-3.jpg', './assets/img/aliens/ben-prime/ua/aquatico-(ua)-4.jpg', './assets/img/aliens/ben-prime/ua/aquatico-(ua)-5.jpg']},
 
-    {nomePtbr: '4 Braços', nomeIngles: "Four Arms ", seasonName: 'primeBenUaFourArms', wikiUrl: 'Four_Arms_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/4-bracos-(ua)-1.png', './assets/img/aliens/ben-prime/ua/4-bracos-(ua)-2.png']},
+    {nomePtbr: '4 Braços', nomeIngles: "Four Arms ", seasonName: 'primeBenUaFourArms', wikiUrl: 'Four_Arms_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/4-bracos-(ua)-1.png', './assets/img/aliens/ben-prime/ua/4-bracos-(ua)-2.png', './assets/img/aliens/ben-prime/ua/4-bracos-(ua)-3.png']},
 
     {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenUaHeatBlast', wikiUrl: 'Heatblast_(Classic)', imgUaClassic: ['./assets/img/aliens/ben-prime/ua/chama-(ua)-1.png', './assets/img/aliens/ben-prime/ua/chama-(ua)-2.png']},
 

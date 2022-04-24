@@ -404,21 +404,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 
 				<div class="modal-alt-content">
 
-					<nav>
-						<div><p>${alien.episodes[0].epiName}</p></div>
-					</nav>
 					
-					<ul class="modal-alt-forms-list">
-
-						<!--<li class="modal-alt-forms-card" >
-							<img src="${alien.episodes[0].epiImg[0]}" />
-						</li>
-						<li class="modal-alt-forms-card" >
-							<img src="${alien.episodes[0].epiImg[1]}" />
-						</li>-->
-
-						${modalContentListAltFormsBenPrimeUaOs()}
-					</ul>  
 				
 				</div>                  
 
