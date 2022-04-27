@@ -230,9 +230,8 @@
         height: auto !important;
     }
 
-    #primeBenOvAstrodactylModal li:not(li:first-child), #primeBenOvMole-Stache2, #primeBenOvMole-Stache3, #primeBenOvBloxx5, #primeBenOvBloxx6, #primeBenOvBullfrag2, #primeBenOvKickinHawk3, #primeBenOvKickinHawk4, #primeBenOvCrashhopper5 {
+    #primeBenOvAstrodactylModal li:not(li:first-child), #primeBenOvMole-Stache2, #primeBenOvMole-Stache3, #primeBenOvBloxx5, #primeBenOvBloxx6, #primeBenOvBullfrag2, #primeBenOvKickinHawk3, #primeBenOvKickinHawk4, #primeBenOvCrashhopper5, #primeBenOvFeedback3, #primeBenOvFeedback4, #primeBenOvGravattackModal li{
         height: auto !important;
-
     }
 
 }

@@ -482,13 +482,13 @@ const arrBenPrimeOvAliens = [
 
     {nomePtbr: 'Escarábola', nomeIngles: "Ball Weevil", seasonName: 'primeBenOvBallWeevil', wikiUrl: 'Ball_Weevil', imgOv: ['./assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/escarabola-(omniverse)-4.png',]},
 
-    {nomePtbr: 'Espantóide', nomeIngles: "Toepick", seasonName: 'primeBenOvToepick', wikiUrl: 'Toepick', imgOv: ['./assets/img/aliens/ben-prime/omniverse/espantoide-(omniverse)-1.png']},
+    {nomePtbr: 'Espantóide', nomeIngles: "Toepick", seasonName: 'primeBenOvToepick', wikiUrl: 'Toepick', imgOv: ['./assets/img/aliens/ben-prime/omniverse/espantoide-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/espantoide-(omniverse)-2.png']},
 
-    {nomePtbr: 'Feedback', nomeIngles: "Feedback", seasonName: 'primeBenOvFeedback', wikiUrl: 'Feedback', imgOv: ['./assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-2.png']},
+    {nomePtbr: 'Feedback', nomeIngles: "Feedback", seasonName: 'primeBenOvFeedback', wikiUrl: 'Feedback', imgOv: ['./assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/feedback-(omniverse)-4.png']},
 
-    {nomePtbr: 'Gravattack', nomeIngles: "Gravattack", seasonName: 'primeBenOvGravattack', wikiUrl: 'Gravattack', imgOv: ['./assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-2.png']},
+    {nomePtbr: 'Gravattack', nomeIngles: "Gravattack", seasonName: 'primeBenOvGravattack', wikiUrl: 'Gravattack', imgOv: ['./assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/gravattack-(omniverse)-4.png']},
 
-    {nomePtbr: 'O Pior', nomeIngles: "The Worst", seasonName: 'primeBenOvTheWorst', wikiUrl: 'The_Worst', imgOv: ['./assets/img/aliens/ben-prime/omniverse/o-pior-(omniverse)-1.png']},
+    {nomePtbr: 'O Pior', nomeIngles: "The Worst", seasonName: 'primeBenOvTheWorst', wikiUrl: 'The_Worst', imgOv: ['./assets/img/aliens/ben-prime/omniverse/o-pior-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/o-pior-(omniverse)-2.png']},
 
     {nomePtbr: 'Pesky Dust', nomeIngles: "Pesky_Dust", seasonName: 'primeBenOvPeskyDust', wikiUrl: 'Pesky_Dust', imgOv: ['./assets/img/aliens/ben-prime/omniverse/pesky-dust-(omniverse)-1.png']},
 
