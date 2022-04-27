@@ -503,21 +503,21 @@ const arrBenPrimeOvAliens = [
 
 const arrBenPrimeOvClassicAliens = [
     
-    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenOvClassicFourArms', wikiUrl: 'Four_Arms_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/4-bracos-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/4-bracos-(omniverse)-2.png']},
+    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenOvClassicFourArms', wikiUrl: 'Four_Arms_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/4-bracos-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/4-bracos-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/4-bracos-(omniverse)-3.png']},
 
-    {nomePtbr: 'Aquático', nomeIngles: "Ripjaws", seasonName: 'primeBenOvClassicRipJaws', wikiUrl: 'Ripjaws_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/aquatico-(omniverse)-1.png']},
+    {nomePtbr: 'Aquático', nomeIngles: "Ripjaws", seasonName: 'primeBenOvClassicRipJaws', wikiUrl: 'Ripjaws_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/aquatico-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/aquatico-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/aquatico-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/aquatico-(omniverse)-4.png']},
 
-    {nomePtbr: 'Arctiguana', nomeIngles: "Arctiguana", seasonName: 'primeBenOvClassicArctiguana', wikiUrl: 'Arctiguana', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-2.png']},
+    {nomePtbr: 'Arctiguana', nomeIngles: "Arctiguana", seasonName: 'primeBenOvClassicArctiguana', wikiUrl: 'Arctiguana', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/arctiguana-(omniverse)-4.png']},
 
-    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenOvClassicCannonBolt', wikiUrl: 'Cannonbolt_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-2.png']},
+    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenOvClassicCannonBolt', wikiUrl: 'Cannonbolt_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-4.png', './assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-5.png', './assets/img/aliens/ben-prime/omniverse/bala-de-canhao-(omniverse)-6.png']},
 
     {nomePtbr: 'Ben Múmia', nomeIngles: "Snare-oh", seasonName: 'primeBenOvClassicSnareOh', wikiUrl: 'Snare-oh', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ben-mumia-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ben-mumia-(omniverse)-2.jpg']},
     
-    {nomePtbr: 'Besta', nomeIngles: "Wildmutt", seasonName: 'primeBenOvClassicWildMutt', wikiUrl: 'Wildmutt', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-2.png']},
+    {nomePtbr: 'Besta', nomeIngles: "Wildmutt", seasonName: 'primeBenOvClassicWildMutt', wikiUrl: 'Wildmutt', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/besta-(omniverse)-4.png']},
 
-    {nomePtbr: 'Buzzshock', nomeIngles: "Buzzshock", seasonName: 'primeBenOvClassicBuzzShock', wikiUrl: 'Buzzshock_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/buzzshock-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/buzzshock-(omniverse)-2.png']},
+    {nomePtbr: 'Buzzshock', nomeIngles: "Buzzshock", seasonName: 'primeBenOvClassicBuzzShock', wikiUrl: 'Buzzshock_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/buzzshock-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/buzzshock-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/buzzshock-(omniverse)-3.png']},
 
-    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenOvClassicHeatBlast', wikiUrl: 'Heatblast_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-2.png']},
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenOvClassicHeatBlast', wikiUrl: 'Heatblast_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-4.png']},
 
     {nomePtbr: 'Cipó Selvagem', nomeIngles: "Wildvine", seasonName: 'primeBenOvClassicWildVine', wikiUrl: 'https://ben10.fandom.com/wiki/Wildvine_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/cipo-selvagem-(omniverse)-1.png']},
 
