@@ -490,13 +490,13 @@ const arrBenPrimeOvAliens = [
 
     {nomePtbr: 'O Pior', nomeIngles: "The Worst", seasonName: 'primeBenOvTheWorst', wikiUrl: 'The_Worst', imgOv: ['./assets/img/aliens/ben-prime/omniverse/o-pior-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/o-pior-(omniverse)-2.png']},
 
-    {nomePtbr: 'Pesky Dust', nomeIngles: "Pesky_Dust", seasonName: 'primeBenOvPeskyDust', wikiUrl: 'Pesky_Dust', imgOv: ['./assets/img/aliens/ben-prime/omniverse/pesky-dust-(omniverse)-1.png']},
+    {nomePtbr: 'Pesky Dust', nomeIngles: "Pesky_Dust", seasonName: 'primeBenOvPeskyDust', wikiUrl: 'Pesky_Dust', imgOv: ['./assets/img/aliens/ben-prime/omniverse/pesky-dust-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/pesky-dust-(omniverse)-2.png']},
 
-    {nomePtbr: 'Podrão', nomeIngles: "Gutrot", seasonName: 'primeBenOvGutrot', wikiUrl: 'Gutrot', imgOv: ['./assets/img/aliens/ben-prime/omniverse/podrao-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/podrao-(omniverse)-2.png']},
+    {nomePtbr: 'Podrão', nomeIngles: "Gutrot", seasonName: 'primeBenOvGutrot', wikiUrl: 'Gutrot', imgOv: ['./assets/img/aliens/ben-prime/omniverse/podrao-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/podrao-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/podrao-(omniverse)-3.png']},
 
-    {nomePtbr: 'Vompiro', nomeIngles: "Whampire", seasonName: 'primeBenOvWhampire', wikiUrl: 'Whampire', imgOv: ['./assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-3.png']},
+    {nomePtbr: 'Vompiro', nomeIngles: "Whampire", seasonName: 'primeBenOvWhampire', wikiUrl: 'Whampire', imgOv: ['./assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-4.png', './assets/img/aliens/ben-prime/omniverse/vompiro-(omniverse)-5.png']},
 
-    {nomePtbr: 'Walkatruta', nomeIngles: "Walkatrout", seasonName: 'primeBenOvWalkatrout', wikiUrl: 'Walkatrout', imgOv: ['./assets/img/aliens/ben-prime/omniverse/walkatruta-(omniverse)-1.png']}
+    {nomePtbr: 'Walkatruta', nomeIngles: "Walkatrout", seasonName: 'primeBenOvWalkatrout', wikiUrl: 'Walkatrout', imgOv: ['./assets/img/aliens/ben-prime/omniverse/walkatruta-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/walkatruta-(omniverse)-2.png']}
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOv', wikiUrl: '', imgOv: ['./assets/img/aliens/ben-prime/omniverse/']},
 ]
