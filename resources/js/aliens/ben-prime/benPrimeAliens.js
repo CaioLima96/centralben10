@@ -22,7 +22,7 @@ const arrBenPrimeClassicAliens = [
 
     {nomePtbr: 'Fantasmático', nomeIngles: "Ghostfreak", seasonName: 'primeBenOsGhostFreak', wikiUrl: 'https://ben10.fandom.com/wiki/Ghostfreak', imgOs: ['./assets/img/aliens/ben-prime/classico/fantasmatico-(classico)-1.png', './assets/img/aliens/ben-prime/classico/fantasmatico-(classico)-2.png', './assets/img/aliens/ben-prime/classico/fantasmatico-(classico)-3.png', './assets/img/aliens/ben-prime/classico/fantasmatico-(classico)-4.png', './assets/img/aliens/ben-prime/classico/fantasmatico-(classico)-5.jpg']},
 
-    {nomePtbr: 'Frankenstrike', nomeIngles: "Frankenstrike", seasonName: 'primeBenOsFrankenstrike', wikiUrl: 'https://ben10.fandom.com/wiki/FrankenStrike', imgOs: ['./assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-1.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-2.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-3.jpg', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-4.png']},
+    {nomePtbr: 'Frankenstrike', nomeIngles: "Frankenstrike", seasonName: 'primeBenOsFrankenstrike', wikiUrl: 'https://ben10.fandom.com/wiki/Frankenstrike', imgOs: ['./assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-1.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-2.png', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-3.jpg', './assets/img/aliens/ben-prime/classico/frankenstrike-(classico)-4.png']},
 
     {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOsUpChuckP', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOs: ['./assets/img/aliens/ben-prime/classico/glutao-P-(classico)-1.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-2.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-3.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-4.png', './assets/img/aliens/ben-prime/classico/glutao-P-(classico)-5.png']},
 
@@ -519,29 +519,29 @@ const arrBenPrimeOvClassicAliens = [
 
     {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenOvClassicHeatBlast', wikiUrl: 'Heatblast_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/chama-(omniverse)-4.png']},
 
-    {nomePtbr: 'Cipó Selvagem', nomeIngles: "Wildvine", seasonName: 'primeBenOvClassicWildVine', wikiUrl: 'https://ben10.fandom.com/wiki/Wildvine_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/cipo-selvagem-(omniverse)-1.png']},
+    {nomePtbr: 'Cipó Selvagem', nomeIngles: "Wildvine", seasonName: 'primeBenOvClassicWildVine', wikiUrl: 'Wildvine_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/cipo-selvagem-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/cipo-selvagem-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/cipo-selvagem-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/cipo-selvagem-(omniverse)-4.png']},
 
-    {nomePtbr: 'Diamante', nomeIngles: "Diamondhead", seasonName: 'primeBenOvClassicDiamondHead', wikiUrl: 'https://ben10.fandom.com/wiki/Diamondhead_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/diamante-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/diamante-(omniverse)-2.png']},
+    {nomePtbr: 'Diamante', nomeIngles: "Diamondhead", seasonName: 'primeBenOvClassicDiamondHead', wikiUrl: 'Diamondhead_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/diamante-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/diamante-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/diamante-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/diamante-(omniverse)-4.png']},
 
-    {nomePtbr: 'Ditto', nomeIngles: "Ditto", seasonName: 'primeBenOvClassicDitto', wikiUrl: 'https://ben10.fandom.com/wiki/Ditto', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ditto-(omniverse)-1.png']},
+    {nomePtbr: 'Ditto', nomeIngles: "Ditto", seasonName: 'primeBenOvClassicDitto', wikiUrl: 'Ditto', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ditto-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ditto-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/ditto-(omniverse)-3.png']},
 
-    {nomePtbr: 'Fantasmático', nomeIngles: "Ghostfreak", seasonName: 'primeBenOvClassicGhostFreak', wikiUrl: 'https://ben10.fandom.com/wiki/Ghostfreak', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/fantasmatico-(omniverse)-1.png']},
+    {nomePtbr: 'Fantasmático', nomeIngles: "Ghostfreak", seasonName: 'primeBenOvClassicGhostFreak', wikiUrl: 'Ghostfreak', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/fantasmatico-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/fantasmatico-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/fantasmatico-(omniverse)-3.png']},
 
-    {nomePtbr: 'Frankenstrike', nomeIngles: "Frankenstrike", seasonName: 'primeBenOvClassicFrankenStrike', wikiUrl: 'https://ben10.fandom.com/wiki/Frankenstrike', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/frankenstrike-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/frankenstrike-(omniverse)-2.png']},
+    {nomePtbr: 'Frankenstrike', nomeIngles: "Frankenstrike", seasonName: 'primeBenOvClassicFrankenStrike', wikiUrl: 'Frankenstrike', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/frankenstrike-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/frankenstrike-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/frankenstrike-(omniverse)-3.png']},
 
-    {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOvClassicUpchuck', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/glutao-p-(omniverse)-1.png']},
+    {nomePtbr: 'Glutão (Perk)', nomeIngles: "Upchuck (Perk)", seasonName: 'primeBenOvClassicUpchuck', wikiUrl: 'Upchuck', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/glutao-p-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/glutao-p-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/glutao-p-(omniverse)-3.png']},
 
-    {nomePtbr: 'Insectóide', nomeIngles: "Stinkfly", seasonName: 'primeBenOvClassicStinkFly', wikiUrl: 'https://ben10.fandom.com/wiki/Stinkfly_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/insectoide-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/insectoide-(omniverse)-2.png']},
+    {nomePtbr: 'Insectóide', nomeIngles: "Stinkfly", seasonName: 'primeBenOvClassicStinkFly', wikiUrl: 'Stinkfly_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/insectoide-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/insectoide-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/insectoide-(omniverse)-3.png']},
 
-    {nomePtbr: 'Lobisben', nomeIngles: "Blitzwolfer", seasonName: 'primeBenOvClassicBlitzWolfer', wikiUrl: 'https://ben10.fandom.com/wiki/Blitzwolfer', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-2.png']},
+    {nomePtbr: 'Lobisben', nomeIngles: "Blitzwolfer", seasonName: 'primeBenOvClassicBlitzWolfer', wikiUrl: 'Blitzwolfer', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-3.png']},
 
-    {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenOvClassicGreyMatter', wikiUrl: 'https://ben10.fandom.com/wiki/Grey_Matter_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/massa-cinzenta-(omniverse)-1.png']},
+    {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenOvClassicGreyMatter', wikiUrl: 'Grey_Matter_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/massa-cinzenta-(omniverse)-1.png']},
 
-    {nomePtbr: 'Mega Olhos', nomeIngles: "Eye Guy", seasonName: 'primeBenOvClassicEyeGuy', wikiUrl: 'https://ben10.fandom.com/wiki/Eye_Guy', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-1.png']},
+    {nomePtbr: 'Mega Olhos', nomeIngles: "Eye Guy", seasonName: 'primeBenOvClassicEyeGuy', wikiUrl: 'Eye_Guy', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-1.png']},
 
-    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenOvClassic', wikiUrl: 'https://ben10.fandom.com/wiki/Upgrade_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-2.png']},
+    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenOvClassic', wikiUrl: 'Upgrade_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-2.png']},
 
-    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenOvClassicXlr8', wikiUrl: 'https://ben10.fandom.com/wiki/XLR8_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-2.png']},
+    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenOvClassicXlr8', wikiUrl: 'XLR8_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-2.png']},
     
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvClassic', wikiUrl: '', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/']},
 ]
