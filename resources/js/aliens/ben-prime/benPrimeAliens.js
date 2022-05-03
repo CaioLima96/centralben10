@@ -535,13 +535,13 @@ const arrBenPrimeOvClassicAliens = [
 
     {nomePtbr: 'Lobisben', nomeIngles: "Blitzwolfer", seasonName: 'primeBenOvClassicBlitzWolfer', wikiUrl: 'Blitzwolfer', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/lobisben-(omniverse)-3.png']},
 
-    {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenOvClassicGreyMatter', wikiUrl: 'Grey_Matter_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/massa-cinzenta-(omniverse)-1.png']},
+    {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenOvClassicGreyMatter', wikiUrl: 'Grey_Matter_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/massa-cinzenta-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/massa-cinzenta-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/massa-cinzenta-(omniverse)-3.png']},
 
-    {nomePtbr: 'Mega Olhos', nomeIngles: "Eye Guy", seasonName: 'primeBenOvClassicEyeGuy', wikiUrl: 'Eye_Guy', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-1.png']},
+    {nomePtbr: 'Mega Olhos', nomeIngles: "Eye Guy", seasonName: 'primeBenOvClassicEyeGuy', wikiUrl: 'Eye_Guy', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/mega-olhos-(omniverse)-4.png']},
 
-    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenOvClassic', wikiUrl: 'Upgrade_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-2.png']},
+    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenOvClassic', wikiUrl: 'Upgrade_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/ultra-t-(omniverse)-3.png']},
 
-    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenOvClassicXlr8', wikiUrl: 'XLR8_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-2.png']},
+    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenOvClassicXlr8', wikiUrl: 'XLR8_(Classic)', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/xlr8-(omniverse)-4.png']},
     
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvClassic', wikiUrl: '', imgOvClassic: ['./assets/img/aliens/ben-prime/omniverse/']},
 ]
