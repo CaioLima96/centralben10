@@ -548,17 +548,17 @@ const arrBenPrimeOvClassicAliens = [
 
 const arrBenPrimeOvAfAliens = [
 
-    {nomePtbr: 'Alien X', nomeIngles: "Alien X", seasonName: 'primeBenOvAfAlienX', wikiUrl: 'https://ben10.fandom.com/wiki/Alien_X_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/alien-x-(omniverse)-1.png']},
+    {nomePtbr: 'Alien X', nomeIngles: "Alien X", seasonName: 'primeBenOvAfAlienX', wikiUrl: 'https://ben10.fandom.com/wiki/Alien_X_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/alien-x-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/alien-x-(omniverse)-2.png']},
 
-    {nomePtbr: 'Artrópode', nomeIngles: "Brainstorm", seasonName: 'primeBenOvAfBrainStorm', wikiUrl: 'https://ben10.fandom.com/wiki/Brainstorm', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-2.png']}, 
+    {nomePtbr: 'Artrópode', nomeIngles: "Brainstorm", seasonName: 'primeBenOvAfBrainStorm', wikiUrl: 'https://ben10.fandom.com/wiki/Brainstorm', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/artropode-(omniverse)-4.png']}, 
 
-    {nomePtbr: 'Calafrio (Friagem)', nomeIngles: "Big Chill", seasonName: 'primeBenOvAfBigChill', wikiUrl: 'https://ben10.fandom.com/wiki/Big_Chill', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-4.png']}, 
+    {nomePtbr: 'Calafrio (Friagem)', nomeIngles: "Big Chill", seasonName: 'primeBenOvAfBigChill', wikiUrl: 'https://ben10.fandom.com/wiki/Big_Chill_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/calafrio-(omniverse)-3.png']}, 
 
-    {nomePtbr: 'Cromático', nomeIngles: "Chromastone", seasonName: 'primeBenOvAfChromaStone', wikiUrl: 'https://ben10.fandom.com/wiki/Chromastone', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/cromatico-(omniverse)-1.png']}, 
+    {nomePtbr: 'Cromático', nomeIngles: "Chromastone", seasonName: 'primeBenOvAfChromaStone', wikiUrl: 'https://ben10.fandom.com/wiki/Chromastone_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/cromatico-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/cromatico-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/cromatico-(omniverse)-3.png']}, 
     
-    {nomePtbr: 'Eco Eco', nomeIngles: "Echo Echo", seasonName: 'primeBenOvAfEchoEcho', wikiUrl: 'https://ben10.fandom.com/wiki/Echo_Echo', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-3.png']}, 
+    {nomePtbr: 'Eco Eco', nomeIngles: "Echo Echo", seasonName: 'primeBenOvAfEchoEcho', wikiUrl: 'https://ben10.fandom.com/wiki/Echo_Echo', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/eco-eco-(omniverse)-4.png']}, 
 
-    {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenOvAfHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Humungousaur_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-2.png']}, 
+    {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenOvAfHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Humungousaur_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-4.png']}, 
 
     {nomePtbr: 'Estrela Polar', nomeIngles: "Lodestar", seasonName: 'primeBenOvAfLodeStar', wikiUrl: 'https://ben10.fandom.com/wiki/Lodestar', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/estrela-polar-(omniverse)-1.png']}, 
 
