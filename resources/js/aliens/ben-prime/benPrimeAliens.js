@@ -560,22 +560,22 @@ const arrBenPrimeOvAfAliens = [
 
     {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenOvAfHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Humungousaur_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/enormossauro-(omniverse)-4.png']}, 
 
-    {nomePtbr: 'Estrela Polar', nomeIngles: "Lodestar", seasonName: 'primeBenOvAfLodeStar', wikiUrl: 'https://ben10.fandom.com/wiki/Lodestar', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/estrela-polar-(omniverse)-1.png']}, 
+    {nomePtbr: 'Estrela Polar', nomeIngles: "Lodestar", seasonName: 'primeBenOvAfLodeStar', wikiUrl: 'https://ben10.fandom.com/wiki/Lodestar', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/estrela-polar-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/estrela-polar-(omniverse)-2.png']}, 
 
-    {nomePtbr: 'Fogo Fátuo', nomeIngles: "Swampfire", seasonName: 'primeBenOvAfSwampFire', wikiUrl: 'https://ben10.fandom.com/wiki/Swampfire', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/fogo-fatuo-(omniverse)-1.png']},
+    {nomePtbr: 'Fogo Fátuo', nomeIngles: "Swampfire", seasonName: 'primeBenOvAfSwampFire', wikiUrl: 'https://ben10.fandom.com/wiki/Swampfire', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/fogo-fatuo-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/fogo-fatuo-(omniverse)-2.png']},
 
-    {nomePtbr: 'Fogo Fátuo (Florescido)', nomeIngles: "Swampfire (Blossoming)", seasonName: 'primeBenOvAfSwampFireBlossoming', wikiUrl: 'https://ben10.fandom.com/wiki/Swampfire', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/fogo-fatuo-florescido-(omniverse)-1.png']},
+    {nomePtbr: 'Fogo Fátuo (Florescido)', nomeIngles: "Swampfire (Blossoming)", seasonName: 'primeBenOvAfSwampFireBlossoming', wikiUrl: 'https://ben10.fandom.com/wiki/Swampfire', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/fogo-fatuo-florescido-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/fogo-fatuo-florescido-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/fogo-fatuo-florescido-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/fogo-fatuo-florescido-(omniverse)-4.png', './assets/img/aliens/ben-prime/omniverse/fogo-fatuo-florescido-(omniverse)-5.png']},
 
     {nomePtbr: 'Glutão (Murk)', nomeIngles: "Upchuck (Murk)", seasonName: 'primeBenOvAfUpchuck', wikiUrl: 'https://ben10.fandom.com/wiki/Upchuck', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/glutao-m-(omniverse)-1.png']}, 
 
 
-    {nomePtbr: 'Gosma', nomeIngles: "Goop", seasonName: 'primeBenOvAfGoop', wikiUrl: 'https://ben10.fandom.com/wiki/Goop_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/gosma-(omniverse)-1.png']}, 
+    {nomePtbr: 'Gosma', nomeIngles: "Goop", seasonName: 'primeBenOvAfGoop', wikiUrl: 'https://ben10.fandom.com/wiki/Goop_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/gosma-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/gosma-(omniverse)-2.png']}, 
 
-    {nomePtbr: 'Macaco Aranha', nomeIngles: "Spidermonkey", seasonName: 'primeBenOvAfSpiderMonkey', wikiUrl: 'https://ben10.fandom.com/wiki/Spidermonkey', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-2.png']},
+    {nomePtbr: 'Macaco Aranha', nomeIngles: "Spidermonkey", seasonName: 'primeBenOvAfSpiderMonkey', wikiUrl: 'https://ben10.fandom.com/wiki/Spidermonkey_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/macaco-aranha-(omniverse)-4.png']},
     
-    {nomePtbr: 'Nanomech', nomeIngles: "Nanomech", seasonName: 'primeBenOvAfNanoMech', wikiUrl: 'https://ben10.fandom.com/wiki/Nanomech', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/nanomech-(omniverse)-1.png']}, 
+    {nomePtbr: 'Nanomech', nomeIngles: "Nanomech", seasonName: 'primeBenOvAfNanoMech', wikiUrl: 'https://ben10.fandom.com/wiki/Nanomech', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/nanomech-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/nanomech-(omniverse)-2.png','./assets/img/aliens/ben-prime/omniverse/nanomech-(omniverse)-3.png']}, 
 
-    {nomePtbr: 'Rath', nomeIngles: "Rath", seasonName: 'primeBenOvAfRath', wikiUrl: 'https://ben10.fandom.com/wiki/Rath_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-3.png']}, 
+    {nomePtbr: 'Rath', nomeIngles: "Rath", seasonName: 'primeBenOvAfRath', wikiUrl: 'https://ben10.fandom.com/wiki/Rath_(Classic)', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/rath-(omniverse)-4.png']}, 
 
    // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvAf', wikiUrl: '', imgOvAf: ['./assets/img/aliens/ben-prime/omniverse/']}, 
 ]
