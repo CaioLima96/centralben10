@@ -582,23 +582,23 @@ const arrBenPrimeOvAfAliens = [
 
 const arrBenPrimeOvUaAliens = [
 
-    {nomePtbr: 'Ameaça Aquática', nomeIngles: "Water Hazard", seasonName: 'primeBenOvUaWaterHazard', wikiUrl: 'https://ben10.fandom.com/wiki/Water_Hazard', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-4.png']},
+    {nomePtbr: 'Ameaça Aquática', nomeIngles: "Water Hazard", seasonName: 'primeBenOvUaWaterHazard', wikiUrl: 'https://ben10.fandom.com/wiki/Water_Hazard', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-4.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-5.png', './assets/img/aliens/ben-prime/omniverse/ameaca-aquatica-(omniverse)-6.png']},
 
-    {nomePtbr: 'Anfíbio', nomeIngles: "Ampfibian", seasonName: 'primeBenOvUaAmpfibian', wikiUrl: 'https://ben10.fandom.com/wiki/Ampfibian', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/anfibio-(omniverse)-1.png']},
+    {nomePtbr: 'Anfíbio', nomeIngles: "Ampfibian", seasonName: 'primeBenOvUaAmpfibian', wikiUrl: 'https://ben10.fandom.com/wiki/Ampfibian_(Classic)', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/anfibio-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/anfibio-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/anfibio-(omniverse)-3.png']},
 
-    {nomePtbr: 'Armatu', nomeIngles: "Armodrillo", seasonName: 'primeBenOvUaArmodrillo', wikiUrl: 'https://ben10.fandom.com/wiki/Armodrillo', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-2.png']},
+    {nomePtbr: 'Armatu', nomeIngles: "Armodrillo", seasonName: 'primeBenOvUaArmodrillo', wikiUrl: 'https://ben10.fandom.com/wiki/Armodrillo', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/armatu-(omniverse)-4.png']},
 
-    {nomePtbr: 'Besouro', nomeIngles: "Eatle", seasonName: 'primeBenOvUaEatle', wikiUrl: 'https://ben10.fandom.com/wiki/Eatle', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/besouro-(omniverse)-1.png']},
+    {nomePtbr: 'Besouro', nomeIngles: "Eatle", seasonName: 'primeBenOvUaEatle', wikiUrl: 'https://ben10.fandom.com/wiki/Eatle', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/besouro-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/besouro-(omniverse)-2.png']},
 
-    {nomePtbr: 'Contra Tempo', nomeIngles: "Clockwork", seasonName: 'primeBenOvUaClockWork', wikiUrl: 'https://ben10.fandom.com/wiki/Clockwork', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/contra-tempo-(omniverse)-1.png']}, 
+    {nomePtbr: 'Contra Tempo', nomeIngles: "Clockwork", seasonName: 'primeBenOvUaClockWork', wikiUrl: 'https://ben10.fandom.com/wiki/Clockwork', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/contra-tempo-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/contra-tempo-(omniverse)-2.png']}, 
 
-    {nomePtbr: 'Diabrete', nomeIngles: "Juryrigg", seasonName: 'primeBenOvUaJuryRigg', wikiUrl: 'https://ben10.fandom.com/wiki/Juryrigg', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/diabrete-(omniverse)-1.png']}, 
+    {nomePtbr: 'Diabrete', nomeIngles: "Juryrigg", seasonName: 'primeBenOvUaJuryRigg', wikiUrl: 'https://ben10.fandom.com/wiki/Juryrigg', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/diabrete-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/diabrete-(omniverse)-2.png']}, 
 
-    {nomePtbr: 'NRG', nomeIngles: "NRG", seasonName: 'primeBenOvUaNrg', wikiUrl: 'https://ben10.fandom.com/wiki/NRG', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/NRG-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/NRG-verdadeira-forma-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/NRG-verdadeira-forma-(omniverse)-2.png']}, 
+    {nomePtbr: 'NRG', nomeIngles: "NRG", seasonName: 'primeBenOvUaNrg', wikiUrl: 'https://ben10.fandom.com/wiki/NRG', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/NRG-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/NRG-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/NRG-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/NRG-(omniverse)-4.png',]}, 
 
-    {nomePtbr: 'Shocksquatch', nomeIngles: "Shocksquatch", seasonName: 'primeBenOvUaShockSquatch', wikiUrl: 'https://ben10.fandom.com/wiki/Shocksquatch', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-2.png']},
+    {nomePtbr: 'Shocksquatch', nomeIngles: "Shocksquatch", seasonName: 'primeBenOvUaShockSquatch', wikiUrl: 'https://ben10.fandom.com/wiki/Shocksquatch', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/shocksquatch-(omniverse)-4.png']},
     
-    {nomePtbr: 'Tartagira', nomeIngles: "Terraspin", seasonName: 'primeBenOvUaTerraSpin', wikiUrl: 'https://ben10.fandom.com/wiki/Terraspin', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-2.png']}, 
+    {nomePtbr: 'Tartagira', nomeIngles: "Terraspin", seasonName: 'primeBenOvUaTerraSpin', wikiUrl: 'https://ben10.fandom.com/wiki/Terraspin', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-1.png', './assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-2.png', './assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-3.png', './assets/img/aliens/ben-prime/omniverse/tartagira-(omniverse)-4.png']}, 
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenOvUa', wikiUrl: '', imgOvUa: ['./assets/img/aliens/ben-prime/omniverse/']}, 
 ]
