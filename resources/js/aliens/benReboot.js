@@ -10,7 +10,7 @@ const arrBenRebootAliens = [
     
     {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Heatblast_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/chama-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-(reboot)-2.png', './assets/img/aliens/ben-reboot/chama-(reboot)-3.png', './assets/img/aliens/ben-reboot/chama-(reboot)-4.png', './assets/img/aliens/ben-reboot/chama-(reboot)-5.png']},
 
-    {nomePtbr: 'Choque Rochoso', nomeIngles: "Shock Rock", seasonName: 'primeBenRbShockRock', wikiUrl: 'https://ben10.fandom.com/wiki/Shock_Rock', imgRb: ['./assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-1.png', './assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-2.png']},
+    {nomePtbr: 'Choque Rochoso', nomeIngles: "Shock Rock", seasonName: 'primeBenRbShockRock', wikiUrl: 'https://ben10.fandom.com/wiki/Shock_Rock', imgRb: ['./assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-1.png', './assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-2.png', './assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-3.png', './assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-4.png', './assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-5.png', './assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-6.png']},
 
     {nomePtbr: 'Cipó Selvagem', nomeIngles: "Wildvine", seasonName: 'primeBenRbWildvine', wikiUrl: 'https://ben10.fandom.com/wiki/Wildvine_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/cipo-selvagem-(reboot)-1.png', './assets/img/aliens/ben-reboot/cipo-selvagem-(reboot)-2.png', './assets/img/aliens/ben-reboot/cipo-selvagem-(reboot)-3.png', './assets/img/aliens/ben-reboot/cipo-selvagem-(reboot)-4.png', './assets/img/aliens/ben-reboot/cipo-selvagem-(reboot)-5.png']},
 

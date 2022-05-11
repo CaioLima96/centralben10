@@ -242,7 +242,7 @@
         height: auto !important;
     }
 
-    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5 {
+    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5, #primeBenRbShockRockModal li:not(#primeBenRbShockRock2) {
         height: auto !important;
     }
 }
