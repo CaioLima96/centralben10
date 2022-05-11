@@ -2,13 +2,13 @@
 
 const arrBenRebootAliens = [
     
-    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Four_Arms_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/4-bracos-(reboot)-1.png']},
+    {nomePtbr: '4 Braços', nomeIngles: "Four Arms", seasonName: 'primeBenRbFourArms', wikiUrl: 'https://ben10.fandom.com/wiki/Four_Arms_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/4-bracos-(reboot)-1.png', './assets/img/aliens/ben-reboot/4-bracos-(reboot)-2.png', './assets/img/aliens/ben-reboot/4-bracos-(reboot)-3.png', './assets/img/aliens/ben-reboot/4-bracos-(reboot)-4.png']},
 
-    {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbJetray', wikiUrl: 'https://ben10.fandom.com/wiki/Jetray_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/arraia-jato-(reboot)-1.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-2.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-3.jpg']},
+    {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbJetray', wikiUrl: 'https://ben10.fandom.com/wiki/Jetray_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/arraia-jato-(reboot)-1.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-2.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-3.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-4.png', './assets/img/aliens/ben-reboot/arraia-jato-(reboot)-5.png']},
 
-    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenRbCannonBolt', wikiUrl: 'https://ben10.fandom.com/wiki/Cannonbolt_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-1.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-2.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-3.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-4.png']},
+    {nomePtbr: 'Bala de Canhão', nomeIngles: "Cannonbolt", seasonName: 'primeBenRbCannonBolt', wikiUrl: 'https://ben10.fandom.com/wiki/Cannonbolt_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-1.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-2.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-3.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-4.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-5.png', './assets/img/aliens/ben-reboot/bala-de-canhao-(reboot)-6.png']},
     
-    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Heatblast_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/chama-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-(reboot)-2.png', './assets/img/aliens/ben-reboot/chama-(reboot)-3.png', './assets/img/aliens/ben-reboot/chama-(reboot)-4.png']},
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Heatblast_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/chama-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-(reboot)-2.png', './assets/img/aliens/ben-reboot/chama-(reboot)-3.png', './assets/img/aliens/ben-reboot/chama-(reboot)-4.png', './assets/img/aliens/ben-reboot/chama-(reboot)-5.png']},
 
     {nomePtbr: 'Choque Rochoso', nomeIngles: "Shock Rock", seasonName: 'primeBenRbShockRock', wikiUrl: 'https://ben10.fandom.com/wiki/Shock_Rock', imgRb: ['./assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-1.png', './assets/img/aliens/ben-reboot/choque-rochoso-(reboot)-2.png']},
 

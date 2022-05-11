@@ -176,7 +176,7 @@
 
 /* =============== BEM PRIME =============== */
 
-#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3, #primeBenAfCannonbolt1, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaArmodrillo3, #primeBenUaUltimateBigChill3, #primeBenUaUltimateEchoEcho3, #primeBenUaUltimateSpiderMonkey3, #primeBenUaUltimateWayBig3, #primeBenUaRipJaws5, #primeBenUaFourArms3, #primeBenUaGhostFreak1, #primeBenUaUpgrade1, #primeBenOvAstrodactyl5, #primeBenOvMole-Stache3, #primeBenOvBullfrag7, #primeBenOvCrashhopper5, #primeBenOvGutrot3, #primeBenOvWhampire5, #primeBenOvClassicFourArms3, #primeBenOvClassicBuzzShock3, #primeBenOvClassicHeatBlast5, #primeBenOvClassicDitto3, #primeBenOvClassicGhostFreak3, #primeBenOvClassicFrankenStrike3, #primeBenOvClassicUpchuck3, #primeBenOvClassicStinkFly3, #primeBenOvClassicBlitzWolfer3, #primeBenOvClassicGreyMatter3, #primeBenOvClassic3, #primeBenOvAfBigChill3, #primeBenOvAfChromaStone3, #primeBenOvAfNanoMech3, #primeBenOvUaAmpfibian3, #primeBenOvUaAmpfibian3 {
+#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3, #primeBenAfCannonbolt1, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaArmodrillo3, #primeBenUaUltimateBigChill3, #primeBenUaUltimateEchoEcho3, #primeBenUaUltimateSpiderMonkey3, #primeBenUaUltimateWayBig3, #primeBenUaRipJaws5, #primeBenUaFourArms3, #primeBenUaGhostFreak1, #primeBenUaUpgrade1, #primeBenOvAstrodactyl5, #primeBenOvMole-Stache3, #primeBenOvBullfrag7, #primeBenOvCrashhopper5, #primeBenOvGutrot3, #primeBenOvWhampire5, #primeBenOvClassicFourArms3, #primeBenOvClassicBuzzShock3, #primeBenOvClassicHeatBlast5, #primeBenOvClassicDitto3, #primeBenOvClassicGhostFreak3, #primeBenOvClassicFrankenStrike3, #primeBenOvClassicUpchuck3, #primeBenOvClassicStinkFly3, #primeBenOvClassicBlitzWolfer3, #primeBenOvClassicGreyMatter3, #primeBenOvClassic3, #primeBenOvAfBigChill3, #primeBenOvAfChromaStone3, #primeBenOvAfNanoMech3, #primeBenOvUaAmpfibian3, #primeBenOvUaAmpfibian3, #primeBenRbHeatBlast5 {
     grid-column: 1/3;
 }
 
@@ -198,6 +198,10 @@
     display: none;
 }
 
+
+#primeBenOvAfSwampFireBlossoming1, #primeBenRbJetray1 {
+    display: none;
+}
 
 
 /* ===================== @MEDIA ====================== */
@@ -235,6 +239,10 @@
     }
 
     #primeBenOvUaWaterHazard4, #primeBenOvUaWaterHazard6, #primeBenOvUaAmpfibian3, #primeBenOvUaArmodrillo2, #primeBenOvUaArmodrillo4, #primeBenOvUaClockWork2, #primeBenOvUaNrg4, #primeBenOvUaShockSquatch3, #primeBenOvUaShockSquatch4, #primeBenOvUaTerraSpinModal li:not(#primeBenOvUaTerraSpin2) {
+        height: auto !important;
+    }
+
+    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5 {
         height: auto !important;
     }
 }
