@@ -192,14 +192,7 @@
 }
 
 
-/* ===== ALIEN FORCE ===== */
-
-#primeBenAfBrainStorm1 {
-    display: none;
-}
-
-
-#primeBenOvAfSwampFireBlossoming1, #primeBenRbJetray1 {
+#primeBenAfBrainStorm1, #primeBenOvAfSwampFireBlossoming1, #primeBenRbJetray1, #primeBenRbWildvine1, #primeBenRbHumungousaur1, #primeBenRbOverFlow1 {
     display: none;
 }
 
@@ -242,7 +235,7 @@
         height: auto !important;
     }
 
-    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5, #primeBenRbShockRockModal li:not(#primeBenRbShockRock2) {
+    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5, #primeBenRbShockRockModal li:not(#primeBenRbShockRock2), #primeBenRbWildvine7, #primeBenRbHumungousaurModal li:not(#primeBenRbHumungousaur4, #primeBenRbHumungousaur7), #primeBenRbOverFlowModal li:not(#primeBenRbOverFlow5), #primeBenRbGax4 {
         height: auto !important;
     }
 }
