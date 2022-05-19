@@ -235,7 +235,7 @@
         height: auto !important;
     }
 
-    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5, #primeBenRbShockRockModal li:not(#primeBenRbShockRock2), #primeBenRbWildvine7, #primeBenRbHumungousaurModal li:not(#primeBenRbHumungousaur4, #primeBenRbHumungousaur7), #primeBenRbOverFlowModal li:not(#primeBenRbOverFlow5), #primeBenRbGax4 {
+    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5, #primeBenRbShockRockModal li:not(#primeBenRbShockRock2), #primeBenRbWildvine7, #primeBenRbHumungousaurModal li:not(#primeBenRbHumungousaur4, #primeBenRbHumungousaur7), #primeBenRbOverFlowModal li:not(#primeBenRbOverFlow5), #primeBenRbGax4, #primeBenRbGreyMatter4, #primeBenRbRathModal li:not(#primeBenRbRath1), #primeBenRbSlapBack4, #primeBenRbUpGrade3, #primeBenRbUpGrade4, #primeBenRbWayBig5, #primeBenRbXlr8Modal li:not(#primeBenRbXlr81){
         height: auto !important;
     }
 }

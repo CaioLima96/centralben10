@@ -28,15 +28,15 @@ const arrBenRebootAliens = [
 
     {nomePtbr: 'Massa Cinzenta', nomeIngles: "Grey Matter", seasonName: 'primeBenRbGreyMatter', wikiUrl: 'https://ben10.fandom.com/wiki/Grey_Matter_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-1.png', './assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-2.png', './assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-3.png', './assets/img/aliens/ben-reboot/massa-cinzenta-(reboot)-4.png']},
 
-    {nomePtbr: 'Rath', nomeIngles: "Rath", seasonName: 'primeBenRbRath', wikiUrl: 'https://ben10.fandom.com/wiki/Rath_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/rath-(reboot)-1.png', './assets/img/aliens/ben-reboot/rath-(reboot)-2.png']},
+    {nomePtbr: 'Rath', nomeIngles: "Rath", seasonName: 'primeBenRbRath', wikiUrl: 'https://ben10.fandom.com/wiki/Rath_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/rath-(reboot)-1.png', './assets/img/aliens/ben-reboot/rath-(reboot)-2.png', './assets/img/aliens/ben-reboot/rath-(reboot)-3.png', './assets/img/aliens/ben-reboot/rath-(reboot)-4.png']},
 
     {nomePtbr: 'Tapinha', nomeIngles: "Slapback", seasonName: 'primeBenRbSlapBack', wikiUrl: 'https://ben10.fandom.com/wiki/Slapback', imgRb: ['./assets/img/aliens/ben-reboot/tapinha-(reboot)-1.png', './assets/img/aliens/ben-reboot/tapinha-(reboot)-2.png', './assets/img/aliens/ben-reboot/tapinha-(reboot)-3.png', './assets/img/aliens/ben-reboot/tapinha-(reboot)-4.png']},
 
-    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenRbUpGrade', wikiUrl: 'https://ben10.fandom.com/wiki/Upgrade_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/ultra-t-(reboot)-1.png', './assets/img/aliens/ben-reboot/ultra-t-(reboot)-2.png', './assets/img/aliens/ben-reboot/ultra-t-(reboot)-3.png']},
+    {nomePtbr: 'Ultra T', nomeIngles: "Upgrade", seasonName: 'primeBenRbUpGrade', wikiUrl: 'https://ben10.fandom.com/wiki/Upgrade_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/ultra-t-(reboot)-1.png', './assets/img/aliens/ben-reboot/ultra-t-(reboot)-2.png', './assets/img/aliens/ben-reboot/ultra-t-(reboot)-3.png', './assets/img/aliens/ben-reboot/ultra-t-(reboot)-4.png']},
 
-    {nomePtbr: 'Way Big', nomeIngles: "Way Big", seasonName: 'primeBenRbWayBig', wikiUrl: 'https://ben10.fandom.com/wiki/Way_Big_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/way-big-(reboot)-1.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-2.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-3.png']},
+    {nomePtbr: 'Way Big', nomeIngles: "Way Big", seasonName: 'primeBenRbWayBig', wikiUrl: 'https://ben10.fandom.com/wiki/Way_Big_(Reboot)', imgRb: ['./assets/img/aliens/ben-reboot/way-big-(reboot)-1.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-2.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-3.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-4.png', './assets/img/aliens/ben-reboot/way-big-(reboot)-5.png']},
 
-    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenRbXlr8', wikiUrl: 'https://ben10.fandom.com/wiki/XLR8_(Reboot)/Gallery', imgRb: ['./assets/img/aliens/ben-reboot/XLR8-(reboot)-1.png', './assets/img/aliens/ben-reboot/XLR8-(reboot)-2.png']},
+    {nomePtbr: 'XLR8', nomeIngles: "XLR8", seasonName: 'primeBenRbXlr8', wikiUrl: 'https://ben10.fandom.com/wiki/XLR8_(Reboot)/Gallery', imgRb: ['./assets/img/aliens/ben-reboot/XLR8-(reboot)-1.png', './assets/img/aliens/ben-reboot/XLR8-(reboot)-2.png', './assets/img/aliens/ben-reboot/XLR8-(reboot)-3.png']},
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRb', wikiUrl: '', imgRb: ['./assets/img/aliens/ben-reboot/']},
 ]
