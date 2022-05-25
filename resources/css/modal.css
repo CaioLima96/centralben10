@@ -176,7 +176,7 @@
 
 /* =============== BEM PRIME =============== */
 
-#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3, #primeBenAfCannonbolt1, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaArmodrillo3, #primeBenUaUltimateBigChill3, #primeBenUaUltimateEchoEcho3, #primeBenUaUltimateSpiderMonkey3, #primeBenUaUltimateWayBig3, #primeBenUaRipJaws5, #primeBenUaFourArms3, #primeBenUaGhostFreak1, #primeBenUaUpgrade1, #primeBenOvAstrodactyl5, #primeBenOvMole-Stache3, #primeBenOvBullfrag7, #primeBenOvCrashhopper5, #primeBenOvGutrot3, #primeBenOvWhampire5, #primeBenOvClassicFourArms3, #primeBenOvClassicBuzzShock3, #primeBenOvClassicHeatBlast5, #primeBenOvClassicDitto3, #primeBenOvClassicGhostFreak3, #primeBenOvClassicFrankenStrike3, #primeBenOvClassicUpchuck3, #primeBenOvClassicStinkFly3, #primeBenOvClassicBlitzWolfer3, #primeBenOvClassicGreyMatter3, #primeBenOvClassic3, #primeBenOvAfBigChill3, #primeBenOvAfChromaStone3, #primeBenOvAfNanoMech3, #primeBenOvUaAmpfibian3, #primeBenOvUaAmpfibian3, #primeBenRbHeatBlast5 {
+#primeBenOsRipjaws7, #primeBenOsSnareOh3, #primeBenOsWildMutt5, #primeBenOsHeatBlast5,  #primeBenOsWildvine3, #primeBenOsDitto3, #primeBenOsGhostFreak5, #primeBenOsFrankenstrike5, #primeBenOsUpChuckP5, #primeBenOsStinkFly5, #primeBenOsBlitzWolfer5, #primeBenOsGreyMatter5, #primeBenOsEyeGuy5, #primeBenOsWayBig3, #primeBenOsXlr85, #primeBenAfAlienX3, #primeBenAfJetRay5, #primeBenAfBigChill5, #primeBenAfUpchuck3, #primeBenAfCannonbolt1, #primeBenUaWaterHazard3, #primeBenUaAmpfibian3, #primeBenUaArmodrillo3, #primeBenUaUltimateBigChill3, #primeBenUaUltimateEchoEcho3, #primeBenUaUltimateSpiderMonkey3, #primeBenUaUltimateWayBig3, #primeBenUaRipJaws5, #primeBenUaFourArms3, #primeBenUaGhostFreak1, #primeBenUaUpgrade1, #primeBenOvAstrodactyl5, #primeBenOvMole-Stache3, #primeBenOvBullfrag7, #primeBenOvCrashhopper5, #primeBenOvGutrot3, #primeBenOvWhampire5, #primeBenOvClassicFourArms3, #primeBenOvClassicBuzzShock3, #primeBenOvClassicHeatBlast5, #primeBenOvClassicDitto3, #primeBenOvClassicGhostFreak3, #primeBenOvClassicFrankenStrike3, #primeBenOvClassicUpchuck3, #primeBenOvClassicStinkFly3, #primeBenOvClassicBlitzWolfer3, #primeBenOvClassicGreyMatter3, #primeBenOvClassic3, #primeBenOvAfBigChill3, #primeBenOvAfChromaStone3, #primeBenOvAfNanoMech3, #primeBenOvUaAmpfibian3, #primeBenOvUaAmpfibian3, #primeBenRbHeatBlast5, #primeBenRbTunadoHeatBlast7 {
     grid-column: 1/3;
 }
 
@@ -235,7 +235,11 @@
         height: auto !important;
     }
 
-    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5, #primeBenRbShockRockModal li:not(#primeBenRbShockRock2), #primeBenRbWildvine7, #primeBenRbHumungousaurModal li:not(#primeBenRbHumungousaur4, #primeBenRbHumungousaur7), #primeBenRbOverFlowModal li:not(#primeBenRbOverFlow5), #primeBenRbGax4, #primeBenRbGreyMatter4, #primeBenRbRathModal li:not(#primeBenRbRath1), #primeBenRbSlapBack4, #primeBenRbUpGrade3, #primeBenRbUpGrade4, #primeBenRbWayBig5, #primeBenRbXlr8Modal li:not(#primeBenRbXlr81){
+    #primeBenRbFourArms3, #primeBenRbJetray4, #primeBenRbJetray5, #primeBenRbCannonBolt3, #primeBenRbCannonBolt5, #primeBenRbCannonBolt6, #primeBenRbHeatBlast5, #primeBenRbShockRockModal li:not(#primeBenRbShockRock2), #primeBenRbWildvine7, #primeBenRbHumungousaurModal li:not(#primeBenRbHumungousaur4, #primeBenRbHumungousaur7), #primeBenRbOverFlowModal li:not(#primeBenRbOverFlow5), #primeBenRbGax4, #primeBenRbGreyMatter4, #primeBenRbRathModal li:not(#primeBenRbRath1), #primeBenRbSlapBack4, #primeBenRbUpGrade3, #primeBenRbUpGrade4, #primeBenRbWayBig5, #primeBenRbXlr83, #primeBenRbXlr84{
+        height: auto !important;
+    }
+    
+    #primeBenRbTunadoFourArmsModal li, #primeBenRbTunadoHeatBlastModal li:not(#primeBenRbTunadoHeatBlast1, #primeBenRbTunadoHeatBlast2), #primeBenRbTunadoWildVineModal li:not(#primeBenRbTunadoWildVine1) {
         height: auto !important;
     }
 }
