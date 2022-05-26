@@ -239,7 +239,7 @@
         height: auto !important;
     }
     
-    #primeBenRbTunadoFourArmsModal li, #primeBenRbTunadoHeatBlastModal li:not(#primeBenRbTunadoHeatBlast1, #primeBenRbTunadoHeatBlast2), #primeBenRbTunadoWildVineModal li:not(#primeBenRbTunadoWildVine1) {
+    #primeBenRbTunadoFourArmsModal li, #primeBenRbTunadoHeatBlastModal li:not(#primeBenRbTunadoHeatBlast1, #primeBenRbTunadoHeatBlast2), #primeBenRbTunadoWildVineModal li:not(#primeBenRbTunadoWildVine1), #primeBenRbTunadoDiamondHeadModal li:not(#primeBenRbTunadoDiamondHead1), #primeBenRbTunadoOverFlowModal li, #primeBenRbTunadoStinkFly4, #primeBenRbTunadoGreyMatterModal li, #primeBenRbTunadoXlr8Modal li:not(#primeBenRbTunadoXlr81) {
         height: auto !important;
     }
 }
