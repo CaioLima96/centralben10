@@ -91,13 +91,13 @@ const arrBenRebootOmnikixAliens = [
 
 const arrBenRebootOmninautaAliens = [
 
-    {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbNautaJetRay', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Jetray', imgRbNauta: ['./assets/img/aliens/ben-reboot/arraia-jato-omninauta-(reboot)-1.png']},
+    {nomePtbr: 'Arraia Jato', nomeIngles: "Jetray", seasonName: 'primeBenRbNautaJetRay', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Jetray', imgRbNauta: ['./assets/img/aliens/ben-reboot/arraia-jato-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/arraia-jato-omninauta-(reboot)-2.png', './assets/img/aliens/ben-reboot/arraia-jato-omninauta-(reboot)-3.png']},
 
-    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbNautaHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Heatblast', imgRbNauta: ['./assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-2.png',  './assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-3.png']},
+    {nomePtbr: 'Chama', nomeIngles: "Heatblast", seasonName: 'primeBenRbNautaHeatBlast', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Heatblast', imgRbNauta: ['./assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-2.png', './assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-3.png', './assets/img/aliens/ben-reboot/chama-omninauta-(reboot)-4.png']},
 
     {nomePtbr: 'Choque Rochoso', nomeIngles: "Shock Rock", seasonName: 'primeBenRbNautaShockRock', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Shock_Rock', imgRbNauta: ['./assets/img/aliens/ben-reboot/choque-rochoso-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/choque-rochoso-omninauta-(reboot)-2.png', './assets/img/aliens/ben-reboot/choque-rochoso-omninauta-(reboot)-3.png']},
 
-    {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenRbNautaHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Humungousaur', imgRbNauta: ['./assets/img/aliens/ben-reboot/enormossauro-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/enormossauro-omninauta-(reboot)-2.png']},
+    {nomePtbr: 'Enormossauro', nomeIngles: "Humungousaur", seasonName: 'primeBenRbNautaHumungousaur', wikiUrl: 'https://ben10.fandom.com/wiki/Omni-Naut_Humungousaur', imgRbNauta: ['./assets/img/aliens/ben-reboot/enormossauro-omninauta-(reboot)-1.png', './assets/img/aliens/ben-reboot/enormossauro-omninauta-(reboot)-2.png', './assets/img/aliens/ben-reboot/enormossauro-omninauta-(reboot)-3.png']},
 
     // {nomePtbr: '', nomeIngles: "", seasonName: 'primeBenRbNauta', wikiUrl: '', imgRbNauta: ['./assets/img/aliens/ben-reboot/']},
 ]
