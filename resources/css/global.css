@@ -50,12 +50,6 @@ ul {
     border-radius: 0.625rem;
 }
 
-/* @media (max-width: 768px) {
-    #content main {
-        width: 90% !important;
-    }
-} */
-
 #loading {
     text-align: center;
     margin: auto;
@@ -89,6 +83,25 @@ ul {
     to {
       transform: rotate(359deg);
     }
+}
+
+.navTabBtn {
+    padding: 0.5rem;
+    text-transform: uppercase;
+    margin-right: 18px;
+    border: 1px solid transparent;
+
+    transition: .5s ease;
+}
+
+.navTabBtn:hover {
+    border-color: white;
+    border-radius: 6px;
+}
+
+.activeTabBtn {
+    border-color: white;
+    border-radius: 6px;
 }
 
 
@@ -132,6 +145,14 @@ ul {
 
 
 /*================== @MEDIA ==================*/
+
+@media (max-width: 830px) {
+
+    .navTabBtn {
+        margin-top: 0.313rem;
+        margin-bottom: 0.313rem;
+    }
+}
 
 @media (max-width: 1199px) {
     #content main {
