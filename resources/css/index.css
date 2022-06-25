@@ -223,16 +223,27 @@
 
 @media (max-width: 768px) {
 
-    #presentation {
-        font-size: clamp(1.2rem, 1.6rem, 1.6875rem);
-    }
-
     main {
         width: 90%;
     }
 
     #content #presentation {
         width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    #presentation {
+
+        padding: 1rem !important;
+    }
+
+    #presentation p {
+
+        font-size: 1.438rem !important;
+        text-align: center;
+        width: auto !important;
     }
 }
 
