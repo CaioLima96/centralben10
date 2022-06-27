@@ -123,7 +123,7 @@ function rebootTab() {
             var rbAliens = document.getElementById("rb-cards").innerHTML += `
                 <li class="alien-card ${arrBenRebootAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenRebootAliens[i].imgRb[0]}" alt="${arrBenRebootAliens[i].nomePtbr}" data-season="${arrBenRebootAliens[i].seasonName}">
                     </div>
 
@@ -148,7 +148,7 @@ function rebootTab() {
             var rbTunadoAliens = document.getElementById("rb-tunado-cards").innerHTML += `
                 <li class="alien-card ${arrBenRebootOmnitunadoAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenRebootOmnitunadoAliens[i].imgRbTunado[0]}" alt="${arrBenRebootOmnitunadoAliens[i].nomePtbr}" data-season="${arrBenRebootOmnitunadoAliens[i].seasonName}">
                     </div>
 
@@ -173,7 +173,7 @@ function rebootTab() {
             var rbKixAliens = document.getElementById("rb-kix-cards").innerHTML += `
                 <li class="alien-card ${arrBenRebootOmnikixAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenRebootOmnikixAliens[i].imgRbKix[0]}" alt="${arrBenRebootOmnikixAliens[i].nomePtbr}" data-season="${arrBenRebootOmnikixAliens[i].seasonName}">
                     </div>
 
@@ -198,7 +198,7 @@ function rebootTab() {
             var rbKixAliens = document.getElementById("rb-nauta-cards").innerHTML += `
                 <li class="alien-card ${arrBenRebootOmninautaAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenRebootOmninautaAliens[i].imgRbNauta[0]}" alt="${arrBenRebootOmninautaAliens[i].nomePtbr}" data-season="${arrBenRebootOmninautaAliens[i].seasonName}">
                     </div>
 

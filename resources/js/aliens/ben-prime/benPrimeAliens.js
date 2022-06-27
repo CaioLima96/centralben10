@@ -61,7 +61,7 @@ function classicTab() {
             var classicAliens = document.getElementById("os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeClassicAliens[i].seasonName}" >
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeClassicAliens[i].imgOs[0]}" alt="${arrBenPrimeClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeClassicAliens[i].seasonName}">
                     </div>
 
@@ -177,7 +177,7 @@ function alienForceAlienTab() {
             var afAliens = document.getElementById("af-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeAfAliens[i].seasonName}">
                         
-                        <div class="alien-card-img" onclick="btnclick()">
+                        <div class="alien-card-img" onclick="openModal()">
                             <img src="${arrBenPrimeAfAliens[i].imgAf[0]}" alt="${arrBenPrimeAfAliens[i].nomePtbr}" data-season="${arrBenPrimeAfAliens[i].seasonName}">
                         </div>
 
@@ -202,7 +202,7 @@ function alienForceAlienTab() {
             var afClassicAliens = document.getElementById("af-os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeAfClassicAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeAfClassicAliens[i].imgAfClassic[0]}" alt="${arrBenPrimeAfClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeAfClassicAliens[i].seasonName}">
                     </div>
 
@@ -345,7 +345,7 @@ function ultimateAlienTab() {
             var uaAliens = document.getElementById("ua-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeUaAliens[i].imgUa[0]}" alt="${arrBenPrimeUaAliens[i].nomePtbr}" data-season="${arrBenPrimeUaAliens[i].seasonName}">
                     </div>
 
@@ -370,7 +370,7 @@ function ultimateAlienTab() {
             var uaUltimateAliens = document.getElementById("ua-ultimate-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaUltimateAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeUaUltimateAliens[i].imgUaUlti[0]}" alt="${arrBenPrimeUaUltimateAliens[i].nomePtbr}" data-season="${arrBenPrimeUaUltimateAliens[i].seasonName}">
                     </div>
 
@@ -395,7 +395,7 @@ function ultimateAlienTab() {
             var uaClassicAliens = document.getElementById("ua-os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeUaClassicAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeUaClassicAliens[i].imgUaClassic[0]}" alt="${arrBenPrimeUaClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeUaClassicAliens[i].seasonName}">
                     </div>
 
@@ -625,7 +625,7 @@ function omniverseAlienTab() {
             var ovAliens = document.getElementById("ov-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeOvAliens[i].seasonName}">
 
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeOvAliens[i].imgOv[0]}" alt="${arrBenPrimeOvAliens[i].nomePtbr}" data-season="${arrBenPrimeOvAliens[i].seasonName}">
                     </div>
 
@@ -649,7 +649,7 @@ function omniverseAlienTab() {
             var ovClassicAliens = document.getElementById("ov-os-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeOvClassicAliens[i].seasonName}">
                         
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeOvClassicAliens[i].imgOvClassic[0]}" alt="${arrBenPrimeOvClassicAliens[i].nomePtbr}" data-season="${arrBenPrimeOvClassicAliens[i].seasonName}">
                     </div>
 
@@ -674,7 +674,7 @@ function omniverseAlienTab() {
             var ovAfAliens = document.getElementById("ov-af-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeOvAfAliens[i].seasonName}">
 
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeOvAfAliens[i].imgOvAf[0]}" alt="${arrBenPrimeOvAfAliens[i].nomePtbr}" data-season="${arrBenPrimeOvAfAliens[i].seasonName}">
                     </div>
 
@@ -697,7 +697,7 @@ function omniverseAlienTab() {
             var ovAfUa = document.getElementById("ov-ua-cards").innerHTML += `
                 <li class="alien-card ${arrBenPrimeOvUaAliens[i].seasonName}">
 
-                    <div class="alien-card-img" onclick="btnclick()">
+                    <div class="alien-card-img" onclick="openModal()">
                         <img src="${arrBenPrimeOvUaAliens[i].imgOvUa[0]}" alt="${arrBenPrimeOvUaAliens[i].nomePtbr}" data-season="${arrBenPrimeOvUaAliens[i].seasonName}">
                     </div>
 
