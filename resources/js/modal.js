@@ -5,12 +5,17 @@ function openModal() {
 
 	modal.style.display = "block";
 	document.body.style.overflow = 'hidden'
+
+	console.log('open')
 }
 
 function closeModal () {
 
 	modal.style.display = "none";
 	document.body.style.overflow = ''
+
+	console.log('close')
+
 
 	// Back to top when the modal is closed
 
@@ -46,14 +51,19 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 
 	let key = 0
 
+
+	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
 	function alienFilterBPOS(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
 		}
 	}
 
+	//Aplica o filtro e armazena o alien retornado
 	let filteredAlienBPOS = arrBenPrimeClassicAliens.filter(alienFilterBPOS)
 
+
+	//Joga na tela o valor filtrado
 	filteredAlienBPOS.forEach((alien) => {
 
 		let modalContentListBPOS = () => {
@@ -94,7 +104,6 @@ document.getElementById('nav-tab-content-os').addEventListener('click', (event) 
 		`
 		return modalBenPrimeOs
 	})
-
 }) 
 
 
@@ -109,6 +118,7 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 	let key = 0
 
 
+	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
 	function alienFilterBPAF(value) {
 		if(value.seasonName === pegaSeasonName){
 			return value
@@ -121,12 +131,13 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 		}
 	}
 
-	
+	//Aplica o filtro e armazena o alien retornado
 	let filteredAlienBPAF = arrBenPrimeAfAliens.filter(alienFilterBPAF)
 	
 	let filteredAlienBPAFos = arrBenPrimeAfClassicAliens.filter(alienFilterBPAFos)
 	
 
+	//Joga na tela o valor filtrado
 	filteredAlienBPAF.forEach((alien) => {
 
 		let modalContentListBPAF = () => {
@@ -150,7 +161,7 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 		let modalBenPrimeAf = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -192,7 +203,7 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 		let modalBenPrimeAfOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -210,7 +221,6 @@ document.getElementById('nav-tab-content-af').addEventListener('click', (event) 
 
 		return modalBenPrimeAfOs
 	})
-
 })
 
 
@@ -225,6 +235,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 
 	//Iteração para não precisar usar ID repetido nos itens da lista de aliens
 	let key = 0
+
 
 	//Filtra todo o array de aliens e retorna o alien com o SeasonName igual ao do alien clicado
 	function alienFilterBPUA(value) {
@@ -278,7 +289,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 		let modalBenPrimeUa = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -319,7 +330,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 		let modalBenPrimeUaUlti = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -339,7 +350,6 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 	})
 
 	filteredAlienBPUAos.forEach((alien) => {
-		console.log(alien, 'ua os')
 
 		let modalContentListBenPrimeUaOs = () => {
 
@@ -376,7 +386,6 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 				`
 				var teste = alien.episodes[i].epiName
 			}
-			console.log(teste)
 
 			return modalListBenPrimeUsOsHU
 		}
@@ -384,7 +393,7 @@ document.getElementById('nav-tab-content-ua').addEventListener('click', (event) 
 		let modalBenPrimeUaOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -482,7 +491,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 		let modalBenPrimeOv = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -523,7 +532,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 		let modalBenPrimeOvOs = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -564,7 +573,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 		let modalBenPrimeOvAf = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -605,7 +614,7 @@ document.getElementById('nav-tab-content-ov').addEventListener('click', (event) 
 		let modalBenPrimeOvUa = document.getElementsByClassName('modal-body')[0].innerHTML = `
 
 			<div class="modal-header">
-				<span class="close">&times;</span>
+				<span class="close" onclick="closeModal()">&times;</span>
 				<h2>${alien.nomePtbr}</h2>
 			</div>
 
@@ -836,5 +845,4 @@ document.getElementById('nav-tab-content-rb').addEventListener('click', (event) 
 		`
 		return modalBenRbOn
 	})
-
 })
