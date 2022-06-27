@@ -39,14 +39,6 @@
     flex-wrap: wrap;
 }
 
-/* .nav-tab-menu ul li {
-    padding: 0.5rem;
-    text-transform: uppercase;
-    
-    border: 1px solid transparent;
-    border-radius: 0.375rem;
-} */
-
 .nav-tab-menu ul li:not(li:last-child) {
     margin-right: 0.625rem;
 }
@@ -54,11 +46,6 @@
 .nav-tab-menu ul li:last-child {
     margin-right: 0 !important;
 }
-
-/* .nav-tab-menu ul li:hover {
-    border-color: white;
-    border-radius: 0.375rem;
-} */
 
 .nav-tab-menu ul li:active {
     border-color: white;

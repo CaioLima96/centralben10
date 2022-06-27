@@ -67,17 +67,6 @@
     flex-wrap: wrap;
 }
 
-/* #content .nav-tab-menu nav ul li {
-    padding: 0.5rem;
-    text-transform: uppercase;
-    margin-right: 18px;
-    border: 1px solid black;
-} */
-
-/* #content .nav-tab-menu nav ul li {
-    border: 1px solid black;
-} */
-
 #content .nav-tab-menu nav ul li:last-child {
     margin-right: 0 !important;
 }
@@ -148,7 +137,6 @@
 #content main  .aliens-cards {
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
     flex-wrap: wrap;
 }

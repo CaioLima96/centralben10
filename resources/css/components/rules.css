@@ -1,6 +1,6 @@
 /*========== Collapsible ==========*/
 
-.rulesCollapsible { /* Estiliza o botão que que é usado para abrir e fechar o conteudo  */
+.rulesCollapsible {
     background-color: transparent;
     color: white;
     cursor: pointer;

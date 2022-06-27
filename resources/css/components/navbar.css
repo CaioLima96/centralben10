@@ -4,7 +4,6 @@ header #headerNavBar > div {
 
 .dropdown {
     position: relative;
-    /* overflow: hidden; */
 }
 
 .dropdown-content {
@@ -64,8 +63,6 @@ header #headerNavBar > div {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* width: 90%;
-        margin: 0 auto; */
         padding: 1rem
     }
 

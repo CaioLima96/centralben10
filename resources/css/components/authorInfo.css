@@ -36,7 +36,7 @@
     }
 }
 
-/*769px*/
+
 @media (min-width: 1100px) {
     
     .author-info {
@@ -53,11 +53,6 @@
         border-top-left-radius: 247% !important;
         border-top-right-radius: 247% !important;
     }
-    
-    /* .author-info .text img {
-        width: 20px !important;
-        border-radius: 2px;
-    } */
     
     .card:hover .author-info,
     .card:active .author-info {
@@ -76,11 +71,6 @@
         text-align: center;
     }
     
-    /* .author-info .text a {
-        color: white;
-        text-decoration: none;
-    } */
-    
     .author-info .text a p {
         margin-top: 2% !important;
     }
@@ -89,8 +79,4 @@
         font-style: italic;
         font-weight: bold;
     }
-
-    /* .author-info .text p {
-        text-shadow: 2px 1px 3px rgb(0 0 0);
-    } */
 }

@@ -66,13 +66,7 @@
 .modal-header {
     padding: 1rem;
     border-bottom: 1px solid var(--grey3);
-    /* background-color: #5cb85c;
-    color: white; */
 }
-
-/* .modal-content {
-    padding: 2px 16px;
-} */
 
 .modal-footer {
     padding: 2px 16px;

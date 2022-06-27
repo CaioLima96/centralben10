@@ -8,15 +8,9 @@
 }
 
 #content .nav-tab-menu {
-    /* width: 100%; */
     color: white;
-    /* background-color: black; */
     border-radius: 0.625rem 0.625rem 0 0
 }
-
-/* #content .nav-tab-menu nav {
-    padding: 0.75rem;
-} */
 
 #content .nav-tab-menu nav ul {
     display: flex;
@@ -25,18 +19,6 @@
     flex-wrap: wrap;
 }
 
-/* #content .nav-tab-menu nav ul li {
-    padding: 0.5rem;
-    text-transform: uppercase;
-    margin-right: 18px;
-    border: 1px solid var(--green1);
-} */
-
 #content .nav-tab-menu nav ul li:last-child {
     margin-right: 0 !important;
 }
-
-/* #content .nav-tab-menu nav ul li:hover {
-    border-color: white;
-    border-radius: 6px;
-} */
