@@ -4,22 +4,22 @@ Bem vindos à Central Ben 10! Aqui é um lugar que reune imagens (referências) 
 
 ## Índice
 
- - Home
+ - [Home](#home)
  - Desafios
-	 - Alien Draw
- - Fanart
- - Fanfic
- - Fale Conosco
+	 - [Alien Draw](#alienDraw)
+ - [Fanart](#fanart)
+ - [Fanfic](#fanfic)
+ - [Fale Conosco](#faleConosco)
 
 ***
 
-## Home
+## <a id="home">Home</a>
 
 ## Desafios
 
-  - ### Alien Draw
+  - ### <a id="alienDraw">Alien Draw</a>
 
-## Fanart
+## <a id="fanart">Fanart</a>
 
-## Fanfic
-## Fale Conosco
+## <a id="fanfic">Fanfic</a>
+## <a id="faleConosco">Fale Conosco</a>
