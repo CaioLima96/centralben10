@@ -46,7 +46,6 @@ const arrBenPrimeClassicAliens = [
 function classicTab() {
 
     document.getElementById('os-cards').innerHTML = ' '
-    console.log("os apaga")
 
     document.getElementById('nav-tab-content-os').style.display = 'inherit'
     document.getElementById('nav-tab-content-af').style.display = 'none'
@@ -75,7 +74,6 @@ function classicTab() {
             `
         }
 
-        console.log('classico testando')
         return classicAliens
     }
 
@@ -95,7 +93,7 @@ function classicTab() {
         </ul>
 
     `
-    console.log('os teste')
+
     return tabContentOs
 }
 
@@ -159,7 +157,6 @@ function alienForceAlienTab() {
 
     document.getElementById('af-cards').innerHTML = ' '
     document.getElementById('af-os-cards').innerHTML = ' '
-    console.log("af apaga")
 
     document.getElementById('nav-tab-content-os').style.display = 'none'
     document.getElementById('nav-tab-content-af').style.display = 'inherit'
@@ -191,7 +188,6 @@ function alienForceAlienTab() {
             `
         }
 
-        console.log('af testando')
         return afAliens
     }
 
@@ -216,7 +212,6 @@ function alienForceAlienTab() {
             `
         }
 
-        console.log('af classico')
         return afClassicAliens
     }
 
@@ -253,7 +248,7 @@ function alienForceAlienTab() {
         </ul>
         
     `
-    console.log('af teste')
+
     return tabContentAf
 }
 
@@ -329,7 +324,6 @@ function ultimateAlienTab() {
     document.getElementById('ua-cards').innerHTML = ' '
     document.getElementById('ua-ultimate-cards').innerHTML = ' '
     document.getElementById('ua-os-cards').innerHTML = ' '
-    console.log("ua apaga")
 
     document.getElementById('nav-tab-content-os').style.display = 'none'
     document.getElementById('nav-tab-content-af').style.display = 'none'
@@ -359,7 +353,6 @@ function ultimateAlienTab() {
             `
         }
 
-        console.log('ua testando')
         return uaAliens
     }
 
@@ -384,7 +377,6 @@ function ultimateAlienTab() {
             `
         }
 
-        console.log('ua ultimate')
         return uaUltimateAliens
     }
 
@@ -409,7 +401,6 @@ function ultimateAlienTab() {
             `
         }
 
-        console.log('ua classico')
         return uaClassicAliens
     }
 
@@ -456,7 +447,6 @@ function ultimateAlienTab() {
         </ul>  
     `
 
-    console.log('ua teste')
     return tabContentUa
 }
 
@@ -609,7 +599,6 @@ function omniverseAlienTab() {
     document.getElementById('ov-os-cards').innerHTML = ' '
     document.getElementById('ov-af-cards').innerHTML = ' '
     document.getElementById('ov-ua-cards').innerHTML = ' '
-    console.log("ov apaga")
 
     document.getElementById('nav-tab-content-os').style.display = 'none'
     document.getElementById('nav-tab-content-af').style.display = 'none'
@@ -638,7 +627,6 @@ function omniverseAlienTab() {
             `
         }
 
-        console.log('ov testando')
         return ovAliens
     }
 
@@ -663,7 +651,6 @@ function omniverseAlienTab() {
             `
         }
 
-        console.log('ov classic testando')
         return ovClassicAliens
     }
 
@@ -687,7 +674,6 @@ function omniverseAlienTab() {
             `
         }
 
-        console.log('ov af testando')
         return ovAfAliens
     }
 
@@ -710,7 +696,6 @@ function omniverseAlienTab() {
             `
         }
 
-        console.log('ov ua testando')
         return ovAfUa
     }
 
@@ -767,6 +752,6 @@ function omniverseAlienTab() {
         </ul> 
         
     `
-    console.log('teste ov')
+
     return tabContentOv
 }

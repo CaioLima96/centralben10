@@ -108,7 +108,6 @@ function rebootTab() {
     document.getElementById('rb-tunado-cards').innerHTML = ' '
     document.getElementById('rb-kix-cards').innerHTML = ' '
     document.getElementById('rb-nauta-cards').innerHTML = ' '
-    console.log("rb apaga")
 
     document.getElementById('nav-tab-content-os').style.display = 'none'
     document.getElementById('nav-tab-content-af').style.display = 'none'
@@ -137,7 +136,6 @@ function rebootTab() {
             `
         }
 
-        console.log('reboot testando')
         return rbAliens
     }
 
@@ -162,7 +160,6 @@ function rebootTab() {
             `
         }
 
-        console.log('reboot tunado testando')
         return rbTunadoAliens
     }
     
@@ -187,7 +184,6 @@ function rebootTab() {
             `
         }
 
-        console.log('reboot kix testando')
         return rbKixAliens
     }
 
@@ -212,7 +208,6 @@ function rebootTab() {
             `
         }
 
-        console.log('reboot nauta testando')
         return rbKixAliens
     }
 
@@ -269,6 +264,6 @@ function rebootTab() {
         </ul>
 
     `
-    console.log('rb teste')
+
     return tabContentRb
 }
