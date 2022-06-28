@@ -48,3 +48,11 @@ Bem vindos à Central Ben 10! Aqui é um lugar que reune imagens (referências) 
 ## <a id="faleConosco">Fale Conosco</a>
 
 <img src="assets/img/prints/faleConosco.jpg" width="" alt="Fanfics">
+
+<br>
+
+***
+
+## 💻 Equipe de desenvolvedores:
+
+- <a href = "https://www.linkedin.com/in/caiovieiralima/"> Caio Vieira Lima</a>
