@@ -1,7 +1,12 @@
-::-webkit-scrollbar {
+#myModal::-webkit-scrollbar {
     width: 0;
     background: transparent;
 }
+
+
+/* ==================================== */
+
+
 
 /* The Modal (background) */
 .modal {
